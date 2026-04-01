@@ -63,15 +63,10 @@ const Hero = () => {
                     CFO
                   </Button>
                 </Link>
-                <Link to="/contabil">
-                  <Button variant="outline" className="bg-gradient-to-r from-navy-500 to-navy-600 hover:from-navy-600 hover:to-navy-700 text-white border-none font-medium px-4 py-2 text-sm">
-                    Contábil
-                  </Button>
-                </Link>
               </div>
               
               {/* Sub-brand descriptions */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 text-left max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 text-left max-w-3xl mx-auto">
                 <Link to="/bpo" className="p-4 rounded-lg bg-blue-50 border-l-4 border-blue-500 hover:shadow-md transition-all duration-300 group">
                   <h3 className="font-bold text-blue-600 mb-0.5 text-base">Terceirização Financeira</h3>
                   <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide block mb-2">Valorum BPO</span>
@@ -83,12 +78,6 @@ const Hero = () => {
                   <span className="text-xs font-semibold text-lime-500 uppercase tracking-wide block mb-2">Valorum CFO</span>
                   <p className="text-sm text-gray-600 mb-3">Direcionamento financeiro competente e atualizado. Apoio para as decisões financeiras e estratégicas.</p>
                   <span className="text-xs font-bold text-lime-600 group-hover:underline">Conhecer solução →</span>
-                </Link>
-                <Link to="/contabil" className="p-4 rounded-lg bg-navy-50 border-l-4 border-navy-500 hover:shadow-md transition-all duration-300 group">
-                  <h3 className="font-bold text-navy-600 mb-0.5 text-base">Contabilidade Consultiva</h3>
-                  <span className="text-xs font-semibold text-navy-400 uppercase tracking-wide block mb-2">Valorum Contábil</span>
-                  <p className="text-sm text-gray-600 mb-3">Contabilidade consultiva. Especialistas para cada especialidade de negócios.</p>
-                  <span className="text-xs font-bold text-navy-600 group-hover:underline">Conhecer solução →</span>
                 </Link>
               </div>
               
