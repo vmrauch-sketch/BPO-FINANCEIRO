@@ -1,0 +1,33 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Important pages for SEO
+Allow: /vilson-rauch
+Allow: /protocolo-mais-renda
+Allow: /capital
+Allow: /patrimonio
+Allow: /contabil
+Allow: /cfo
+Allow: /para-voce
+Allow: /para-seu-negocio
+Allow: /manifesto
+Allow: /contato
+Allow: /trabalhe-conosco
+
+# Sitemap location
+Sitemap: https://valorum.vilsonrauch.com.br/sitemap.xml
+
+# Crawl-delay (helps with server load)
+Crawl-delay: 1

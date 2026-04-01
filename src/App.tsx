@@ -1,0 +1,42 @@
+import { Toaster } from "@/components/ui/toaster";
+
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ScrollToTop } from "./components/ScrollToTop";
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+import Contato from "./pages/Contato";
+import TrabalheConosco from "./pages/TrabalheConosco";
+import ValoromContabil from "./pages/ValoromContabil";
+import ValoromCFO from "./pages/ValoromCFO";
+import ValoromBPO from "./pages/ValoromBPO";
+import Unsubscribe from "./pages/Unsubscribe";
+
+const queryClient = new QueryClient();
+
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/trabalhe-conosco" element={<TrabalheConosco />} />
+          <Route path="/contabil" element={<ValoromContabil />} />
+          <Route path="/cfo" element={<ValoromCFO />} />
+          <Route path="/bpo" element={<ValoromBPO />} />
+          <Route path="/unsubscribe" element={<Unsubscribe />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </TooltipProvider>
+  </QueryClientProvider>
+);
+
+export default App;

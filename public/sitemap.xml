@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Valorum Capital -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/capital</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Valorum Patrimônio -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/patrimonio</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Valorum Contábil -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/contabil</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Valorum CFO -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/cfo</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Página do Vilson Rauch -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/vilson-rauch</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Protocolo Mais Renda -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/protocolo-mais-renda</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Para Você -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/para-voce</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Para Seu Negócio -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/para-seu-negocio</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Manifesto -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/manifesto</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contato -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/contato</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Trabalhe Conosco -->
+  <url>
+    <loc>https://valorum.vilsonrauch.com.br/trabalhe-conosco</loc>
+    <lastmod>2025-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
