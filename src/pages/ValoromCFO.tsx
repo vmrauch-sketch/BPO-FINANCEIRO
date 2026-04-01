@@ -166,7 +166,7 @@ const ValoromCFO = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-                <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20gest%C3%A3o%20financeira" target="_blank" rel="noopener noreferrer">
+                <a href="#contato-cfo">
                   <Button 
                     size="lg"
                     className="bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary font-semibold px-8 py-6 text-lg"
