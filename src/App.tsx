@@ -5,13 +5,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
-import Index from "./pages/Index";
+import ValoromBPO from "./pages/ValoromBPO";
 import NotFound from "./pages/NotFound";
 import Contato from "./pages/Contato";
-import TrabalheConosco from "./pages/TrabalheConosco";
-import ValoromContabil from "./pages/ValoromContabil";
-import ValoromCFO from "./pages/ValoromCFO";
-import ValoromBPO from "./pages/ValoromBPO";
 import Unsubscribe from "./pages/Unsubscribe";
 
 const queryClient = new QueryClient();
