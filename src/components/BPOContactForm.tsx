@@ -127,7 +127,7 @@ const BPOContactForm = () => {
       <div className="grid md:grid-cols-2 gap-5">
         <div className="space-y-2">
           <Label htmlFor="name" className="text-white text-sm font-semibold">
-            Nome completo *
+            Nome *
           </Label>
           <Input
             id="name"
