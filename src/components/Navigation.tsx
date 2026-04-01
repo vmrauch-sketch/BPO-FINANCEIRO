@@ -33,11 +33,6 @@ export const Navigation = () => {
                     CFO
                   </Button>
                 </Link>
-                <Link to="/contabil">
-                  <Button size="sm" className={`bg-gradient-to-r from-navy-500 to-navy-600 hover:from-navy-600 hover:to-navy-700 text-white text-xs px-2.5 py-1 h-7 ${isActive('/contabil') ? 'ring-2 ring-navy-300' : ''}`}>
-                    Contábil
-                  </Button>
-                </Link>
               </div>
             )}
           </div>
