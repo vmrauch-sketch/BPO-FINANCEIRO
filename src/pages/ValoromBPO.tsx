@@ -95,7 +95,7 @@ const ValoromBPO = () => {
         title="Valorum BPO | Terceirização Financeira"
         description="Terceirização financeira para sua empresa crescer com controle e clareza. Gestão financeira completa com processos definidos e acompanhamento contínuo."
         keywords="BPO financeiro, terceirização financeira, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
-        canonical="https://valorum.vilsonrauch.com.br/bpo"
+        canonical="https://valorum.vilsonrauch.com.br"
       />
       
       <div className="min-h-screen bg-background font-inter">
