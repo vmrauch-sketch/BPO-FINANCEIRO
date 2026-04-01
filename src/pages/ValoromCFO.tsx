@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
+import BPOContactForm from "@/components/BPOContactForm";
 import { SEOData, StructuredData } from "@/data/seoData";
 
 import { 
