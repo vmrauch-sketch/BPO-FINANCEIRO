@@ -103,11 +103,6 @@ export const Navigation = () => {
                       Valorum CFO
                     </Button>
                   </Link>
-                  <Link to="/contabil" onClick={() => setIsOpen(false)} className="flex-1 min-w-[10rem]">
-                    <Button size="sm" className="w-full bg-gradient-to-r from-navy-500 to-navy-600 hover:from-navy-600 hover:to-navy-700 text-white">
-                      Valorum Contábil
-                    </Button>
-                  </Link>
                 </div>
               )}
 
