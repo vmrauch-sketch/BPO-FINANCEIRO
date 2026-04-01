@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import ValoromBPO from "./pages/ValoromBPO";
+import ValoromCFO from "./pages/ValoromCFO";
 import NotFound from "./pages/NotFound";
 import Contato from "./pages/Contato";
 import Unsubscribe from "./pages/Unsubscribe";
@@ -22,6 +23,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<ValoromBPO />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/cfo" element={<ValoromCFO />} />
           <Route path="/unsubscribe" element={<Unsubscribe />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
