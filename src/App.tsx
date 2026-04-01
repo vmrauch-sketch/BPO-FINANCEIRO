@@ -20,12 +20,8 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<ValoromBPO />} />
           <Route path="/contato" element={<Contato />} />
-          <Route path="/trabalhe-conosco" element={<TrabalheConosco />} />
-          <Route path="/contabil" element={<ValoromContabil />} />
-          <Route path="/cfo" element={<ValoromCFO />} />
-          <Route path="/bpo" element={<ValoromBPO />} />
           <Route path="/unsubscribe" element={<Unsubscribe />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
