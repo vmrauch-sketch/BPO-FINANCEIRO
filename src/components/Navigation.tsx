@@ -13,9 +13,16 @@ export const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-border/20 z-50 transition-all">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16 lg:h-auto lg:py-2">
-          <Link to="/" className="text-2xl font-playfair font-bold text-primary">
-            Valorum
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link to="/" className="text-2xl font-playfair font-bold text-primary">
+              Valorum
+            </Link>
+            <Link to="/cfo">
+              <Button size="sm" className={`bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary text-xs px-2.5 py-1 h-7 font-semibold ${isActive('/cfo') ? 'ring-2 ring-lime-300' : ''}`}>
+                CFO
+              </Button>
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-3 ml-6">
