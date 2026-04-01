@@ -427,7 +427,7 @@ const ValoromCFO = () => {
               Sua empresa merece uma direção financeira estratégica.
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              Agende uma sessão gratuita de 30 minutos. Sem compromisso, sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
+              Agende uma sessão gratuita. Sem compromisso, sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
             </p>
             <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20gest%C3%A3o%20financeira" target="_blank" rel="noopener noreferrer">
               <Button 
