@@ -343,7 +343,7 @@ const ValoromBPO = () => {
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
               Agende seu diagnóstico gratuito. Sem compromisso, sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
             </p>
-            <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20terceirizar%20o%20financeiro" target="_blank" rel="noopener noreferrer">
+            <a href="#contato-bpo">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
