@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
+import BPOContactForm from "@/components/BPOContactForm";
 import { SEOData, StructuredData } from "@/data/seoData";
 
 import { 
@@ -165,7 +166,7 @@ const ValoromCFO = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-                <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20gest%C3%A3o%20financeira" target="_blank" rel="noopener noreferrer">
+                <a href="#contato-cfo">
                   <Button 
                     size="lg"
                     className="bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary font-semibold px-8 py-6 text-lg"
@@ -317,7 +318,7 @@ const ValoromCFO = () => {
             </div>
 
             <div className="text-center">
-              <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20gest%C3%A3o%20financeira" target="_blank" rel="noopener noreferrer">
+              <a href="#contato-cfo">
                 <Button 
                   size="lg"
                   variant="outline"
@@ -429,7 +430,7 @@ const ValoromCFO = () => {
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
               Agende uma sessão gratuita. Sem compromisso, sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
             </p>
-            <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20gest%C3%A3o%20financeira" target="_blank" rel="noopener noreferrer">
+            <a href="#contato-cfo">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary font-semibold px-8 py-6 text-lg"
@@ -440,6 +441,24 @@ const ValoromCFO = () => {
             <p className="text-sm text-gray-500 mt-4">
               Resposta em até 2 horas em dias úteis · Sem compromisso
             </p>
+          </div>
+        </section>
+
+        {/* Formulário de Contato */}
+        <section id="contato-cfo" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
+          <div className="container mx-auto px-6">
+            <div className="max-w-2xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-4">
+                  Solicite seu{" "}
+                  <span className="text-lime-400">diagnóstico gratuito</span>
+                </h2>
+                <p className="text-lg text-gray-300">
+                  Preencha o formulário e nossa equipe entrará em contato para entender sua empresa e apresentar uma proposta sob medida.
+                </p>
+              </div>
+              <BPOContactForm />
+            </div>
           </div>
         </section>
 
