@@ -423,7 +423,7 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="https://wa.me/5511949566290?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20funciona%20sobre%20terceirizar%20o%20financeiro" target="_blank" rel="noopener noreferrer">
+              <a href="#contato-bpo">
                 <Button 
                   size="lg"
                   variant="outline"
