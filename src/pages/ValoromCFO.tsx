@@ -162,7 +162,7 @@ const ValoromCFO = () => {
               </h1>
               
               <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-                Planejamento estratégico, controladoria, fluxo de caixa e análise de resultados — com um CFO dedicado que traz a visão que falta para o seu negócio tomar decisões com segurança e crescer com controle. Treinamento e implementação das melhores práticas para o seu time ter melhores entregas.
+                Planejamento estratégico, controladoria, fluxo de caixa e análise de resultados — com um CFO dedicado que traz a visão que falta para o seu negócio tomar decisões com segurança e crescer com controle. Treinamento e implementação das melhores práticas para o seu time ter melhores entregas. +de 20 anos de otimização de operações entregues por uma metodologia que funciona.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
