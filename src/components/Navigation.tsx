@@ -69,15 +69,13 @@ export const Navigation = () => {
               >
                 Início
               </Link>
-              <Link
-                to="/contato"
+              <a
+                href="/#contato-bpo"
                 onClick={() => setIsOpen(false)}
-                className={`block py-2 px-3 font-medium transition-all hover:bg-primary/10 active:bg-primary/20 rounded-md ${
-                  isActive('/contato') ? 'text-primary bg-primary/5' : 'text-muted-foreground hover:text-primary'
-                }`}
+                className="block py-2 px-3 font-medium transition-all hover:bg-primary/10 active:bg-primary/20 rounded-md text-muted-foreground hover:text-primary"
               >
                 Contato
-              </Link>
+              </a>
             </div>
           </div>
         )}
