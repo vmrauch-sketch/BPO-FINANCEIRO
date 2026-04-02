@@ -437,6 +437,45 @@ const ValoromBPO = () => {
         </section>
 
 
+        {/* Objection Cards Section */}
+        <section className="py-24 bg-muted/30 scroll-mt-28">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary mb-4">
+                Ainda tem <span className="text-blue-600">dúvidas</span>? Vamos esclarecer
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              {[
+                {
+                  myth: "\"É muito caro para minha empresa\"",
+                  answer: "Na verdade, você economiza até 60% comparado a ter uma equipe interna. Sem encargos, férias, 13º salário ou treinamentos."
+                },
+                {
+                  myth: "\"Vou perder o controle das finanças\"",
+                  answer: "Pelo contrário! Você terá mais controle com relatórios detalhados, dashboards atualizados e total transparência."
+                },
+                {
+                  myth: "\"Minha empresa é muito pequena\"",
+                  answer: "Atendemos desde MEIs até médias empresas. Nosso serviço se adapta ao seu tamanho e cresce junto com você."
+                }
+              ].map((item, index) => (
+                <div key={index} className="bg-card rounded-2xl p-8 shadow-sm border border-border/50 hover:shadow-md transition-shadow duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="mt-1 flex-shrink-0 w-8 h-8 rounded-lg bg-red-100 flex items-center justify-center">
+                      <span className="text-red-500 font-bold text-sm">✕</span>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-foreground mb-2 text-lg">{item.myth}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.answer}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section id="bpo-faq" className="py-24 bg-white scroll-mt-28">
           <div className="container mx-auto px-6">
