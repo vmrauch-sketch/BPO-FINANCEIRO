@@ -310,8 +310,10 @@ const ValoromCFO = () => {
                 Propostas <span className="italic text-lime-400">sob medida</span>
               </h2>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> — por isso não trabalhamos com pacotes prontos. Criamos uma 
-                <span className="text-lime-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
+                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> — por isso não trabalhamos com pacotes prontos.
+              </p>
+              <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-3">
+                Criamos uma <span className="text-lime-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
                 Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução — e dedicamos um profissional sênior focado no seu negócio.
