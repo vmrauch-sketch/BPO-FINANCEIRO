@@ -357,10 +357,10 @@ const ValoromCFO = () => {
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary mb-4">
-                Para quem é
+                Expertise que atende o seu segmento
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Ideal para empresas que buscam expertise financeira de alto nível
+                Nossa metodologia já foi aplicada com sucesso em diversos setores — e se adapta à realidade do seu negócio
               </p>
             </div>
             
