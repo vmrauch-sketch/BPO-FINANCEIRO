@@ -468,14 +468,14 @@ const ValoromBPO = () => {
                 Criamos uma <span className="text-blue-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
-                Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução — e montamos uma equipe sob medida, com profissionais especializados no seu segmento.
+                Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução — e montamos uma equipe sob medida, com profissionais especializados.
               </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
               {[
                 { icon: Search, title: "Diagnóstico personalizado", description: "Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução." },
-                { icon: Users, title: "Time dedicado", description: "Montamos uma equipe sob medida, com profissionais especializados no seu segmento." },
+                { icon: Users, title: "Time dedicado", description: "Montamos uma equipe sob medida, com profissionais especializados." },
                 { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa — e escala conforme a empresa cresce." },
                 { icon: Shield, title: "Sem surpresas", description: "Preço justo, transparente e alinhado ao tamanho e complexidade da sua operação." },
               ].map((item, index) => (
