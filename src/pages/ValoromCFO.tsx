@@ -161,10 +161,28 @@ const ValoromCFO = () => {
                 <span className="text-lime-400">A gente resolve.</span>
               </h1>
               
-               <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-4">
-                Planejamento estratégico, controladoria, fluxo de caixa e análise de resultados — com um CFO dedicado que traz a visão que falta para o seu negócio tomar decisões com segurança e crescer com controle. Treinamento e implementação das melhores práticas para o seu time ter melhores entregas.
+              {/* Visual service pillars */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-6">
+                {[
+                  { icon: <Target className="w-6 h-6" />, label: "Planejamento Estratégico" },
+                  { icon: <BarChart3 className="w-6 h-6" />, label: "Controladoria" },
+                  { icon: <Wallet className="w-6 h-6" />, label: "Fluxo de Caixa" },
+                  { icon: <LineChart className="w-6 h-6" />, label: "Análise de Resultados" },
+                ].map((item, i) => (
+                  <div key={i} className="flex flex-col items-center gap-2 bg-white/5 border border-white/10 rounded-xl py-4 px-3 backdrop-blur-sm">
+                    <div className="text-lime-400">{item.icon}</div>
+                    <span className="text-sm text-gray-200 font-medium text-center leading-tight">{item.label}</span>
+                  </div>
+                ))}
+              </div>
+
+              <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
+                Com um <span className="text-lime-400 font-semibold">CFO dedicado</span> que traz a visão que falta para o seu negócio tomar decisões com segurança e crescer com controle.
               </p>
-              <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+              <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
+                <span className="text-lime-400 font-semibold">Treinamento e implementação</span> das melhores práticas para o seu time ter melhores entregas.
+              </p>
+              <p className="text-base md:text-lg text-white font-semibold max-w-3xl mx-auto mb-8">
                 +de 20 anos de otimização de operações entregues por uma metodologia que funciona.
               </p>
               
