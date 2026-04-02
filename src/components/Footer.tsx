@@ -16,10 +16,10 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-playfair font-bold mb-4">Valorum</h3>
               <a 
-                href="mailto:atendimento@cfvalorum.com.br" 
+                href="mailto:contato@cfvalorum.com.br" 
                 className="text-sm text-white/60 hover:text-white transition-colors"
               >
-                atendimento@cfvalorum.com.br
+                contato@cfvalorum.com.br
               </a>
             </div>
 

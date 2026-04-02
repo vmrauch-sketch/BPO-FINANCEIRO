@@ -74,7 +74,7 @@ const BPOContactForm = () => {
       await supabase.functions.invoke("send-transactional-email", {
         body: {
           templateName: "bpo-contact-notification",
-          recipientEmail: "atendimento@cfvalorum.com.br",
+          recipientEmail: "contato@cfvalorum.com.br",
           idempotencyKey: `bpo-contact-${id}`,
           templateData: {
             name: formData.name.trim(),
