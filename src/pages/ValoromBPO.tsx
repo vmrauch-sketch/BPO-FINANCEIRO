@@ -112,17 +112,26 @@ const ValoromBPO = () => {
             <div className="max-w-4xl mx-auto text-center">
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
-              <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold mb-6">
-                BPO Financeiro
-              </p>
+              <div className="flex flex-col items-center mb-6">
+                <span className="text-4xl font-playfair font-bold text-blue-400 italic tracking-tight">V1</span>
+                <div className="w-12 h-0.5 bg-blue-400/50 my-1" />
+                <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold">
+                  BPO Financeiro
+                </p>
+                <p className="text-xs text-blue-300/70 mt-1">o BPO da Valorum</p>
+              </div>
               
-              <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-4">
                 Sua empresa cresce,{" "}
                 <br className="hidden md:block" />
                 mas o financeiro não acompanha.
                 <br />
                 <span className="text-blue-400">A gente resolve.</span>
               </h1>
+              
+              <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6 max-w-3xl mx-auto">
+                A Clareza e o Controle que as Finanças da Sua Empresa Precisam
+              </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
                 <a href="#contato-bpo">
@@ -137,6 +146,48 @@ const ValoromBPO = () => {
               <p className="text-sm text-gray-500">
                 Resposta em até 2 horas em dias úteis
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Parceiro Confiável Section */}
+        <section className="py-24 bg-white">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-6">
+              <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary leading-tight">
+                Seu Parceiro Confiável de{" "}
+                <span className="italic text-blue-500">Gestão Financeira</span>
+              </h2>
+              <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
+                A Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
+              {[
+                { num: "01.", title: "Serviço Para Qualquer Empresa", description: "Desde micro empresas até grandes corporações. A Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
+                { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade.", highlight: false },
+              ].map((item, index) => (
+                <div 
+                  key={index}
+                  className={`p-8 rounded-2xl text-center transition-all duration-300 ${
+                    item.highlight 
+                      ? "bg-primary text-white shadow-xl scale-105" 
+                      : "bg-white border border-border/50 hover:shadow-lg"
+                  }`}
+                >
+                  <p className={`text-2xl font-bold mb-3 ${item.highlight ? "text-blue-400" : "text-primary"}`}>
+                    {item.num}
+                  </p>
+                  <h3 className={`text-lg font-bold mb-4 ${item.highlight ? "text-white" : "text-primary"}`}>
+                    {item.title}
+                  </h3>
+                  <p className={`text-sm leading-relaxed ${item.highlight ? "text-gray-300" : "text-muted-foreground"}`}>
+                    {item.description}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
