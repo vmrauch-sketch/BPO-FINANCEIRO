@@ -244,7 +244,135 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Resultados Section */}
+        {/* O que você recebe - Dashboard Visual Section */}
+        <section className="py-24 bg-gradient-to-b from-muted/30 to-white">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary mb-4">
+                O que você <span className="italic text-blue-500">recebe</span>
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Ferramentas e entregas que transformam dados em decisões estratégicas para o seu negócio.
+              </p>
+            </div>
+
+            <div className="max-w-6xl mx-auto space-y-16">
+              {/* Dashboard Financeiro */}
+              <div className="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-playfair font-bold text-primary mb-4">
+                    Dashboard Financeiro
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Dashboard com visão completa das contas a receber, contas a pagar e projeção dos próximos 15 dias de maneira <strong className="text-primary">RÁPIDA</strong> e <strong className="text-primary">VISUAL</strong>.
+                  </p>
+                </div>
+                <div className="bg-primary/5 rounded-2xl p-6 border border-border/50">
+                  <div className="grid grid-cols-3 gap-3 mb-4">
+                    {[
+                      { label: "A Receber", value: "R$ 333.617", color: "from-green-400 to-green-500" },
+                      { label: "A Pagar", value: "R$ 89.250", color: "from-red-400 to-red-500" },
+                      { label: "Saldo Projetado", value: "R$ 244.367", color: "from-blue-400 to-blue-500" },
+                    ].map((item, i) => (
+                      <div key={i} className="bg-white rounded-xl p-3 text-center shadow-sm border border-border/30">
+                        <p className="text-xs text-muted-foreground mb-1">{item.label}</p>
+                        <p className={`text-sm font-bold bg-gradient-to-r ${item.color} bg-clip-text text-transparent`}>{item.value}</p>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30">
+                    <div className="flex items-end justify-between h-24 gap-1">
+                      {[40, 65, 45, 80, 55, 70, 90, 60, 75, 85, 50, 95].map((h, i) => (
+                        <div key={i} className="flex-1 bg-gradient-to-t from-blue-400 to-blue-300 rounded-t-sm" style={{ height: `${h}%` }} />
+                      ))}
+                    </div>
+                    <p className="text-xs text-muted-foreground text-center mt-2">Fluxo de Caixa — Últimos 12 meses</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Visão Financeira e Econômica */}
+              <div className="grid md:grid-cols-2 gap-10 items-center">
+                <div className="order-2 md:order-1 bg-primary/5 rounded-2xl p-6 border border-border/50">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center">
+                      <p className="text-xs text-muted-foreground mb-3">DRE — Resultado</p>
+                      <div className="relative w-20 h-20 mx-auto">
+                        <svg viewBox="0 0 36 36" className="w-full h-full">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(var(--border))" strokeWidth="3" />
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(210, 100%, 60%)" strokeWidth="3" strokeDasharray="72, 100" />
+                        </svg>
+                        <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-primary">72%</span>
+                      </div>
+                      <p className="text-xs text-green-600 font-semibold mt-2">Margem Líquida</p>
+                    </div>
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center">
+                      <p className="text-xs text-muted-foreground mb-3">Fluxo de Caixa</p>
+                      <div className="relative w-20 h-20 mx-auto">
+                        <svg viewBox="0 0 36 36" className="w-full h-full">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(var(--border))" strokeWidth="3" />
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(160, 80%, 45%)" strokeWidth="3" strokeDasharray="85, 100" />
+                        </svg>
+                        <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-primary">85%</span>
+                      </div>
+                      <p className="text-xs text-blue-600 font-semibold mt-2">Geração de Caixa</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="order-1 md:order-2">
+                  <h3 className="text-2xl md:text-3xl font-playfair font-bold text-primary mb-4">
+                    Visão Financeira e Econômica
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Análise do <strong className="text-primary">LUCRO</strong> do seu negócio através da Demonstração de Resultados do Exercício (DRE) e a <strong className="text-primary">GERAÇÃO DE CAIXA</strong> através do Fluxo de Caixa.
+                  </p>
+                </div>
+              </div>
+
+              {/* Controle de Contas a Receber e Pagar */}
+              <div className="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-playfair font-bold text-primary mb-4">
+                    Controle de Contas a Receber e Pagar
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Faça os <strong className="text-primary">LANÇAMENTOS</strong> de todas as CONTAS A RECEBER e CONTAS A PAGAR do seu negócio e realize o acompanhamento.
+                  </p>
+                </div>
+                <div className="bg-primary/5 rounded-2xl p-6 border border-border/50">
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div className="bg-white rounded-xl p-3 shadow-sm border border-border/30 text-center">
+                      <p className="text-xs text-muted-foreground">Realizado</p>
+                      <p className="text-lg font-bold text-green-600">R$ 93.279</p>
+                    </div>
+                    <div className="bg-white rounded-xl p-3 shadow-sm border border-border/30 text-center">
+                      <p className="text-xs text-muted-foreground">Projetado</p>
+                      <p className="text-lg font-bold text-blue-500">R$ 93.034</p>
+                    </div>
+                  </div>
+                  <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30">
+                    <div className="flex items-end justify-between h-20 gap-2">
+                      {[
+                        { r: 60, p: 55 }, { r: 45, p: 50 }, { r: 70, p: 65 }, { r: 80, p: 75 }, { r: 55, p: 60 }, { r: 90, p: 85 }
+                      ].map((item, i) => (
+                        <div key={i} className="flex-1 flex gap-0.5">
+                          <div className="flex-1 bg-gradient-to-t from-green-400 to-green-300 rounded-t-sm" style={{ height: `${item.r}%` }} />
+                          <div className="flex-1 bg-gradient-to-t from-blue-400 to-blue-300 rounded-t-sm" style={{ height: `${item.p}%` }} />
+                        </div>
+                      ))}
+                    </div>
+                    <div className="flex justify-center gap-4 mt-2">
+                      <span className="flex items-center gap-1 text-xs text-muted-foreground"><span className="w-2 h-2 rounded-full bg-green-400" /> Realizado</span>
+                      <span className="flex items-center gap-1 text-xs text-muted-foreground"><span className="w-2 h-2 rounded-full bg-blue-400" /> Projetado</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <section id="bpo-resultados" className="py-24 bg-primary/95 scroll-mt-28">
           <div className="container mx-auto px-6">
             <div className="text-center mb-6">
