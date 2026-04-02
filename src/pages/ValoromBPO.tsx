@@ -18,7 +18,10 @@ import {
   Wallet,
   ArrowUpRight,
   Shield,
-  Clock
+  Clock,
+  LayoutDashboard,
+  PieChart,
+  Receipt
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
