@@ -363,7 +363,7 @@ const ValoromCFO = () => {
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                 Nossa metodologia já foi aplicada com sucesso em diversos setores
                 <br className="hidden md:block" />
-                <span className="text-primary font-medium"> — e se adapta à realidade do seu negócio.</span>
+                <span className="text-primary font-medium"> — não assume, guia a direção.</span>
               </p>
             </div>
             
