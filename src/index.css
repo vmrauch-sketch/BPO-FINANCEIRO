@@ -172,3 +172,8 @@ nav .no-scrollbar {
   50% { stroke-dashoffset: 0; }
   100% { stroke-dashoffset: 500; }
 }
+@keyframes dash-loop {
+  0% { stroke-dasharray: 0, 100; }
+  50% { stroke-dasharray: 72, 100; }
+  100% { stroke-dasharray: 0, 100; }
+}
