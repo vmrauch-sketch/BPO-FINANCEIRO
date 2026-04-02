@@ -457,7 +457,7 @@ const ValoromBPO = () => {
                 },
                 {
                   myth: "\"Minha empresa é muito pequena\"",
-                  answer: "Atendemos desde MEIs até médias empresas. Nosso serviço se adapta ao seu tamanho e cresce junto com você."
+                  answer: "Atendemos desde MEIs até grandes empresas. Nosso serviço se adapta ao seu tamanho e cresce junto com você."
                 }
               ].map((item, index) => (
                 <div key={index} className="bg-card rounded-2xl p-8 shadow-sm border border-border/50 hover:shadow-md transition-shadow duration-300">
