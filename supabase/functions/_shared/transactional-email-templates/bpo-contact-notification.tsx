@@ -85,7 +85,7 @@ export const template = {
   subject: (data: Record<string, any>) =>
     `Novo diagnóstico BPO — ${data.name || 'Novo contato'}`,
   displayName: 'Notificação de contato BPO',
-  to: 'atendimento@cfvalorum.com.br',
+  to: 'contato@cfvalorum.com.br',
   previewData: {
     name: 'João Silva',
     email: 'joao@empresa.com.br',
