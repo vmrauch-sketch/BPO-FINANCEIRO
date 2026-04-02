@@ -461,8 +461,9 @@ const ValoromBPO = () => {
               <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white mb-4">
                 Propostas <span className="italic text-blue-400">sob medida</span>
               </h2>
-              <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-                Cada empresa tem uma realidade única. Por isso, não trabalhamos com pacotes prontos, criamos uma proposta personalizada de acordo com as necessidades, o momento e os objetivos do seu negócio.
+              <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Cada empresa tem uma <span className="text-white font-semibold">realidade única</span>. Por isso, não trabalhamos com pacotes prontos — criamos uma 
+                <span className="text-blue-400 font-semibold"> proposta personalizada</span> de acordo com as necessidades, o momento e os objetivos do seu negócio.
               </p>
             </div>
             
