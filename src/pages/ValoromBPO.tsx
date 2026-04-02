@@ -330,42 +330,83 @@ const ValoromBPO = () => {
                 </div>
               </div>
 
-              {/* Controle de Contas a Receber e Pagar */}
+              {/* Conciliação e Controle de Contas */}
               <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div>
                   <h3 className="text-2xl md:text-3xl font-playfair font-bold text-primary mb-4">
-                    Controle de Contas a Receber e Pagar
+                    Conciliação e Controle de Contas a Receber e a Pagar
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Faça os <strong className="text-primary">LANÇAMENTOS</strong> de todas as CONTAS A RECEBER e CONTAS A PAGAR do seu negócio e realize o acompanhamento.
+                    Cuidamos de toda a <strong className="text-primary">CONCILIAÇÃO</strong>, lançamentos e acompanhamento das suas contas a receber e a pagar, garantindo organização, pontualidade e visão completa do seu fluxo financeiro.
                   </p>
                 </div>
-                <div className="bg-primary/5 rounded-2xl p-6 border border-border/50">
-                  <div className="grid grid-cols-2 gap-4 mb-4">
-                    <div className="bg-white rounded-xl p-3 shadow-sm border border-border/30 text-center">
-                      <p className="text-xs text-muted-foreground">Realizado</p>
-                      <p className="text-lg font-bold text-green-600">R$ 93.279</p>
-                    </div>
-                    <div className="bg-white rounded-xl p-3 shadow-sm border border-border/30 text-center">
-                      <p className="text-xs text-muted-foreground">Projetado</p>
-                      <p className="text-lg font-bold text-blue-500">R$ 93.034</p>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30">
-                    <div className="flex items-end justify-between h-20 gap-2">
-                      {[
-                        { r: 60, p: 55 }, { r: 45, p: 50 }, { r: 70, p: 65 }, { r: 80, p: 75 }, { r: 55, p: 60 }, { r: 90, p: 85 }
-                      ].map((item, i) => (
-                        <div key={i} className="flex-1 flex gap-0.5">
-                          <div className="flex-1 bg-gradient-to-t from-green-400 to-green-300 rounded-t-sm" style={{ height: `${item.r}%` }} />
-                          <div className="flex-1 bg-gradient-to-t from-blue-400 to-blue-300 rounded-t-sm" style={{ height: `${item.p}%` }} />
-                        </div>
-                      ))}
-                    </div>
-                    <div className="flex justify-center gap-4 mt-2">
-                      <span className="flex items-center gap-1 text-xs text-muted-foreground"><span className="w-2 h-2 rounded-full bg-green-400" /> Realizado</span>
-                      <span className="flex items-center gap-1 text-xs text-muted-foreground"><span className="w-2 h-2 rounded-full bg-blue-400" /> Projetado</span>
-                    </div>
+                <div className="bg-primary/5 rounded-2xl p-4 border border-border/50 overflow-hidden">
+                  {/* Tabela estilo planilha financeira */}
+                  <div className="bg-white rounded-xl shadow-sm border border-border/30 overflow-x-auto">
+                    <table className="w-full text-xs">
+                      <thead>
+                        <tr className="border-b border-border/40">
+                          <th className="text-left p-2 text-muted-foreground font-medium">Conta</th>
+                          <th className="text-right p-2 text-muted-foreground font-medium">Jan</th>
+                          <th className="text-right p-2 text-muted-foreground font-medium">Fev</th>
+                          <th className="text-right p-2 text-muted-foreground font-medium">Mar</th>
+                          <th className="text-right p-2 text-muted-foreground font-medium">Abr</th>
+                          <th className="text-right p-2 text-muted-foreground font-medium">Mai</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {/* Receitas */}
+                        <tr className="bg-green-500/10 border-b border-green-200/50">
+                          <td colSpan={6} className="p-2 font-bold text-green-700 text-[11px]">Receitas</td>
+                        </tr>
+                        {[
+                          { name: "Vendas Produtos", vals: ["12.500", "14.200", "11.800", "15.300", "13.900"] },
+                          { name: "Serviços", vals: ["8.000", "8.000", "9.500", "8.000", "10.000"] },
+                        ].map((row, i) => (
+                          <tr key={i} className="border-b border-border/20 hover:bg-muted/30">
+                            <td className="p-2 text-foreground">{row.name}</td>
+                            {row.vals.map((v, j) => (
+                              <td key={j} className="text-right p-2 text-green-700 font-medium">{v}</td>
+                            ))}
+                          </tr>
+                        ))}
+                        <tr className="border-b border-border/40 bg-green-50">
+                          <td className="p-2 font-bold text-green-800">Total Receitas</td>
+                          {["20.500", "22.200", "21.300", "23.300", "23.900"].map((v, i) => (
+                            <td key={i} className="text-right p-2 font-bold text-green-800">{v}</td>
+                          ))}
+                        </tr>
+                        {/* Despesas */}
+                        <tr className="bg-red-500/10 border-b border-red-200/50">
+                          <td colSpan={6} className="p-2 font-bold text-red-700 text-[11px]">Despesas</td>
+                        </tr>
+                        {[
+                          { name: "Fornecedores", vals: ["5.200", "4.800", "6.100", "5.500", "4.900"] },
+                          { name: "Folha", vals: ["7.400", "7.400", "7.400", "7.400", "7.400"] },
+                          { name: "Impostos", vals: ["1.850", "2.100", "1.920", "2.300", "2.050"] },
+                        ].map((row, i) => (
+                          <tr key={i} className="border-b border-border/20 hover:bg-muted/30">
+                            <td className="p-2 text-foreground">{row.name}</td>
+                            {row.vals.map((v, j) => (
+                              <td key={j} className="text-right p-2 text-red-600 font-medium">{v}</td>
+                            ))}
+                          </tr>
+                        ))}
+                        <tr className="border-b border-border/40 bg-red-50">
+                          <td className="p-2 font-bold text-red-800">Total Despesas</td>
+                          {["14.450", "14.300", "15.420", "15.200", "14.350"].map((v, i) => (
+                            <td key={i} className="text-right p-2 font-bold text-red-800">{v}</td>
+                          ))}
+                        </tr>
+                        {/* Saldo */}
+                        <tr className="bg-blue-500/10">
+                          <td className="p-2 font-bold text-primary">Saldo</td>
+                          {["6.050", "7.900", "5.880", "8.100", "9.550"].map((v, i) => (
+                            <td key={i} className="text-right p-2 font-bold text-primary">{v}</td>
+                          ))}
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
