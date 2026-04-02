@@ -135,7 +135,7 @@ const ValoromBPO = () => {
                 </a>
               </div>
               <p className="text-sm text-gray-500">
-                Resposta em até 2 horas em dias úteis · Sem compromisso
+                Resposta em até 2 horas em dias úteis
               </p>
             </div>
           </div>
