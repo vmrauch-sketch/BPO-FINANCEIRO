@@ -465,6 +465,9 @@ const ValoromBPO = () => {
                 As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">diferentes</span> — por isso não trabalhamos com pacotes prontos. Criamos uma 
                 <span className="text-blue-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
+              <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
+                Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução — e montamos uma equipe sob medida, com profissionais especializados no seu segmento.
+              </p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
