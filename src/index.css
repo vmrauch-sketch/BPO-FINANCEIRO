@@ -169,11 +169,11 @@ nav .no-scrollbar {
 }
 @keyframes line-draw {
   0% { stroke-dashoffset: 500; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 500; }
+  80% { stroke-dashoffset: 0; }
+  90%, 100% { stroke-dashoffset: 0; opacity: 0; }
 }
 @keyframes dash-loop {
   0% { stroke-dasharray: 0, 100; }
-  50% { stroke-dasharray: 72, 100; }
-  100% { stroke-dasharray: 0, 100; }
+  80% { stroke-dasharray: 72, 100; }
+  90%, 100% { stroke-dasharray: 0, 100; }
 }
