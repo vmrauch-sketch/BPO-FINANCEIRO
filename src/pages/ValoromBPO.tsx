@@ -296,27 +296,73 @@ const ValoromBPO = () => {
               <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div className="order-2 md:order-1 bg-primary/5 rounded-2xl p-6 border border-border/50">
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center">
+                    {/* DRE — Margem Líquida (pulsa para cima) */}
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center animate-[float-up_3s_ease-in-out_infinite]">
                       <p className="text-xs text-muted-foreground mb-3">DRE — Resultado</p>
                       <div className="relative w-20 h-20 mx-auto">
                         <svg viewBox="0 0 36 36" className="w-full h-full">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(var(--border))" strokeWidth="3" />
-                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(210, 100%, 60%)" strokeWidth="3" strokeDasharray="72, 100" />
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(210, 100%, 60%)" strokeWidth="3" strokeDasharray="72, 100" className="animate-[dash-grow_2s_ease-out_forwards]" />
                         </svg>
                         <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-primary">72%</span>
                       </div>
                       <p className="text-xs text-green-600 font-semibold mt-2">Margem Líquida</p>
                     </div>
-                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center">
+                    {/* Fluxo de Caixa (pulsa para baixo) */}
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center animate-[float-down_3s_ease-in-out_infinite]">
                       <p className="text-xs text-muted-foreground mb-3">Fluxo de Caixa</p>
                       <div className="relative w-20 h-20 mx-auto">
                         <svg viewBox="0 0 36 36" className="w-full h-full">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(var(--border))" strokeWidth="3" />
-                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(160, 80%, 45%)" strokeWidth="3" strokeDasharray="85, 100" />
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(160, 80%, 45%)" strokeWidth="3" strokeDasharray="85, 100" className="animate-[dash-grow_2s_ease-out_0.3s_forwards]" />
                         </svg>
                         <span className="absolute inset-0 flex items-center justify-center text-sm font-bold text-primary">85%</span>
                       </div>
                       <p className="text-xs text-blue-600 font-semibold mt-2">Geração de Caixa</p>
+                    </div>
+                    {/* Gráfico de Barras — Receita x Despesa (pulsa para cima) */}
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center animate-[float-up_3.5s_ease-in-out_0.5s_infinite]">
+                      <p className="text-xs text-muted-foreground mb-3">Receita vs Despesa</p>
+                      <div className="flex items-end justify-center gap-1.5 h-20">
+                        {[
+                          { r: 75, d: 50 }, { r: 60, d: 45 }, { r: 85, d: 55 }, { r: 70, d: 60 }, { r: 90, d: 50 }
+                        ].map((item, i) => (
+                          <div key={i} className="flex gap-0.5">
+                            <div className="w-2.5 bg-gradient-to-t from-blue-600 to-blue-400 rounded-t-sm transition-all duration-1000" style={{ height: `${item.r}%` }} />
+                            <div className="w-2.5 bg-gradient-to-t from-blue-300 to-blue-200 rounded-t-sm transition-all duration-1000" style={{ height: `${item.d}%` }} />
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex justify-center gap-3 mt-2">
+                        <span className="flex items-center gap-1 text-[10px] text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-blue-600" /> Receita</span>
+                        <span className="flex items-center gap-1 text-[10px] text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-blue-300" /> Despesa</span>
+                      </div>
+                    </div>
+                    {/* Gráfico de Linha — Evolução Mensal (pulsa para baixo) */}
+                    <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center animate-[float-down_3.5s_ease-in-out_0.5s_infinite]">
+                      <p className="text-xs text-muted-foreground mb-3">Evolução Mensal</p>
+                      <div className="h-20 flex items-end">
+                        <svg viewBox="0 0 100 50" className="w-full h-full" preserveAspectRatio="none">
+                          <polyline
+                            points="5,40 20,30 35,35 50,20 65,25 80,15 95,10"
+                            fill="none"
+                            stroke="hsl(210, 100%, 50%)"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="animate-[line-draw_2s_ease-out_forwards]"
+                            strokeDasharray="200"
+                            strokeDashoffset="200"
+                            style={{ animationFillMode: 'forwards' }}
+                          />
+                          {[
+                            [5,40],[20,30],[35,35],[50,20],[65,25],[80,15],[95,10]
+                          ].map(([cx,cy], i) => (
+                            <circle key={i} cx={cx} cy={cy} r="2.5" fill="hsl(210, 100%, 50%)" className="animate-[scale-in_0.3s_ease-out_forwards]" style={{ animationDelay: `${0.3 + i * 0.15}s`, opacity: 0, animationFillMode: 'forwards' }} />
+                          ))}
+                        </svg>
+                      </div>
+                      <p className="text-xs text-primary font-semibold mt-2">Tendência de Crescimento</p>
                     </div>
                   </div>
                 </div>
