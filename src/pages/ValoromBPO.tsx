@@ -265,7 +265,7 @@ const ValoromBPO = () => {
                     Dashboard Financeiro
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Dashboard com visão completa das contas a receber, contas a pagar e projeção dos próximos 15 dias de maneira <strong className="text-primary">RÁPIDA</strong> e <strong className="text-primary">VISUAL</strong>.
+                    Dashboard com visão completa do <strong className="text-primary">REALIZADO</strong> e do que está <strong className="text-primary">PREVISTO</strong>. Chega de sustos.
                   </p>
                 </div>
                 <div className="bg-primary/5 rounded-2xl p-6 border border-border/50">
