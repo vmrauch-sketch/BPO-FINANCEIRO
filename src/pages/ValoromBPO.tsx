@@ -305,7 +305,7 @@ const ValoromBPO = () => {
                           strokeLinejoin="round"
                           strokeDasharray="500"
                           strokeDashoffset="500"
-                          className="animate-[line-draw_2.5s_ease-out_forwards]"
+                          className="animate-[line-draw_3s_ease-in-out_infinite]"
                         />
                         {/* Highlight dot at end */}
                         <circle cx="300" cy="12" r="3" fill="hsl(200, 90%, 55%)" className="animate-[scale-in_0.3s_ease-out_2.5s_forwards]" style={{ opacity: 0, animationFillMode: 'forwards' }} />
