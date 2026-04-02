@@ -282,12 +282,50 @@ const ValoromBPO = () => {
                     ))}
                   </div>
                   <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30">
-                    <div className="flex items-end justify-between h-24 gap-1">
-                      {[40, 65, 45, 80, 55, 70, 90, 60, 75, 85, 50, 95].map((h, i) => (
-                        <div key={i} className="flex-1 bg-gradient-to-t from-blue-400 to-blue-300 rounded-t-sm" style={{ height: `${h}%` }} />
-                      ))}
+                    <p className="text-[10px] text-muted-foreground mb-1">Projeção para os próximos 15 dias</p>
+                    <div className="h-28 relative">
+                      <svg viewBox="0 0 300 80" className="w-full h-full" preserveAspectRatio="none">
+                        {/* Grid lines */}
+                        {[0, 20, 40, 60].map((y) => (
+                          <line key={y} x1="0" y1={y} x2="300" y2={y} stroke="hsl(var(--border))" strokeWidth="0.5" strokeDasharray="4 2" />
+                        ))}
+                        {/* Area fill */}
+                        <polygon
+                          points="0,70 20,68 40,65 60,64 80,60 100,58 120,55 140,50 160,48 180,35 200,30 220,28 240,22 260,18 280,15 300,12 300,80 0,80"
+                          fill="url(#areaGradient)"
+                          className="animate-[fade-in_1.5s_ease-out_forwards]"
+                        />
+                        {/* Main line */}
+                        <polyline
+                          points="0,70 20,68 40,65 60,64 80,60 100,58 120,55 140,50 160,48 180,35 200,30 220,28 240,22 260,18 280,15 300,12"
+                          fill="none"
+                          stroke="hsl(200, 90%, 55%)"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeDasharray="500"
+                          strokeDashoffset="500"
+                          className="animate-[line-draw_2.5s_ease-out_forwards]"
+                        />
+                        {/* Highlight dot at end */}
+                        <circle cx="300" cy="12" r="3" fill="hsl(200, 90%, 55%)" className="animate-[scale-in_0.3s_ease-out_2.5s_forwards]" style={{ opacity: 0, animationFillMode: 'forwards' }} />
+                        <circle cx="300" cy="12" r="6" fill="hsl(200, 90%, 55%)" opacity="0.2" className="animate-[scale-in_0.3s_ease-out_2.5s_forwards] animate-[pulse_2s_infinite_2.8s]" style={{ opacity: 0, animationFillMode: 'forwards' }} />
+                        <defs>
+                          <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stopColor="hsl(200, 90%, 55%)" stopOpacity="0.3" />
+                            <stop offset="100%" stopColor="hsl(200, 90%, 55%)" stopOpacity="0.02" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      {/* Value label */}
+                      <div className="absolute top-0 right-0 bg-primary text-primary-foreground text-[10px] font-bold px-2 py-0.5 rounded-md animate-[fade-in_0.5s_ease-out_2.5s_forwards]" style={{ opacity: 0, animationFillMode: 'forwards' }}>
+                        R$ 244.367
+                      </div>
                     </div>
-                    <p className="text-xs text-muted-foreground text-center mt-2">Fluxo de Caixa — Últimos 12 meses</p>
+                    <div className="flex justify-between mt-1">
+                      <span className="text-[9px] text-muted-foreground">Hoje</span>
+                      <span className="text-[9px] text-muted-foreground">+15 dias</span>
+                    </div>
                   </div>
                 </div>
               </div>
