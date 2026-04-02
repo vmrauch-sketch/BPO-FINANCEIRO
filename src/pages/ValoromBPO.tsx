@@ -112,9 +112,14 @@ const ValoromBPO = () => {
             <div className="max-w-4xl mx-auto text-center">
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
-              <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold mb-6">
-                BPO Financeiro
-              </p>
+              <div className="flex flex-col items-center mb-6">
+                <span className="text-4xl font-playfair font-bold text-blue-400 italic tracking-tight">V1</span>
+                <div className="w-12 h-0.5 bg-blue-400/50 my-1" />
+                <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold">
+                  BPO Financeiro
+                </p>
+                <p className="text-xs text-blue-300/70 mt-1">o BPO da Valorum</p>
+              </div>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
                 Sua empresa cresce,{" "}
