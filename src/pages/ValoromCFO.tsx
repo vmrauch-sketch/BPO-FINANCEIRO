@@ -35,7 +35,7 @@ const faqItems = [
   },
   {
     question: "Minha empresa já tem um financeiro. Ainda preciso de um CFO?",
-    answer: "Sim. O financeiro operacional cuida das rotinas do dia a dia. O CFO traz visão estratégica: analisa indicadores, identifica oportunidades, estrutura o crescimento e orienta decisões. São papéis complementares."
+    answer: "Sim. O financeiro operacional cuida das rotinas do dia a dia, que serão otimizadas pela experiência do CFO. Além de melhorar a operação do financeiro, o CFO traz visão estratégica: analisa indicadores, identifica oportunidades, estrutura o crescimento e orienta decisões diretamente com os gestores. São papéis complementares."
   },
   {
     question: "Qual o tamanho mínimo de empresa para ter um CFO terceirizado?",
