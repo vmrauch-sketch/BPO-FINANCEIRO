@@ -156,7 +156,7 @@ const ValoromBPO = () => {
             <div className="text-center mb-6">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary leading-tight">
                 Seu Parceiro Confiável de{" "}
-                <span className="italic text-blue-500">Gestão Financeira</span>
+                <span className="italic text-blue-500">Gestão e Operação Financeira</span>
               </h2>
               <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
                 A Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
