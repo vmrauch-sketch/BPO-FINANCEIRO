@@ -248,7 +248,7 @@ const ValoromBPO = () => {
         <section className="py-24 bg-gradient-to-b from-muted/30 to-white">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <p className="text-sm font-semibold uppercase tracking-widest text-accent mb-3">Além da operação</p>
+              <p className="text-2xl md:text-3xl font-bold text-primary/80 mb-3">Além da operação</p>
               <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary mb-4">
                 O que você <span className="italic text-blue-500">recebe</span>
               </h2>
