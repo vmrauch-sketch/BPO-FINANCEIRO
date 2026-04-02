@@ -39,14 +39,12 @@ export const Navigation = () => {
             >
               Início
             </Link>
-            <Link
-              to="/contato"
-              className={`font-medium transition-all px-3 py-1 rounded-md hover:bg-primary/10 active:bg-primary/20 active:scale-95 text-sm whitespace-nowrap ${
-                isActive('/contato') ? 'text-primary bg-primary/5' : 'text-muted-foreground hover:text-primary'
-              }`}
+            <a
+              href="/#contato-bpo"
+              className={`font-medium transition-all px-3 py-1 rounded-md hover:bg-primary/10 active:bg-primary/20 active:scale-95 text-sm whitespace-nowrap text-muted-foreground hover:text-primary`}
             >
               Contato
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
