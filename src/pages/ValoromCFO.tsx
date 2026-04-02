@@ -352,20 +352,23 @@ const ValoromCFO = () => {
           </div>
         </section>
 
-        {/* Para quem é Section */}
-        <section id="cfo-publico" className="py-24 bg-muted/30 scroll-mt-28">
+        {/* Expertise Section */}
+        <section id="cfo-publico" className="py-24 bg-gradient-to-b from-muted/30 to-background scroll-mt-28">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary mb-4">
+              <div className="w-12 h-1 bg-gradient-to-r from-lime-400 to-lime-500 mx-auto mb-6" />
+              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary mb-6">
                 Expertise que atende o seu segmento
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Nossa metodologia já foi aplicada com sucesso em diversos setores — e se adapta à realidade do seu negócio
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+                Nossa metodologia já foi aplicada com sucesso em diversos setores
+                <br className="hidden md:block" />
+                <span className="text-primary font-medium"> — e se adapta à realidade do seu negócio.</span>
               </p>
             </div>
             
-            <div className="space-y-6 max-w-5xl mx-auto">
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="max-w-5xl mx-auto">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-5">
                 {[
                   { icon: Building2, title: "Indústrias" },
                   { icon: Users, title: "Clínicas Médicas" },
@@ -374,19 +377,19 @@ const ValoromCFO = () => {
                 ].map((item, index) => (
                   <div 
                     key={index}
-                    className="p-6 bg-white rounded-2xl text-center border border-border/50 hover:shadow-lg hover:border-lime-200 transition-all duration-300"
+                    className="group p-6 bg-white rounded-2xl text-center border border-border/40 hover:shadow-xl hover:border-lime-300 hover:-translate-y-1 transition-all duration-300"
                   >
-                    <div className="w-14 h-14 bg-gradient-to-br from-lime-400 to-lime-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <div className="w-14 h-14 bg-gradient-to-br from-lime-400 to-lime-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md shadow-lime-200/50">
                       <item.icon className="w-7 h-7 text-white" />
                     </div>
-                    <h3 className="font-semibold text-primary">
+                    <h3 className="font-semibold text-primary text-sm md:text-base">
                       {item.title}
                     </h3>
                   </div>
                 ))}
               </div>
               
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-3xl mx-auto">
                 {[
                   { icon: Building2, title: "PMEs em crescimento" },
                   { icon: TrendingUp, title: "Startups em expansão" },
@@ -394,12 +397,12 @@ const ValoromCFO = () => {
                 ].map((item, index) => (
                   <div 
                     key={index}
-                    className="p-6 bg-white rounded-2xl text-center border border-border/50 hover:shadow-lg hover:border-lime-200 transition-all duration-300"
+                    className="group p-6 bg-white rounded-2xl text-center border border-border/40 hover:shadow-xl hover:border-lime-300 hover:-translate-y-1 transition-all duration-300"
                   >
-                    <div className="w-14 h-14 bg-gradient-to-br from-lime-400 to-lime-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <div className="w-14 h-14 bg-gradient-to-br from-lime-400 to-lime-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md shadow-lime-200/50">
                       <item.icon className="w-7 h-7 text-white" />
                     </div>
-                    <h3 className="font-semibold text-primary">
+                    <h3 className="font-semibold text-primary text-sm md:text-base">
                       {item.title}
                     </h3>
                   </div>
