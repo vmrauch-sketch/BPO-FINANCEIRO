@@ -310,8 +310,8 @@ const ValoromCFO = () => {
                 Propostas <span className="italic text-lime-400">sob medida</span>
               </h2>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                Cada empresa tem uma <span className="text-white font-semibold">realidade única</span>. Por isso, não trabalhamos com pacotes prontos — criamos uma 
-                <span className="text-lime-400 font-semibold"> proposta personalizada</span> de acordo com as necessidades, o momento e os objetivos do seu negócio.
+                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">diferentes</span> — por isso não trabalhamos com pacotes prontos. Criamos uma 
+                <span className="text-lime-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
             </div>
             
