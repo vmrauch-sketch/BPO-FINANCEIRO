@@ -117,11 +117,12 @@ const ValoromBPO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
               <div className="flex flex-col items-center mb-6">
-                <span className="text-4xl font-playfair font-bold text-blue-400 italic tracking-tight">Conflow</span>
-                <div className="w-12 h-0.5 bg-blue-400/50 my-1" />
-                <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold">
+                <span className="text-5xl md:text-6xl font-playfair font-bold text-blue-400 tracking-tight">ConFluxo</span>
+                <div className="w-16 h-0.5 bg-blue-400/50 my-2" />
+                <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                   BPO Financeiro
                 </p>
+                <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
                 <p className="text-xs text-blue-300/70 mt-1">da Valorum</p>
               </div>
               
