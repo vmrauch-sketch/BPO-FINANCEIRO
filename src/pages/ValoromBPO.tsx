@@ -123,7 +123,6 @@ const ValoromBPO = () => {
                   BPO Financeiro
                 </p>
                 <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
-                <p className="text-xs text-blue-300/70 mt-1">da Valorum</p>
               </div>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-4">
