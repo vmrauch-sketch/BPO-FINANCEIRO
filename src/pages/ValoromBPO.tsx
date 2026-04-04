@@ -117,7 +117,7 @@ const ValoromBPO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
               <div className="flex flex-col items-center mb-6">
-                <span className="text-4xl font-playfair font-bold text-blue-400 italic tracking-tight">V1</span>
+                <span className="text-4xl font-playfair font-bold text-blue-400 italic tracking-tight">Conflow</span>
                 <div className="w-12 h-0.5 bg-blue-400/50 my-1" />
                 <p className="text-sm uppercase tracking-widest text-blue-400 font-semibold">
                   BPO Financeiro
