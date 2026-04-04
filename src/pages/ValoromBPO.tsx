@@ -414,7 +414,7 @@ const ValoromBPO = () => {
             <a href="#contato-bpo">
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
               >
                 Agendar Meu Diagnóstico
               </Button>
