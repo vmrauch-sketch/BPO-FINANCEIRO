@@ -190,7 +190,7 @@ const ValoromCFO = () => {
                 <a href="#contato-cfo">
                   <Button 
                     size="lg"
-                    className="bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary font-semibold px-8 py-6 text-lg"
+                    className="bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-lime-500/30 hover:shadow-xl hover:shadow-lime-500/40 transition-all duration-300 border border-lime-300/20"
                   >
                     Quero um Diagnóstico Gratuito
                   </Button>
