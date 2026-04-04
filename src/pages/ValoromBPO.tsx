@@ -501,7 +501,7 @@ const ValoromBPO = () => {
                 <Button 
                   size="lg"
                   variant="outline"
-                  className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                  className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Solicitar Proposta Personalizada
                 </Button>
