@@ -123,7 +123,6 @@ const ValoromBPO = () => {
                   BPO Financeiro
                 </p>
                 <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
-                <p className="text-xs text-blue-300/70 mt-1">da Valorum</p>
               </div>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-4">
@@ -305,7 +304,7 @@ const ValoromBPO = () => {
               <a href="#contato-bpo">
                 <Button 
                   size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                 >
                   Quero Esses Resultados Agora
                 </Button>
@@ -355,7 +354,7 @@ const ValoromBPO = () => {
               <a href="#contato-bpo">
                 <Button 
                   size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                 >
                   Quero Começar Agora
                 </Button>
@@ -415,7 +414,7 @@ const ValoromBPO = () => {
             <a href="#contato-bpo">
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
               >
                 Agendar Meu Diagnóstico
               </Button>
@@ -502,7 +501,7 @@ const ValoromBPO = () => {
                 <Button 
                   size="lg"
                   variant="outline"
-                  className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg uppercase tracking-wider"
+                  className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Solicitar Proposta Personalizada
                 </Button>
