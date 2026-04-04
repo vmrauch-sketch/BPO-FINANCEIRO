@@ -18,12 +18,12 @@ export const Navigation = () => {
               Valorum
             </Link>
             <Link to="/">
-              <Button size="sm" className={`bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white text-xs px-2.5 py-1 h-7 font-semibold ${isActive('/') ? 'ring-2 ring-blue-300' : ''}`}>
+              <Button size="sm" className={`rounded-full shadow-sm border-0 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white text-xs px-4 py-1 h-7 font-semibold transition-all duration-200 hover:shadow-md ${isActive('/') ? 'ring-2 ring-blue-300 ring-offset-1' : ''}`}>
                 BPO
               </Button>
             </Link>
             <Link to="/cfo">
-              <Button size="sm" className={`bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary text-xs px-2.5 py-1 h-7 font-semibold ${isActive('/cfo') ? 'ring-2 ring-lime-300' : ''}`}>
+              <Button size="sm" className={`rounded-full shadow-sm border-0 bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-primary text-xs px-4 py-1 h-7 font-semibold transition-all duration-200 hover:shadow-md ${isActive('/cfo') ? 'ring-2 ring-lime-300 ring-offset-1' : ''}`}>
                 CFO
               </Button>
             </Link>
