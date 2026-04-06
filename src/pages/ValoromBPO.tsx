@@ -8,6 +8,7 @@ import newsExame from "@/assets/news-exame.jpg";
 import newsCartaCapital from "@/assets/news-cartacapital.jpg";
 import newsBemParana from "@/assets/news-bemparana.jpg";
 import newsBrasilEmFolhas from "@/assets/news-brasilemfolhas.jpg";
+import newsValorEconomico from "@/assets/news-valoreconomico.jpg";
 
 import { 
   ClipboardCheck,
