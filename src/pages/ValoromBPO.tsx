@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import confluxLogo from "@/assets/conflux-logo.png";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
