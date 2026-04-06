@@ -117,7 +117,7 @@ const ValoromBPO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
               <div className="flex flex-col items-center mb-6">
-                <span className="text-5xl md:text-6xl font-playfair font-bold text-blue-400 tracking-tight">ConFluxo</span>
+                <span className="text-5xl md:text-6xl font-playfair font-bold text-blue-400 tracking-tight">Conflux</span>
                 <div className="w-16 h-0.5 bg-blue-400/50 my-2" />
                 <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                   BPO Financeiro
@@ -169,7 +169,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia ConFluxo da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Conflux da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
