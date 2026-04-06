@@ -4,6 +4,11 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
+import newsExame from "@/assets/news-exame.jpg";
+import newsCartaCapital from "@/assets/news-cartacapital.jpg";
+import newsBemParana from "@/assets/news-bemparana.jpg";
+import newsBrasilEmFolhas from "@/assets/news-brasilemfolhas.jpg";
+
 import { 
   ClipboardCheck,
   Search,
@@ -150,6 +155,44 @@ const ValoromBPO = () => {
               <p className="text-sm text-gray-500">
                 Resposta em até 2 horas em dias úteis
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Prova Social - Notícias */}
+        <section className="py-20 bg-muted/30">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary leading-tight">
+                Pare de comprometer o futuro do seu negócio
+              </h2>
+              <p className="text-lg text-muted-foreground mt-3 italic max-w-2xl mx-auto">
+                Adote um BPO Financeiro especializado e evite a falência prematura!
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-6xl mx-auto">
+              {[
+                { img: newsExame, alt: "Exame: 60% das empresas não sobrevivem após cinco anos no Brasil", url: "https://exame.com/negocios/60-das-empresas-nao-sobrevivem-apos-cinco-anos-no-brasil-aponta-ibge/" },
+                { img: newsCartaCapital, alt: "Carta Capital: PMEs enfrentam crise - 9 em cada 10 sofrem com finanças desorganizadas", url: "https://www.cartacapital.com.br/do-micro-ao-macro/pmes-enfrentam-crise-9-em-cada-10-sofrem-com-financas-desorganizadas/" },
+                { img: newsBemParana, alt: "Bem Paraná: Má gestão é o principal fator para o fechamento de empresas no Brasil", url: "https://www.bemparana.com.br/noticias/economia/ma-gestao-e-responsavel-e-o-principal-fator-para-o-fechamento-de-empresas-no-brasil/" },
+                { img: newsBrasilEmFolhas, alt: "Brasil em Folhas: 25% das empresas brasileiras fecham no primeiro ano", url: "https://www1.brasilemfolhas.com.br/2025/08/relatorio-do-ibge-revela-que-25-das-empresas-brasileiras-fecham-no-primeiro-ano-2/" },
+              ].map((item, index) => (
+                <a
+                  key={index}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block bg-white"
+                >
+                  <img
+                    src={item.img}
+                    alt={item.alt}
+                    loading="lazy"
+                    className="w-full h-auto object-cover"
+                  />
+                </a>
+              ))}
             </div>
           </div>
         </section>
