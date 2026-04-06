@@ -177,6 +177,7 @@ const ValoromBPO = () => {
                 { img: newsBemParana, alt: "Bem Paraná: Má gestão é o principal fator para o fechamento de empresas no Brasil", url: "https://www.bemparana.com.br/noticias/economia/ma-gestao-e-responsavel-e-o-principal-fator-para-o-fechamento-de-empresas-no-brasil/" },
                 { img: newsBrasilEmFolhas, alt: "Brasil em Folhas: 25% das empresas brasileiras fecham no primeiro ano", url: "https://www1.brasilemfolhas.com.br/2025/08/relatorio-do-ibge-revela-que-25-das-empresas-brasileiras-fecham-no-primeiro-ano-2/" },
                 { img: newsValorEconomico, alt: "Valor Econômico: Recorde de 5.680 empresas em recuperação judicial no Brasil em 2025", url: "https://valor.globo.com/legislacao/noticia/2026/02/05/ano-de-2025-fecha-com-recorde-de-empresas-em-recuperacao-judicial.ghtml" },
+                { img: newsSebrae, alt: "Sebrae: 48% dos negócios fecham por falta de controle financeiro", url: "https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-gestao-financeira" },
               ].map((item, index) => (
                 <a
                   key={index}
