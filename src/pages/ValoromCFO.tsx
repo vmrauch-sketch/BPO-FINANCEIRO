@@ -279,7 +279,7 @@ const ValoromCFO = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary mb-4">
-                  Por que ter um gestor financeiro empresarial terceirizado atuando como CFO do seu negócio?
+                  Por que ter um gestor financeiro empresarial terceirizado?
                 </h2>
               </div>
               
