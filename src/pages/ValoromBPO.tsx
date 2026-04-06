@@ -4,6 +4,11 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
+import newsExame from "@/assets/news-exame.jpg";
+import newsCartaCapital from "@/assets/news-cartacapital.jpg";
+import newsBemParana from "@/assets/news-bemparana.jpg";
+import newsBrasilEmFolhas from "@/assets/news-brasilemfolhas.jpg";
+
 import { 
   ClipboardCheck,
   Search,
