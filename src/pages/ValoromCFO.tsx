@@ -154,11 +154,11 @@ const ValoromCFO = () => {
               </p>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
-                Sua empresa cresce,{" "}
+                Sua empresa avança,{" "}
                 <br className="hidden md:block" />
-                mas falta direção financeira.
-                <br />
-                <span className="text-lime-400">A gente resolve.</span>
+                mas você sente que falta{" "}
+                <br className="hidden md:block" />
+                <span className="text-lime-400">direção financeira?</span>
               </h1>
               
               {/* Visual service pillars */}
