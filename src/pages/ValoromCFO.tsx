@@ -177,7 +177,7 @@ const ValoromCFO = () => {
               </div>
 
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
-                Levamos para a sua organização as <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span> — otimizando a operação e capacitando o seu time e gestores para alta performance.
+                Tenha acesso às <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span> — otimizando a operação e capacitando o seu time e gestores para alta performance.
               </p>
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
                 Tenha a visão que falta ao seu negócio para <span className="text-lime-400 font-semibold">escalar com segurança</span> e a estrutura de um CFO dedicado à sua estratégia.
