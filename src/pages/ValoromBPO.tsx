@@ -1,5 +1,5 @@
 import { Navigation } from "@/components/Navigation";
-import confluxLogo from "@/assets/conflux-logo.png";
+import confluxLogo from "@/assets/conflux-logo.svg";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
@@ -124,8 +124,10 @@ const ValoromBPO = () => {
             <div className="max-w-4xl mx-auto text-center">
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
-              <div className="flex flex-col items-center mb-6">
-                <img src={confluxLogo} alt="Conflux - BPO Financeiro da Valorum" className="h-28 md:h-40 w-auto mb-4 drop-shadow-lg" width={1920} height={960} />
+              <div className="flex flex-col items-center mb-8">
+                <div className="rounded-2xl bg-background/95 px-6 py-4 shadow-2xl shadow-primary/20 ring-1 ring-border/60">
+                  <img src={confluxLogo} alt="Conflux - BPO Financeiro da Valorum" className="h-24 md:h-32 lg:h-36 w-auto" width={1600} height={520} />
+                </div>
                 <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                   BPO Financeiro
                 </p>

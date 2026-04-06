@@ -1,0 +1,38 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="confluxTitle confluxDesc">
+  <title id="confluxTitle">Conflux</title>
+  <desc id="confluxDesc">Logo da Conflux com símbolo de conexões e seta de crescimento.</desc>
+  <g transform="translate(40 70)">
+    <circle cx="160" cy="160" r="128" stroke="#1B365D" stroke-width="10" opacity="0.16"/>
+    <path d="M55 235L140 150L195 205L305 90" stroke="#D4AF37" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M305 90L277 92L302 66L329 83" fill="#D4AF37"/>
+    <g stroke="#1B365D" stroke-width="8" stroke-linecap="round" opacity="0.95">
+      <path d="M78 248L106 132"/>
+      <path d="M106 132L180 88"/>
+      <path d="M180 88L264 118"/>
+      <path d="M264 118L286 212"/>
+      <path d="M286 212L224 286"/>
+      <path d="M224 286L132 302"/>
+      <path d="M132 302L78 248"/>
+      <path d="M106 132L172 170"/>
+      <path d="M172 170L264 118"/>
+      <path d="M132 302L172 170"/>
+      <path d="M172 170L224 286"/>
+      <path d="M78 248L172 170"/>
+      <path d="M180 88L195 205"/>
+      <path d="M195 205L286 212"/>
+    </g>
+    <g fill="#1B365D">
+      <circle cx="78" cy="248" r="18"/>
+      <circle cx="106" cy="132" r="18"/>
+      <circle cx="180" cy="88" r="18"/>
+      <circle cx="264" cy="118" r="18"/>
+      <circle cx="286" cy="212" r="18"/>
+      <circle cx="224" cy="286" r="18"/>
+      <circle cx="132" cy="302" r="18"/>
+      <circle cx="172" cy="170" r="18"/>
+      <circle cx="195" cy="205" r="18"/>
+    </g>
+  </g>
+  <text x="420" y="305" font-family="Arial, Helvetica, sans-serif" font-size="190" font-weight="800" letter-spacing="4" fill="#1B365D">CON</text>
+  <text x="880" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="190" font-weight="700" fill="#D4AF37">flux</text>
+</svg>
