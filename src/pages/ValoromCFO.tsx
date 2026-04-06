@@ -177,10 +177,10 @@ const ValoromCFO = () => {
               </div>
 
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
-                Mais que uma consultoria, entregamos um <span className="text-lime-400 font-semibold">gestor financeiro focado em otimizar a operação</span> e capacitar o seu time para entregas de alta performance.
+                Levamos para a sua organização as <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span> — otimizando a operação e capacitando o seu time para alta performance.
               </p>
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
-                Tenha a visão que falta ao seu negócio para escalar com segurança e a estrutura de um <span className="text-lime-400 font-semibold">gestor financeiro empresarial dedicado</span> à sua estratégia.
+                Tenha a visão que falta ao seu negócio para <span className="text-lime-400 font-semibold">escalar com segurança</span> e a estrutura de um CFO dedicado à sua estratégia.
               </p>
               <p className="text-base md:text-lg text-white font-semibold max-w-3xl mx-auto mb-8">
                 +de 20 anos de otimização de operações entregues por uma metodologia que funciona.
