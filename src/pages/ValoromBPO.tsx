@@ -322,7 +322,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mt-16 mb-12">
               {[
-                { title: "Seu tempo de volta", description: "Cada hora que você gasta em planilha é uma hora que deixou de vender.", color: "from-blue-400/60 to-blue-500/20" },
+                { title: "Seu tempo de volta", description: "Cada hora que você gasta em planilha é uma hora que deixou de vender, crescer e focar no que você deve fazer.", color: "from-blue-400/60 to-blue-500/20" },
                 { title: "Segurança blindada", description: "Contratos com cláusula de sigilo, sistemas criptografados e processos auditáveis. Suas informações estão protegidas.", color: "from-red-400/60 to-red-500/20" },
                 { title: "Crescimento previsível", description: "Quando você cresce, só o feeling pode não ser suficiente. Com dados reais e projeções concretas, você sabe exatamente para onde seu negócio vai.", color: "from-purple-400/60 to-purple-500/20" },
                 { title: "Zero dor de cabeça com RH", description: "Sem processo seletivo, sem treinamento, sem encargo. O time já está pronto e começa a trabalhar pela sua empresa agora.", color: "from-yellow-400/60 to-yellow-500/20" },
