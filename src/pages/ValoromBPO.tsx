@@ -125,9 +125,7 @@ const ValoromBPO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
               
               <div className="flex flex-col items-center mb-6">
-                <div className="bg-white/95 rounded-2xl px-8 py-4 mb-4 shadow-lg">
-                  <img src={confluxLogo} alt="Conflux - BPO Financeiro da Valorum" className="h-16 md:h-24 w-auto" />
-                </div>
+                <img src={confluxLogo} alt="Conflux - BPO Financeiro da Valorum" className="h-28 md:h-40 w-auto mb-4 drop-shadow-lg" width={1920} height={960} />
                 <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                   BPO Financeiro
                 </p>
