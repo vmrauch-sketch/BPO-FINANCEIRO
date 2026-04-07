@@ -128,10 +128,12 @@ const ValoromBPO = () => {
                 {/* Logo alinhado à esquerda */}
                 <div className="flex flex-col items-center md:items-start mb-8">
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
-                  <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                    <span className="text-[#1B365D]" style={{fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 800}}>CONTA</span>
-                    <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>flux</span>
-                  </h2>
+                  <div className="bg-white rounded-2xl px-6 py-3 inline-block">
+                    <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+                      <span className="text-[#1B365D]" style={{fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 800}}>CONTA</span>
+                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>flux</span>
+                    </h2>
+                  </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                     BPO Financeiro
                   </p>
