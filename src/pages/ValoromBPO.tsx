@@ -192,7 +192,7 @@ const ValoromBPO = () => {
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Fluxo de Caixa</p>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-xl font-bold text-white">Positivo</span>
-                    <span className="text-green-400 text-lg">✓</span>
+                    <span className="text-green-400 text-xl font-bold">✓</span>
                   </div>
                   <svg viewBox="0 0 120 30" className="w-full h-8">
                     <polyline
