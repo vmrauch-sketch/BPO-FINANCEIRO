@@ -181,6 +181,7 @@ const ValoromBPO = () => {
                 { img: newsBrasilEmFolhas, alt: "Brasil em Folhas: 25% das empresas brasileiras fecham no primeiro ano", url: "https://www1.brasilemfolhas.com.br/2025/08/relatorio-do-ibge-revela-que-25-das-empresas-brasileiras-fecham-no-primeiro-ano-2/" },
                 { img: newsValorEconomico, alt: "Valor Econômico: Recorde de 5.680 empresas em recuperação judicial no Brasil em 2025", url: "https://valor.globo.com/legislacao/noticia/2026/02/05/ano-de-2025-fecha-com-recorde-de-empresas-em-recuperacao-judicial.ghtml" },
                 { img: newsSebrae, alt: "Sebrae: 48% dos negócios fecham por falta de controle financeiro", url: "https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-gestao-financeira" },
+                { img: newsSerasa, alt: "Serasa Experian: Empresas encerraram 2025 com R$ 213 bilhões em dívidas e inadimplência no maior patamar já registrado", url: "https://www.serasaexperian.com.br/sala-de-imprensa/" },
               ].map((item, index) => (
                 <a
                   key={index}
