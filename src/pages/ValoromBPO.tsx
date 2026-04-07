@@ -202,7 +202,7 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 3 - EBITDA */}
-                <div className="absolute top-[322px] right-10 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
+                <div className="absolute top-[290px] right-10 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
                   <div className="flex items-center gap-2">
                     <span className="text-2xl font-bold text-white">31,2%</span>
