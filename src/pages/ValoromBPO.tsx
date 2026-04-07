@@ -190,12 +190,14 @@ const ValoromBPO = () => {
                   rel="noopener noreferrer"
                   className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block bg-white"
                 >
-                  <img
-                    src={item.img}
-                    alt={item.alt}
-                    loading="lazy"
-                    className="w-full h-auto object-cover"
-                  />
+                  <div className="overflow-hidden">
+                    <img
+                      src={item.img}
+                      alt={item.alt}
+                      loading="lazy"
+                      className="w-full h-auto object-cover scale-[1.08] origin-top"
+                    />
+                  </div>
                 </a>
               ))}
             </div>
