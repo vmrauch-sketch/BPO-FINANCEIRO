@@ -174,7 +174,7 @@ const ValoromBPO = () => {
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
                   <div className="flex items-baseline gap-1 mb-4">
                     <span className="text-2xl font-bold text-white">R$</span>
-                    <span className="text-sm font-semibold text-green-400">↑ 15%</span>
+                    <span className="text-2xl font-bold text-green-400">↑ 15%</span>
                   </div>
                   <div className="flex items-end gap-1.5 h-12">
                     {[35, 48, 42, 55, 52, 68, 62, 78].map((h, i) => (
