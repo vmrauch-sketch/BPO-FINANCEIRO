@@ -11,6 +11,7 @@ import newsBemParana from "@/assets/news-bemparana.jpg";
 import newsBrasilEmFolhas from "@/assets/news-brasilemfolhas.jpg";
 import newsValorEconomico from "@/assets/news-valoreconomico.jpg";
 import newsSebrae from "@/assets/news-sebrae.jpg";
+import newsSerasa from "@/assets/news-serasa.png";
 
 import { 
   ClipboardCheck,
