@@ -163,9 +163,9 @@ const ValoromBPO = () => {
               </div>
 
               {/* Right - Floating Dashboard Cards */}
-              <div className="hidden md:block relative h-[420px] mt-8">
+              <div className="hidden md:flex flex-col gap-4 mt-8">
                 {/* Card 1 - Faturamento Mensal */}
-                <div className="absolute top-4 left-4 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
+                <div className="w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite] self-start">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="text-2xl font-bold text-white">R$ 523.180</span>
@@ -183,7 +183,7 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 2 - Fluxo de Caixa */}
-                <div className="absolute top-52 right-0 w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
+                <div className="w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite] self-end">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Fluxo de Caixa</p>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-xl font-bold text-white">Positivo</span>
@@ -202,13 +202,14 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 3 - EBITDA */}
-                <div className="absolute bottom-4 right-8 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
+                <div className="w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite] self-center">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
                   <div className="flex items-center gap-2">
                     <span className="text-2xl font-bold text-white">31,2%</span>
                     <span className="text-green-400 text-lg">↑</span>
                   </div>
                 </div>
+              </div>
 
                 {/* Grid decorativo de fundo */}
                 <div className="absolute inset-0 -z-10 opacity-10">
