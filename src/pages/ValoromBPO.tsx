@@ -163,9 +163,9 @@ const ValoromBPO = () => {
               </div>
 
               {/* Right - Floating Dashboard Cards */}
-              <div className="hidden md:block relative h-[440px] mt-4">
+              <div className="hidden md:block relative h-[460px] mt-4">
                 {/* Card 1 - Faturamento Mensal */}
-                <div className="absolute top-0 left-0 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
+                <div className="absolute top-[40px] left-0 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="text-2xl font-bold text-white">R$ 523.180</span>
