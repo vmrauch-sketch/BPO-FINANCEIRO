@@ -183,7 +183,7 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 2 - Fluxo de Caixa */}
-                <div className="absolute top-[180px] right-0 w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
+                <div className="absolute top-[140px] right-0 w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Fluxo de Caixa</p>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-xl font-bold text-white">Positivo</span>
