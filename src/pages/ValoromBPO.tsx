@@ -168,11 +168,11 @@ const ValoromBPO = () => {
                 <div className="absolute top-4 left-4 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
                   <div className="flex items-baseline gap-2 mb-4">
-                    <span className="text-2xl font-bold text-white">R$ 487.320</span>
-                    <span className="text-sm font-semibold text-green-400">↑ 12%</span>
+                    <span className="text-2xl font-bold text-white">R$ 523.180</span>
+                    <span className="text-sm font-semibold text-green-400">↑ 15%</span>
                   </div>
                   <div className="flex items-end gap-1.5 h-12">
-                    {[40, 55, 45, 60, 50, 65, 70, 75].map((h, i) => (
+                    {[35, 48, 42, 55, 52, 68, 62, 78].map((h, i) => (
                       <div
                         key={i}
                         className="flex-1 rounded-sm bg-gradient-to-t from-pink-600 to-pink-400"
@@ -191,10 +191,10 @@ const ValoromBPO = () => {
                   </div>
                   <svg viewBox="0 0 120 30" className="w-full h-8">
                     <polyline
-                      points="0,20 15,18 30,22 45,15 60,17 75,12 90,14 105,8 120,10"
+                      points="0,22 15,19 30,24 45,16 60,18 75,11 90,13 105,7 120,9"
                       fill="none"
-                      stroke="#f472b6"
-                      strokeWidth="1.5"
+                      stroke="#D4AF37"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
@@ -204,7 +204,10 @@ const ValoromBPO = () => {
                 {/* Card 3 - EBITDA */}
                 <div className="absolute bottom-4 right-8 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
-                  <span className="text-2xl font-bold text-white">28,4%</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-2xl font-bold text-white">31,2%</span>
+                    <span className="text-green-400 text-lg">↑</span>
+                  </div>
                 </div>
 
                 {/* Grid decorativo de fundo */}
