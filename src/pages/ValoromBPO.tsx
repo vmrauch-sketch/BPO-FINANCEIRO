@@ -122,42 +122,103 @@ const ValoromBPO = () => {
           </div>
           
           <div className="container mx-auto px-6 relative z-10">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto mb-8" />
-              
-              <div className="flex flex-col items-center mb-8">
-                <img src={confluxLogo} alt="Conflux - BPO Financeiro" className="h-24 md:h-32 lg:h-36 w-auto rounded-2xl" width={1600} height={520} />
-                <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
-                  BPO Financeiro
+            <div className="grid md:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
+              {/* Left - Text */}
+              <div className="text-center md:text-left">
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto md:mx-0 mb-8" />
+                
+                <div className="flex flex-col items-center md:items-start mb-8">
+                  <img src={confluxLogo} alt="Conflux - BPO Financeiro" className="h-24 md:h-32 lg:h-36 w-auto rounded-2xl" width={1600} height={520} />
+                  <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
+                    BPO Financeiro
+                  </p>
+                  <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
+                </div>
+                
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
+                  Sua empresa cresce,{" "}
+                  <br className="hidden md:block" />
+                  mas o financeiro não acompanha.
+                  <br />
+                  <span className="text-blue-400">A gente resolve.</span>
+                </h1>
+                
+                <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
+                  A Clareza e o Controle que as Finanças da Sua Empresa Precisam
                 </p>
-                <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
+                
+                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
+                  <a href="#contato-bpo">
+                    <Button 
+                      size="lg"
+                      className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+                    >
+                      Quero um Diagnóstico Gratuito
+                    </Button>
+                  </a>
+                </div>
+                <p className="text-sm text-gray-500">
+                  Resposta em até 2 horas em dias úteis
+                </p>
               </div>
-              
-              <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-4">
-                Sua empresa cresce,{" "}
-                <br className="hidden md:block" />
-                mas o financeiro não acompanha.
-                <br />
-                <span className="text-blue-400">A gente resolve.</span>
-              </h1>
-              
-              <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6 max-w-3xl mx-auto">
-                A Clareza e o Controle que as Finanças da Sua Empresa Precisam
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-                <a href="#contato-bpo">
-                  <Button 
-                    size="lg"
-                    className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                  >
-                    Quero um Diagnóstico Gratuito
-                  </Button>
-                </a>
+
+              {/* Right - Floating Dashboard Cards */}
+              <div className="hidden md:block relative h-[480px]">
+                {/* Card 1 - Faturamento Mensal */}
+                <div className="absolute top-4 left-4 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
+                  <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
+                  <div className="flex items-baseline gap-2 mb-4">
+                    <span className="text-2xl font-bold text-white">R$ 487.320</span>
+                    <span className="text-sm font-semibold text-green-400">↑ 12%</span>
+                  </div>
+                  <div className="flex items-end gap-1.5 h-12">
+                    {[40, 55, 45, 60, 50, 65, 70, 75].map((h, i) => (
+                      <div
+                        key={i}
+                        className="flex-1 rounded-sm bg-gradient-to-t from-pink-600 to-pink-400"
+                        style={{ height: `${h}%` }}
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Card 2 - Fluxo de Caixa */}
+                <div className="absolute top-52 right-0 w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
+                  <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Fluxo de Caixa</p>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xl font-bold text-white">Positivo</span>
+                    <span className="text-green-400 text-lg">✓</span>
+                  </div>
+                  <svg viewBox="0 0 120 30" className="w-full h-8">
+                    <polyline
+                      points="0,20 15,18 30,22 45,15 60,17 75,12 90,14 105,8 120,10"
+                      fill="none"
+                      stroke="#f472b6"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+
+                {/* Card 3 - EBITDA */}
+                <div className="absolute bottom-4 right-8 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
+                  <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
+                  <span className="text-2xl font-bold text-white">28,4%</span>
+                </div>
+
+                {/* Grid decorativo de fundo */}
+                <div className="absolute inset-0 -z-10 opacity-10">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <pattern id="heroGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="0.5" className="text-blue-400" />
+                      </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#heroGrid)" />
+                  </svg>
+                </div>
               </div>
-              <p className="text-sm text-gray-500">
-                Resposta em até 2 horas em dias úteis
-              </p>
             </div>
           </div>
         </section>
