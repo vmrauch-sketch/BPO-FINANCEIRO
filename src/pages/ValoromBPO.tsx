@@ -179,7 +179,7 @@ const ValoromBPO = () => {
                 { img: newsCartaCapital, alt: "Carta Capital: PMEs enfrentam crise - 9 em cada 10 sofrem com finanças desorganizadas", url: "https://www.cartacapital.com.br/do-micro-ao-macro/pmes-enfrentam-crise-9-em-cada-10-sofrem-com-financas-desorganizadas/" },
                 { img: newsBemParana, alt: "Bem Paraná: Má gestão é o principal fator para o fechamento de empresas no Brasil", url: "https://www.bemparana.com.br/noticias/economia/ma-gestao-e-responsavel-e-o-principal-fator-para-o-fechamento-de-empresas-no-brasil/" },
                 { img: newsBrasilEmFolhas, alt: "Brasil em Folhas: 25% das empresas brasileiras fecham no primeiro ano", url: "https://www1.brasilemfolhas.com.br/2025/08/relatorio-do-ibge-revela-que-25-das-empresas-brasileiras-fecham-no-primeiro-ano-2/" },
-                { img: newsValorEconomico, alt: "Valor Econômico: Recorde de 5.680 empresas em recuperação judicial no Brasil em 2025", url: "https://valor.globo.com/legislacao/noticia/2026/02/05/ano-de-2025-fecha-com-recorde-de-empresas-em-recuperacao-judicial.ghtml" },
+                { img: newsValorEconomico, alt: "Valor Econômico: Recorde de 5.680 empresas em recuperação judicial no Brasil", url: "https://valor.globo.com/legislacao/noticia/2026/02/05/ano-de-2025-fecha-com-recorde-de-empresas-em-recuperacao-judicial.ghtml" },
                 { img: newsSebrae, alt: "Sebrae: 48% dos negócios fecham por falta de controle financeiro", url: "https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-gestao-financeira" },
                 { img: newsSerasa, alt: "Serasa Experian: Empresas encerraram 2025 com R$ 213 bilhões em dívidas e inadimplência no maior patamar já registrado", url: "https://www.serasaexperian.com.br/sala-de-imprensa/" },
               ].map((item, index) => (
@@ -190,12 +190,14 @@ const ValoromBPO = () => {
                   rel="noopener noreferrer"
                   className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block bg-white"
                 >
-                  <img
-                    src={item.img}
-                    alt={item.alt}
-                    loading="lazy"
-                    className="w-full h-auto object-cover"
-                  />
+                  <div className="overflow-hidden">
+                    <img
+                      src={item.img}
+                      alt={item.alt}
+                      loading="lazy"
+                      className="w-full h-auto object-cover scale-[1.08] origin-top"
+                    />
+                  </div>
                 </a>
               ))}
             </div>
