@@ -211,7 +211,7 @@ const ValoromBPO = () => {
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
                   <div className="flex items-center gap-2">
                     <span className="text-2xl font-bold text-white">31,2%</span>
-                    <span className="text-green-400 text-lg">↑</span>
+                    <span className="text-green-400 text-2xl font-bold">↑</span>
                   </div>
                 </div>
               </div>
