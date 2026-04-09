@@ -14,9 +14,9 @@ export const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16 lg:h-auto lg:py-2">
           <div className="flex items-center gap-2">
-            <Link to="/" className="text-2xl font-playfair font-bold text-primary">
+            <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-2xl font-playfair font-bold text-primary hover:text-primary/80 transition-colors">
               Valorum
-            </Link>
+            </a>
             <Link to="/">
               <span className={`inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white text-xs px-3.5 py-1.5 font-bold shadow-sm hover:shadow-md transition-all duration-200 border border-blue-400/30 ${isActive('/') ? 'ring-2 ring-blue-300 ring-offset-1' : ''}`}>
                 BPO
