@@ -48,7 +48,7 @@ export const Navigation = () => {
               href="/#contato-bpo"
               className={`font-medium transition-all px-3 py-1 rounded-md hover:bg-primary/10 active:bg-primary/20 active:scale-95 text-sm whitespace-nowrap text-muted-foreground hover:text-primary`}
             >
-              Contato
+              Agendar Diagnóstico
             </a>
           </div>
 
@@ -79,7 +79,7 @@ export const Navigation = () => {
                 onClick={() => setIsOpen(false)}
                 className="block py-2 px-3 font-medium transition-all hover:bg-primary/10 active:bg-primary/20 rounded-md text-muted-foreground hover:text-primary"
               >
-                Contato
+                Agendar Diagnóstico
               </a>
             </div>
           </div>
