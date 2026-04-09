@@ -128,16 +128,18 @@ const ValoromBPO = () => {
                 {/* Logo alinhado à esquerda */}
                 <div className="flex flex-col items-center md:items-start mb-8">
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
+                  <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-300/70 font-playfair italic hover:text-blue-200 transition-colors underline underline-offset-2 mb-2 inline-block">
+                    Valorum
+                  </a>
                   <div className="bg-white rounded-2xl px-6 py-3 inline-block">
                     <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight">
-                      <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>CONTA</span>
-                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>flux</span>
+                      <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>C</span>
+                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Flux</span>
                     </h2>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                     BPO Financeiro
                   </p>
-                  <p className="text-sm text-blue-300/70 mt-1 font-playfair italic">da Valorum</p>
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
