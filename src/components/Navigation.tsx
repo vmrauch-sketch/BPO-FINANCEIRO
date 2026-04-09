@@ -27,6 +27,11 @@ export const Navigation = () => {
                 CFO
               </span>
             </Link>
+            <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer">
+              <span className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white text-xs px-3.5 py-1.5 font-bold shadow-sm hover:shadow-md transition-all duration-200 border border-amber-400/30">
+                Consultoria
+              </span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
