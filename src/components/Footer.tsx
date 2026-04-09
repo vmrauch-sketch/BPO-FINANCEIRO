@@ -14,6 +14,9 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Logo and Description */}
             <div>
+              <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-white/60 hover:text-white transition-colors underline underline-offset-2 mb-2 inline-block">
+                Acesse Valorum
+              </a>
               <h3 className="text-2xl font-playfair font-bold mb-4">Valorum</h3>
               <a 
                 href="mailto:contato@cfvalorum.com.br" 
