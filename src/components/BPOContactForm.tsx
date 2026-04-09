@@ -219,7 +219,7 @@ const BPOContactForm = () => {
         ) : (
           <>
             <Send className="w-5 h-5 mr-2" />
-            Solicitar Diagnóstico Gratuito
+            Agende seu Diagnóstico Gratuito
           </>
         )}
       </Button>

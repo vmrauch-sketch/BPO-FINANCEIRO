@@ -485,7 +485,7 @@ const ValoromCFO = () => {
                   <span className="text-lime-400">diagnóstico gratuito</span>
                 </h2>
                 <p className="text-lg text-gray-300">
-                  Preencha o formulário e nossa equipe entrará em contato para entender sua empresa e apresentar uma proposta sob medida.
+                  Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
                 </p>
               </div>
               <BPOContactForm />
