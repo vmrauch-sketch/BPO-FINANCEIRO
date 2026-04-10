@@ -133,8 +133,8 @@ const ValoromBPO = () => {
                   </a>
                   <div className="bg-white rounded-2xl px-6 py-3 inline-block">
                     <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight">
-                      <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>C</span>
-                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Flux</span>
+                      <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>Con</span>
+                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Fix</span>
                     </h2>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
@@ -278,7 +278,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Conflux da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia ConFix da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
