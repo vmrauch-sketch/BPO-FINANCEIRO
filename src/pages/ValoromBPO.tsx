@@ -534,7 +534,13 @@ const ValoromBPO = () => {
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <ClipboardCheck className="w-3 h-3 text-white" />
                     </div>
-                    <span className="text-sm text-primary font-medium">Contas a pagar e receber</span>
+                    <span className="text-sm text-primary font-medium">Lançamentos</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Emissão de NFs</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
@@ -564,7 +570,13 @@ const ValoromBPO = () => {
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <ClipboardCheck className="w-3 h-3 text-white" />
                     </div>
-                    <span className="text-sm text-blue-100 font-medium">Contas a pagar e receber</span>
+                    <span className="text-sm text-blue-100 font-medium">Lançamentos</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-blue-100 font-medium">Emissão de NFs</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
@@ -600,7 +612,13 @@ const ValoromBPO = () => {
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <ClipboardCheck className="w-3 h-3 text-white" />
                     </div>
-                    <span className="text-sm text-primary font-medium">Contas a pagar e receber</span>
+                    <span className="text-sm text-primary font-medium">Lançamentos</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Emissão de NFs</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
@@ -616,9 +634,9 @@ const ValoromBPO = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
-                      <PieChart className="w-3 h-3 text-white" />
+                      <Wallet className="w-3 h-3 text-white" />
                     </div>
-                    <span className="text-sm text-primary font-semibold">Suporte à Tomada de Decisão</span>
+                    <span className="text-sm text-primary font-semibold">Agendamento bancário</span>
                   </div>
                 </div>
                 <div className="mt-8">
