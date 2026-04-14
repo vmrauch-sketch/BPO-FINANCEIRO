@@ -567,22 +567,10 @@ const ValoromBPO = () => {
                 <p className="text-sm text-blue-200/80 mb-6">Visão completa do caixa para decisões ágeis.</p>
                 <div className="space-y-3 flex-1">
                   <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    <div className="w-5 h-5 bg-blue-400/40 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-[10px] text-blue-200 font-bold">S</span>
                     </div>
-                    <span className="text-sm text-blue-100 font-medium">Lançamentos</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
-                    </div>
-                    <span className="text-sm text-blue-100 font-medium">Emissão de NFs</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
-                    </div>
-                    <span className="text-sm text-blue-100 font-medium">Conciliação bancária</span>
+                    <span className="text-sm text-blue-200/70 font-medium italic">Start +</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
