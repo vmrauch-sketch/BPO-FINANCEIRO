@@ -145,9 +145,7 @@ const ValoromBPO = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
                   Sua empresa tem muitos desafios.{" "}
                   <br className="hidden md:block" />
-                  O financeiro não precisa ser um deles.
-                  <br />
-                  <span className="text-blue-400">Porque nós resolvemos.</span>
+                  <span className="text-blue-400">O financeiro a gente resolve.</span>
                 </h1>
                 
                 <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
