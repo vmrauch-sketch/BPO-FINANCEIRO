@@ -532,7 +532,7 @@ const ValoromBPO = () => {
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <ClipboardCheck className="w-3 h-3 text-white" />
                     </div>
-                    <span className="text-sm text-primary font-medium">Gestão de contas a pagar e receber</span>
+                    <span className="text-sm text-primary font-medium">Lançamentos de contas a pagar e receber</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
