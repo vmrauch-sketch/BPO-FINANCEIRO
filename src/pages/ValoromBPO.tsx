@@ -143,11 +143,11 @@ const ValoromBPO = () => {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
-                  Sua empresa cresce,{" "}
+                  Sua empresa tem muitos desafios.{" "}
                   <br className="hidden md:block" />
-                  mas o financeiro não acompanha.
+                  O financeiro não precisa ser um deles.
                   <br />
-                  <span className="text-blue-400">A gente resolve.</span>
+                  <span className="text-blue-400">Porque nós resolvemos.</span>
                 </h1>
                 
                 <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
