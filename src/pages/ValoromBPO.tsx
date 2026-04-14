@@ -134,7 +134,7 @@ const ValoromBPO = () => {
                   <div className="bg-white rounded-2xl px-6 py-3 inline-block">
                     <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight">
                       <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>Con</span>
-                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Fix</span>
+                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Fiza</span>
                     </h2>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
@@ -278,7 +278,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia ConFix da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia ConFiza da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
@@ -505,6 +505,130 @@ const ValoromBPO = () => {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Planos Section */}
+        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary mb-4">
+                Nossos <span className="italic text-blue-500">Planos</span>
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Escolha o nível de atuação ideal para o momento da sua empresa.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              {/* Plano Start */}
+              <div className="p-8 bg-white rounded-2xl border-2 border-blue-200 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div className="mb-6">
+                  <span className="text-xs font-bold uppercase tracking-widest text-blue-400 bg-blue-50 px-3 py-1 rounded-full">Operacional</span>
+                </div>
+                <h3 className="text-2xl font-playfair font-bold text-primary mb-4">Start</h3>
+                <p className="text-sm text-muted-foreground mb-6">Execução e organização da rotina financeira.</p>
+                <div className="space-y-3 flex-1">
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Contas a pagar e receber</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Conciliação bancária</span>
+                  </div>
+                </div>
+                <div className="mt-8">
+                  <a href="#contato-bpo">
+                    <Button variant="outline" className="w-full border-blue-400 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                      Agendar Diagnóstico
+                    </Button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Plano Flow */}
+              <div className="p-8 bg-primary rounded-2xl border-2 border-blue-400/30 hover:shadow-xl transition-all duration-300 flex flex-col scale-105 shadow-xl">
+                <div className="mb-6">
+                  <span className="text-xs font-bold uppercase tracking-widest text-blue-300 bg-blue-400/20 px-3 py-1 rounded-full">Operacional+</span>
+                </div>
+                <h3 className="text-2xl font-playfair font-bold text-white mb-4">Flow</h3>
+                <p className="text-sm text-blue-200/80 mb-6">Visão completa do caixa para decisões ágeis.</p>
+                <div className="space-y-3 flex-1">
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-blue-100 font-medium">Contas a pagar e receber</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-blue-100 font-medium">Conciliação bancária</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
+                      <TrendingUp className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-white font-semibold">Fluxo de Caixa</span>
+                  </div>
+                </div>
+                <div className="mt-8">
+                  <a href="#contato-bpo">
+                    <Button className="w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all duration-300">
+                      Agendar Diagnóstico
+                    </Button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Plano Advisory */}
+              <div className="p-8 bg-white rounded-2xl border-2 border-[#D4AF37]/40 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div className="mb-6">
+                  <span className="text-xs font-bold uppercase tracking-widest text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full">Aconselhamento</span>
+                </div>
+                <h3 className="text-2xl font-playfair font-bold text-primary mb-4">Advisory</h3>
+                <p className="text-sm text-muted-foreground mb-6">Apoio estratégico à tomada de decisão.</p>
+                <div className="space-y-3 flex-1">
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Contas a pagar e receber</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Conciliação bancária</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <TrendingUp className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-medium">Fluxo de Caixa</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-5 h-5 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
+                      <PieChart className="w-3 h-3 text-white" />
+                    </div>
+                    <span className="text-sm text-primary font-semibold">Suporte à Tomada de Decisão</span>
+                  </div>
+                </div>
+                <div className="mt-8">
+                  <a href="#contato-bpo">
+                    <Button variant="outline" className="w-full border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                      Agendar Diagnóstico
+                    </Button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
