@@ -216,8 +216,7 @@ const ValoromBPO = () => {
                     <span className="text-green-400 text-2xl font-bold">↑</span>
                   </div>
                 </div>
-          </div>
-        </section>
+              </div>
 
 
             </div>
