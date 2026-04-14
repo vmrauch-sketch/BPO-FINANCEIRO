@@ -597,28 +597,10 @@ const ValoromBPO = () => {
                 <p className="text-sm text-muted-foreground mb-6">Apoio estratégico à tomada de decisão.</p>
                 <div className="space-y-3 flex-1">
                   <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
+                    <div className="w-5 h-5 bg-blue-400/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-[10px] text-blue-400 font-bold">F</span>
                     </div>
-                    <span className="text-sm text-primary font-medium">Lançamentos</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
-                    </div>
-                    <span className="text-sm text-primary font-medium">Emissão de NFs</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <ClipboardCheck className="w-3 h-3 text-white" />
-                    </div>
-                    <span className="text-sm text-primary font-medium">Conciliação bancária</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
-                      <TrendingUp className="w-3 h-3 text-white" />
-                    </div>
-                    <span className="text-sm text-primary font-medium">Fluxo de Caixa</span>
+                    <span className="text-sm text-muted-foreground font-medium italic">Flow +</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
