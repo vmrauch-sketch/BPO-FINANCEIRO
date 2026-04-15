@@ -30,6 +30,25 @@ function generateToken(): string {
     .join('')
 }
 
+// --- In-memory IP rate limiter ---
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000 // 1 hour
+const RATE_LIMIT_MAX = 5 // max 5 emails per IP per hour
+const ipRequestLog = new Map<string, number[]>()
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const timestamps = (ipRequestLog.get(ip) ?? []).filter(
+    (t) => now - t < RATE_LIMIT_WINDOW_MS
+  )
+  if (timestamps.length >= RATE_LIMIT_MAX) {
+    ipRequestLog.set(ip, timestamps)
+    return true
+  }
+  timestamps.push(now)
+  ipRequestLog.set(ip, timestamps)
+  return false
+}
+
 // Auth note: this function uses verify_jwt = true in config.toml, so Supabase's
 // gateway validates the caller's JWT (anon or service_role) before the request
 // reaches this code. No in-function auth check is needed.
