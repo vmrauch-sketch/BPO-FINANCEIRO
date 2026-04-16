@@ -134,7 +134,7 @@ const ValoromBPO = () => {
                   <div className="bg-white rounded-2xl px-6 py-3 inline-block">
                     <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight">
                       <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>Con</span>
-                      <span className="text-[#D4AF37]" style={{fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700}}>Fiza</span>
+                      <span className="text-[#D4AF37] font-bold" style={{fontFamily: 'Montserrat, sans-serif', fontWeight: 700}}>Fiza</span>
                     </h2>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
