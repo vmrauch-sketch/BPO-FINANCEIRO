@@ -146,7 +146,7 @@ const ValoromBPO = () => {
                       className="font-playfair"
                       style={{
                         color: '#B8963A',
-                        fontWeight: 600,
+                        fontWeight: 550,
                         letterSpacing: '-0.02em',
                         fontSize: 'clamp(2.85rem, 4.75vw, 4.275rem)',
                         lineHeight: 1,
