@@ -131,11 +131,28 @@ const ValoromBPO = () => {
                   <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-300/70 font-playfair italic hover:text-blue-200 transition-colors underline underline-offset-2 mb-2 inline-block">
                     Valorum
                   </a>
-                  <div className="bg-white rounded-2xl px-6 py-3 inline-block">
-                    <h2 className="text-5xl md:text-6xl lg:text-7xl tracking-tight">
-                      <span className="text-[#1B365D] font-playfair font-bold" style={{letterSpacing: '2px'}}>Con</span>
-                      <span className="text-[#D4AF37] font-playfair" style={{fontWeight: 400}}>Fiza</span>
-                    </h2>
+                  <div className="bg-white rounded-2xl px-6 py-3 inline-flex items-baseline">
+                    <span 
+                      className="font-playfair"
+                      style={{
+                        color: '#1F3558',
+                        fontWeight: 600,
+                        letterSpacing: '-0.025em',
+                        fontSize: 'clamp(3rem, 5vw, 4.5rem)',
+                        lineHeight: 1,
+                      }}
+                    >Con</span>
+                    <span 
+                      style={{
+                        fontFamily: 'Montserrat, sans-serif',
+                        color: '#C9A24A',
+                        fontWeight: 600,
+                        letterSpacing: '0.01em',
+                        fontSize: 'clamp(2.8rem, 4.7vw, 4.2rem)',
+                        lineHeight: 1,
+                        marginLeft: '-0.03em',
+                      }}
+                    >Fiza</span>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
                     BPO Financeiro
