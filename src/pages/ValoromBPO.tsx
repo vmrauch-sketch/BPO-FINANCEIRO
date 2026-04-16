@@ -136,7 +136,7 @@ const ValoromBPO = () => {
                       className="font-playfair"
                       style={{
                         color: '#1F3558',
-                        fontWeight: 600,
+                        fontWeight: 700,
                         letterSpacing: '-0.025em',
                         fontSize: 'clamp(3rem, 5vw, 4.5rem)',
                         lineHeight: 1,
@@ -145,12 +145,12 @@ const ValoromBPO = () => {
                     <span 
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
-                        color: '#C9A24A',
+                        color: '#B8963A',
                         fontWeight: 600,
                         letterSpacing: '0.01em',
-                        fontSize: 'clamp(2.8rem, 4.7vw, 4.2rem)',
+                        fontSize: 'clamp(2.7rem, 4.5vw, 3.9rem)',
                         lineHeight: 1,
-                        marginLeft: '-0.03em',
+                        marginLeft: '-0.06em',
                       }}
                     >Fiza</span>
                   </div>
