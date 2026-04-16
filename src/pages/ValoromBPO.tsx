@@ -136,21 +136,21 @@ const ValoromBPO = () => {
                       className="font-playfair"
                       style={{
                         color: '#1F3558',
-                        fontWeight: 700,
+                        fontWeight: 600,
                         letterSpacing: '-0.025em',
                         fontSize: 'clamp(3rem, 5vw, 4.5rem)',
                         lineHeight: 1,
                       }}
                     >Con</span>
                     <span 
+                      className="font-playfair"
                       style={{
-                        fontFamily: 'Montserrat, sans-serif',
                         color: '#B8963A',
-                        fontWeight: 600,
-                        letterSpacing: '0.01em',
-                        fontSize: 'clamp(2.7rem, 4.5vw, 3.9rem)',
+                        fontWeight: 500,
+                        letterSpacing: '-0.02em',
+                        fontSize: 'clamp(2.85rem, 4.75vw, 4.275rem)',
                         lineHeight: 1,
-                        marginLeft: '-0.06em',
+                        marginLeft: '-0.04em',
                       }}
                     >Fiza</span>
                   </div>
