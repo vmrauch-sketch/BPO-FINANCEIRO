@@ -133,22 +133,24 @@ const ValoromBPO = () => {
                   </a>
                   <div className="bg-white rounded-2xl px-6 py-3 inline-flex items-baseline">
                     <span 
-                      className="font-playfair text-5xl md:text-6xl lg:text-7xl"
+                      className="font-playfair"
                       style={{
                         color: '#1F3558',
                         fontWeight: 600,
                         letterSpacing: '-0.025em',
+                        fontSize: 'clamp(3rem, 5vw, 4.5rem)',
+                        lineHeight: 1,
                       }}
                     >Con</span>
                     <span 
-                      className="text-5xl md:text-6xl lg:text-7xl"
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         color: '#C9A24A',
                         fontWeight: 600,
                         letterSpacing: '0.01em',
-                        fontSize: '95%',
-                        marginLeft: '-0.04em',
+                        fontSize: 'clamp(2.8rem, 4.7vw, 4.2rem)',
+                        lineHeight: 1,
+                        marginLeft: '-0.03em',
                       }}
                     >Fiza</span>
                   </div>
