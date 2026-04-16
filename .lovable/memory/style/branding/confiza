@@ -1,15 +1,16 @@
 ---
 name: ConFiza Branding
-description: Visual identity specs — Playfair Display Bold for "Con", Montserrat SemiBold for "Fiza", colors #1F3558/#B8963A, proportions and kerning
+description: Visual identity specs — Playfair Display for both parts, SemiBold "Con" #1F3558, Medium "Fiza" #B8963A at 95%
 type: design
 ---
 Marca: ConFiza (wordmark tipográfico, sem símbolo). Estilo institucional, sofisticado, flat.
 
 **Tipografia:**
-- "Con": Playfair Display, Bold (700), tracking -2.5% (`-0.025em`), cor #1F3558
-- "Fiza": Montserrat, SemiBold (600), tracking +1% (`0.01em`), cor #B8963A
-- "Fiza" ~87% do tamanho visual de "Con" (clamp ratio 2.7/3.0), alinhados pela baseline
-- Kerning "nF" ajustado com marginLeft `-0.06em`
+- **Ambas as partes usam Playfair Display**
+- "Con": Playfair Display, SemiBold (600), tracking -2.5% (`-0.025em`), cor #1F3558
+- "Fiza": Playfair Display, Medium (500), tracking -2% (`-0.02em`), cor #B8963A
+- "Fiza" ~95% do tamanho visual de "Con", alinhados pela baseline
+- Kerning "nF" ajustado com marginLeft `-0.04em`
 
 **Cores:**
 - Azul (Con): #1F3558
@@ -18,4 +19,4 @@ Marca: ConFiza (wordmark tipográfico, sem símbolo). Estilo institucional, sofi
 **Composição:**
 - Box branco com cantos arredondados (rounded-2xl), px-6 py-3
 - Sem sombra, sem gradiente, sem contorno — totalmente flat
-- "Con" domina visualmente (mais peso + maior tamanho)
+- "Con" domina visualmente (mais peso tipográfico)
