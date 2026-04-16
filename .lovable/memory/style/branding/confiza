@@ -1,6 +1,21 @@
 ---
 name: ConFiza Branding
-description: Visual identity (Playfair Display + Montserrat) for the ConFiza mark
+description: Visual identity specs — Playfair Display SemiBold for "Con", Montserrat SemiBold for "Fiza", colors #1F3558/#C9A24A, proportions and kerning
 type: design
 ---
-A identidade visual do serviço de BPO utiliza a marca ConFiza, apresentada em um box branco com cantos arredondados (rounded-2xl). O 'Con' é estilizado em azul marinho (#1B365D) usando a fonte Playfair Display (bold, 2px de espaçamento entre letras), enquanto 'Fiza' é estilizado em dourado (#D4AF37) com a fonte Montserrat (sans-serif, bold).
+Marca: ConFiza (wordmark tipográfico, sem símbolo). Estilo institucional, sofisticado, flat.
+
+**Tipografia:**
+- "Con": Playfair Display, SemiBold (600), tracking -2.5% (`-0.025em`), cor #1F3558
+- "Fiza": Montserrat, SemiBold (600), tracking +1% (`0.01em`), cor #C9A24A
+- "Fiza" ~95% do tamanho visual de "Con", alinhados pela baseline
+- Kerning "nF" ajustado com marginLeft `-0.03em`
+
+**Cores:**
+- Azul (Con): #1F3558 (alternativa #243A5E)
+- Dourado (Fiza): #C9A24A (alternativa #B8963A). Evitar dourado muito amarelo.
+
+**Composição:**
+- Box branco com cantos arredondados (rounded-2xl), px-6 py-3
+- Sem sombra, sem gradiente, sem contorno — totalmente flat
+- "Con" ocupa mais espaço visual que "Fiza"
