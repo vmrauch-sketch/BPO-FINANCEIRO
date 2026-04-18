@@ -130,7 +130,7 @@ const ValoromCFO = () => {
         title={SEOData.valorumCFO.title}
         description={SEOData.valorumCFO.description}
         keywords={SEOData.valorumCFO.keywords}
-        canonical="https://valorum.vilsonrauch.com.br/cfo"
+        canonical="https://cfvalorum.com.br/cfo"
         structuredData={StructuredData.cfoService}
       />
       

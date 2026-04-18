@@ -52,7 +52,7 @@ const ValoromContabil = () => {
         title={SEOData.valorumContabil.title}
         description={SEOData.valorumContabil.description}
         keywords={SEOData.valorumContabil.keywords}
-        canonical="https://valorum.vilsonrauch.com.br/contabil"
+        canonical="https://cfvalorum.com.br/"
         structuredData={StructuredData.contabilService}
       />
       

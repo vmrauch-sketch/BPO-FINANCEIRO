@@ -103,6 +103,18 @@ export const StructuredData = {
     "areaServed": "BR"
   },
 
+  // Alias mantido para retrocompatibilidade da página ValoromContabil.
+  contabilService: {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Terceirização Financeira",
+    "name": "ConFiza — Terceirização Financeira",
+    "description": "Departamento financeiro terceirizado com software próprio para empresas e parceiros contábeis.",
+    "url": `${SITE_URL}/`,
+    "provider": { "@type": "Organization", "name": "ConFiza" },
+    "areaServed": "BR"
+  },
+
   breadcrumbHome: {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
