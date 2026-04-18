@@ -13,21 +13,13 @@ Allow: /
 User-agent: *
 Allow: /
 
-# Important pages for SEO
-Allow: /vilson-rauch
-Allow: /protocolo-mais-renda
-Allow: /capital
-Allow: /patrimonio
-Allow: /contabil
+# Páginas principais do ConFiza
+Allow: /
 Allow: /cfo
-Allow: /para-voce
-Allow: /para-seu-negocio
-Allow: /manifesto
-Allow: /contato
-Allow: /trabalhe-conosco
+Allow: /unsubscribe
 
-# Sitemap location
-Sitemap: https://valorum.vilsonrauch.com.br/sitemap.xml
+# Sitemap location (domínio oficial)
+Sitemap: https://cfvalorum.com.br/sitemap.xml
 
 # Crawl-delay (helps with server load)
 Crawl-delay: 1
