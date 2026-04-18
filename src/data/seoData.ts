@@ -1,82 +1,105 @@
 // Dados de SEO centralizados para consistência
-export const SITE_URL = "https://valorum.vilsonrauch.com.br";
+// Domínio oficial (canonical) — usado para evitar conteúdo duplicado
+// entre cfvalorum.com.br e cfvalorum.lovable.app no Google.
+export const SITE_URL = "https://cfvalorum.com.br";
 
 export const SEOData = {
   valorum: {
-    title: "Valorum - BPO Financeiro, CFO as a Service e Contabilidade Consultiva",
-    description: "Valorum: soluções financeiras completas para empresas. BPO Financeiro, CFO as a Service e Contabilidade Consultiva. Financeiro não se improvisa.",
-    keywords: "BPO financeiro, CFO as a service, contabilidade consultiva, terceirização financeira, gestão financeira empresarial, contabilidade empresarial, direção financeira terceirizada",
+    title: "ConFiza | Terceirização Financeira, BPO Financeiro e Software Financeiro",
+    description: "ConFiza: terceirização financeira completa para sua empresa. BPO Financeiro, software financeiro próprio, controle de caixa e CFO as a Service. Financeiro não se improvisa.",
+    keywords: "terceirização financeira, BPO financeiro, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, ConFiza, finance as a service, gestão financeira empresarial",
   },
 
   valorumContabil: {
-    title: "Valorum Contábil | Contabilidade Especializada para Empresas",
-    description: "Contabilidade consultiva especializada: holding patrimonial, profissionais da saúde, indústria, comércio. Fazendo sempre mais do que os clientes esperam.",
-    keywords: "contabilidade consultiva, contabilidade empresarial, holding patrimonial, contabilidade médicos, planejamento tributário, abertura de empresas, BPO financeiro, contabilidade Santa Catarina",
+    title: "ConFiza | Terceirização Financeira para Empresas Contábeis e PMEs",
+    description: "Terceirização financeira com software próprio para escritórios contábeis e PMEs. Operação financeira por especialistas com previsibilidade de custo.",
+    keywords: "terceirização financeira para contadores, BPO financeiro para escritório contábil, software financeiro para PMEs, departamento financeiro terceirizado",
   },
 
   valorumCFO: {
-    title: "Valorum CFO | CFO as a Service para Empresas",
-    description: "CFO as a Service: gestão financeira estratégica para empresas. Compreender pessoas. Expandir negócios. Soluções personalizadas para crescimento.",
-    keywords: "CFO as a service, gestão financeira empresarial, consultoria CFO, diretor financeiro terceirizado, planejamento financeiro empresarial, controladoria, gestão de custos, análise financeira",
+    title: "ConFiza CFO as a Service | Direção Financeira Terceirizada",
+    description: "CFO as a Service: direção financeira terceirizada com BPO Financeiro integrado e software financeiro próprio. Estratégia, controladoria e decisões mais seguras.",
+    keywords: "CFO as a service, CFO terceirizado, direção financeira terceirizada, controladoria terceirizada, planejamento financeiro empresarial, análise financeira, gestão de custos, BPO financeiro com CFO",
   },
 
   contato: {
-    title: "Contato | Valorum - Fale com um Consultor",
-    description: "Entre em contato com a Valorum. Agende uma consulta e descubra como podemos ajudar sua empresa com BPO, CFO e Contabilidade.",
-    keywords: "contato valorum, consultoria financeira contato, agendar consulta financeira, falar com consultor",
+    title: "Contato ConFiza | Fale com um Especialista em Terceirização Financeira",
+    description: "Fale com a ConFiza. Agende um diagnóstico gratuito e descubra como a terceirização financeira com software próprio e CFO as a Service pode transformar sua empresa.",
+    keywords: "contato ConFiza, terceirização financeira contato, BPO financeiro contato, agendar diagnóstico financeiro, falar com especialista financeiro",
   },
 };
 
 export const StructuredData = {
   organization: {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Valorum",
-    "alternateName": ["Valorum BPO", "Valorum Contábil", "Valorum CFO"],
-    "description": "Soluções financeiras completas para empresas: BPO Financeiro, CFO as a Service e Contabilidade Consultiva.",
+    "@type": "FinancialService",
+    "name": "ConFiza",
+    "alternateName": ["ConFiza Terceirização Financeira", "ConFiza BPO", "ConFiza CFO"],
+    "description": "Terceirização Financeira, BPO Financeiro, software financeiro próprio e CFO as a Service para empresas.",
     "url": SITE_URL,
-    "logo": `${SITE_URL}/logo-valorum-social.png`,
-    "image": `${SITE_URL}/logo-valorum-social.png`,
+    "logo": `${SITE_URL}/favicon.png`,
+    "image": `${SITE_URL}/og-valorum-bpo-cfo.jpg`,
     "telephone": "+55-11-94956-6290",
-    "priceRange": "$$$$",
+    "priceRange": "$$$",
     "areaServed": {
       "@type": "Country",
       "name": "Brazil"
     },
-    "serviceType": ["BPO Financeiro", "CFO as a Service", "Contabilidade Consultiva"],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+55-11-94956-6290",
-      "contactType": "customer service",
-      "availableLanguage": "Portuguese"
-    },
+    "serviceType": [
+      "Terceirização Financeira",
+      "BPO Financeiro",
+      "Software Financeiro",
+      "CFO as a Service",
+      "Controladoria",
+      "Tesouraria"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+55-11-94956-6290",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese",
+        "areaServed": "BR"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+55-48-98436-3346",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese",
+        "areaServed": "BR"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "BR",
       "addressRegion": "SC",
       "addressLocality": "Santa Catarina"
     },
+    "sameAs": [
+      "https://cfvalorum.com.br",
+      "https://cfvalorum.lovable.app"
+    ]
   },
 
-  contabilService: {
+  bpoService: {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Valorum Contábil",
-    "description": "Contabilidade consultiva especializada para holdings, profissionais da saúde, indústria e comércio.",
-    "url": `${SITE_URL}/contabil`,
-    "provider": { "@type": "Organization", "name": "Valorum" },
-    "serviceType": ["Contabilidade Consultiva", "Planejamento Tributário", "Abertura de Empresas", "BPO Financeiro"],
+    "@type": "Service",
+    "serviceType": "Terceirização Financeira",
+    "name": "ConFiza — Terceirização Financeira (BPO Financeiro)",
+    "description": "Departamento financeiro operado por especialistas com software financeiro próprio: contas a pagar, contas a receber, conciliação bancária, fluxo de caixa e relatórios gerenciais.",
+    "url": `${SITE_URL}/`,
+    "provider": { "@type": "Organization", "name": "ConFiza" },
     "areaServed": "BR"
   },
 
   cfoService: {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Valorum CFO",
-    "description": "CFO as a Service: gestão financeira estratégica para empresas com foco em crescimento e eficiência.",
+    "@type": "Service",
+    "serviceType": "CFO as a Service",
+    "name": "ConFiza CFO as a Service",
+    "description": "Direção financeira terceirizada com BPO Financeiro integrado: planejamento, controladoria, análise de indicadores e estratégia para crescimento.",
     "url": `${SITE_URL}/cfo`,
-    "provider": { "@type": "Organization", "name": "Valorum" },
-    "serviceType": ["CFO as a Service", "Gestão Financeira", "Controladoria", "Planejamento Estratégico"],
+    "provider": { "@type": "Organization", "name": "ConFiza" },
     "areaServed": "BR"
   },
 
