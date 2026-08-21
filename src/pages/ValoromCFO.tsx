@@ -150,7 +150,7 @@ const ValoromCFO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-lime-400 to-lime-500 mx-auto mb-8" />
               
               <p className="text-sm uppercase tracking-widest text-lime-400 font-semibold mb-6">
-                Valorum CFO
+                Grupo Valorum CFO
               </p>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">

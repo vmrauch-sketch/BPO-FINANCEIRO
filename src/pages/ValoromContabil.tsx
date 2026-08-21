@@ -76,7 +76,7 @@ const ValoromContabil = () => {
               </p>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
-                Valorum <span className="text-emerald-400">Contábil</span>
+                Grupo Valorum <span className="text-emerald-400">Contábil</span>
               </h1>
               
               <p className="text-2xl text-gray-300 max-w-2xl mx-auto mb-8">
@@ -175,7 +175,7 @@ const ValoromContabil = () => {
                 Vantagens em contratar a
               </h2>
               <h2 className="text-3xl md:text-4xl font-playfair font-bold text-emerald-400 mb-10">
-                Valorum Contábil
+                Grupo Valorum Contábil
               </h2>
               
               <div className="grid md:grid-cols-2 gap-x-12 gap-y-5">
