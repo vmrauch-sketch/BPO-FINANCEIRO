@@ -137,26 +137,16 @@ const ValoromBPO = () => {
                       style={{
                         color: '#1F3558',
                         fontWeight: 600,
-                        letterSpacing: '-0.025em',
+                        letterSpacing: '0.02em',
                         fontSize: 'clamp(3rem, 5vw, 4.5rem)',
                         lineHeight: 1,
                       }}
-                    >Con</span>
-                    <span 
-                      className="font-playfair"
-                      style={{
-                        color: '#B8963A',
-                        fontWeight: 515,
-                        letterSpacing: '-0.02em',
-                        fontSize: 'clamp(2.85rem, 4.75vw, 4.275rem)',
-                        lineHeight: 1,
-                        marginLeft: '-0.04em',
-                      }}
-                    >Fiza</span>
+                    >NORGE</span>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
-                    BPO Financeiro
+                    Terceirização Financeira
                   </p>
+
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
