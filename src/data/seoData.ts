@@ -5,9 +5,9 @@ export const SITE_URL = "https://cfvalorum.com.br";
 
 export const SEOData = {
   valorum: {
-    title: "NORGE | Terceirização Financeira, Terceirização Financeira e Software Financeiro",
+    title: "NORGE | Terceirização Financeira e Software Financeiro",
     description: "NORGE: terceirização financeira completa para sua empresa. Terceirização Financeira, software financeiro próprio, controle de caixa e CFO as a Service. Financeiro não se improvisa.",
-    keywords: "terceirização financeira, terceirização financeira, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, NORGE, finance as a service, gestão financeira empresarial",
+    keywords: "terceirização financeira, departamento financeiro terceirizado, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, NORGE, finance as a service, gestão financeira empresarial",
   },
 
   valorumContabil: {
@@ -25,7 +25,7 @@ export const SEOData = {
   contato: {
     title: "Contato NORGE | Fale com um Especialista em Terceirização Financeira",
     description: "Fale com a NORGE. Agende um diagnóstico gratuito e descubra como a terceirização financeira com software próprio e CFO as a Service pode transformar sua empresa.",
-    keywords: "contato NORGE, terceirização financeira contato, terceirização financeira contato, agendar diagnóstico financeiro, falar com especialista financeiro",
+    keywords: "contato NORGE, terceirização financeira contato, BPO financeiro contato, agendar diagnóstico financeiro, falar com especialista financeiro",
   },
 };
 
@@ -35,7 +35,7 @@ export const StructuredData = {
     "@type": "FinancialService",
     "name": "NORGE",
     "alternateName": ["NORGE Terceirização Financeira", "NORGE BPO", "NORGE CFO"],
-    "description": "Terceirização Financeira, Terceirização Financeira, software financeiro próprio e CFO as a Service para empresas.",
+    "description": "Terceirização Financeira, Software Financeiro próprio e CFO as a Service para empresas.",
     "url": SITE_URL,
     "logo": `${SITE_URL}/favicon.png`,
     "image": `${SITE_URL}/og-valorum-bpo-cfo.jpg`,
@@ -85,7 +85,7 @@ export const StructuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Terceirização Financeira",
-    "name": "NORGE — Terceirização Financeira (Terceirização Financeira)",
+    "name": "NORGE — Terceirização Financeira",
     "description": "Departamento financeiro operado por especialistas com software financeiro próprio: contas a pagar, contas a receber, conciliação bancária, fluxo de caixa e relatórios gerenciais.",
     "url": `${SITE_URL}/`,
     "provider": { "@type": "Organization", "name": "NORGE" },
