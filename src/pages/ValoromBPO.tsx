@@ -41,8 +41,8 @@ import BPOContactForm from "@/components/BPOContactForm";
 
 const faqItems = [
   {
-    question: "O que exatamente é BPO Financeiro?",
-    answer: "BPO Financeiro é a terceirização da operação financeira da empresa. Inclui organização das contas a pagar e receber, conciliação bancária, controle do fluxo de caixa, relatórios gerenciais e padronização das rotinas. A empresa mantém as decisões, com o financeiro estruturado e acompanhado."
+    question: "O que exatamente é a terceirização financeira?",
+    answer: "A terceirização financeira é a operação financeira da empresa conduzida por especialistas. Inclui organização das contas a pagar e receber, conciliação bancária, controle do fluxo de caixa, relatórios gerenciais e padronização das rotinas. A empresa mantém as decisões, com o financeiro estruturado e acompanhado."
   },
   {
     question: "Minha empresa já tem alguém no financeiro. O BPO ainda faz sentido?",
@@ -50,7 +50,7 @@ const faqItems = [
   },
   {
     question: "Vale a pena terceirizar se minha empresa é pequena?",
-    answer: "Sim. Empresas pequenas também se beneficiam da terceirização financeira. Com o BPO, as rotinas passam a ter organização, controle e previsibilidade, sem necessidade de montar uma estrutura interna. Isso reduz erros, evita atrasos e permite que a empresa foque no crescimento com o financeiro estruturado desde o início."
+    answer: "Sim. Empresas pequenas também se beneficiam da terceirização financeira. Com a terceirização, as rotinas passam a ter organização, controle e previsibilidade, sem necessidade de montar uma estrutura interna. Isso reduz erros, evita atrasos e permite que a empresa foque no crescimento com o financeiro estruturado desde o início."
   },
   {
     question: "Meus dados financeiros estarão seguros?",
@@ -105,9 +105,9 @@ const ValoromBPO = () => {
   return (
     <>
       <SEOHead
-        title="Valorum BPO | Terceirização Financeira"
+        title="NORGE | Terceirização Financeira"
         description="Terceirização financeira para sua empresa crescer com controle e clareza. Gestão financeira completa com processos definidos e acompanhamento contínuo."
-        keywords="BPO financeiro, terceirização financeira, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
+        keywords="terceirização financeira, departamento financeiro terceirizado, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
         canonical="https://valorum.vilsonrauch.com.br"
       />
       
@@ -137,26 +137,16 @@ const ValoromBPO = () => {
                       style={{
                         color: '#1F3558',
                         fontWeight: 600,
-                        letterSpacing: '-0.025em',
+                        letterSpacing: '0.02em',
                         fontSize: 'clamp(3rem, 5vw, 4.5rem)',
                         lineHeight: 1,
                       }}
-                    >Con</span>
-                    <span 
-                      className="font-playfair"
-                      style={{
-                        color: '#B8963A',
-                        fontWeight: 515,
-                        letterSpacing: '-0.02em',
-                        fontSize: 'clamp(2.85rem, 4.75vw, 4.275rem)',
-                        lineHeight: 1,
-                        marginLeft: '-0.04em',
-                      }}
-                    >Fiza</span>
+                    >NORGE</span>
                   </div>
                   <p className="text-base uppercase tracking-widest text-blue-400 font-semibold font-playfair">
-                    BPO Financeiro
+                    Terceirização Financeira
                   </p>
+
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
@@ -293,7 +283,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia ConFiza da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia NORGE da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
@@ -762,7 +752,7 @@ const ValoromBPO = () => {
                 Perguntas frequentes
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Tire suas dúvidas sobre o BPO Financeiro
+                Tire suas dúvidas sobre a Terceirização Financeira
               </p>
             </div>
             
