@@ -6,7 +6,7 @@ export const SITE_URL = "https://cfvalorum.com.br";
 export const SEOData = {
   valorum: {
     title: "NORGE | Terceirização Financeira e Software Financeiro",
-    description: "NORGE: terceirização financeira completa para sua empresa. Terceirização Financeira, software financeiro próprio, controle de caixa e CFO as a Service. Financeiro não se improvisa.",
+    description: "NORGE: terceirização financeira completa para sua empresa: departamento financeiro operado por especialistas, software financeiro próprio, controle de caixa e CFO as a Service. Financeiro não se improvisa.",
     keywords: "terceirização financeira, departamento financeiro terceirizado, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, NORGE, finance as a service, gestão financeira empresarial",
   },
 
@@ -18,7 +18,7 @@ export const SEOData = {
 
   valorumCFO: {
     title: "NORGE CFO as a Service | Direção Financeira Terceirizada",
-    description: "CFO as a Service: direção financeira terceirizada com Terceirização Financeira integrado e software financeiro próprio. Estratégia, controladoria e decisões mais seguras.",
+    description: "CFO as a Service: direção financeira terceirizada com terceirização financeira integrada e software financeiro próprio. Estratégia, controladoria e decisões mais seguras.",
     keywords: "CFO as a service, CFO terceirizado, direção financeira terceirizada, controladoria terceirizada, planejamento financeiro empresarial, análise financeira, gestão de custos, terceirização financeira com CFO",
   },
 
@@ -97,7 +97,7 @@ export const StructuredData = {
     "@type": "Service",
     "serviceType": "CFO as a Service",
     "name": "NORGE CFO as a Service",
-    "description": "Direção financeira terceirizada com Terceirização Financeira integrado: planejamento, controladoria, análise de indicadores e estratégia para crescimento.",
+    "description": "Direção financeira terceirizada com terceirização financeira integrada: planejamento, controladoria, análise de indicadores e estratégia para crescimento.",
     "url": `${SITE_URL}/cfo`,
     "provider": { "@type": "Organization", "name": "NORGE" },
     "areaServed": "BR"
