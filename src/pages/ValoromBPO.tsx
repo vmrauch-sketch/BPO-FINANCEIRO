@@ -277,13 +277,13 @@ const ValoromBPO = () => {
                 <span className="italic text-blue-500">Gestão e Operação Financeira</span>
               </h2>
               <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-                A Grupo Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
+                O Grupo Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
               </p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia NORGE da Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia NORGE do Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
