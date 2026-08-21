@@ -165,13 +165,14 @@ const ValoromBPO = () => {
                       size="lg"
                       className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                     >
-                      Quero um Diagnóstico Gratuito
+                      Quero Meu Diagnóstico
                     </Button>
                   </a>
                 </div>
                 <p className="text-sm text-gray-500">
-                  Resposta em até 2 horas em dias úteis
+                  Diagnóstico de 30 minutos e gratuito
                 </p>
+
               </div>
 
               {/* Right - Floating Dashboard Cards */}
@@ -373,6 +374,18 @@ const ValoromBPO = () => {
             </div>
 
             <BPOCarousel />
+
+            <div className="text-center mt-12">
+              <a href="#contato-bpo">
+                <Button 
+                  size="lg"
+                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+                >
+                  Quero Esse Painel na Minha Empresa
+                </Button>
+              </a>
+            </div>
+
           </div>
         </section>
 
@@ -420,7 +433,7 @@ const ValoromBPO = () => {
                   size="lg"
                   className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                 >
-                  Quero Esses Resultados Agora
+                  Quero Esses Resultados
                 </Button>
               </a>
             </div>
@@ -470,7 +483,7 @@ const ValoromBPO = () => {
                   size="lg"
                   className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                 >
-                  Quero Começar Agora
+                  Quero Começar
                 </Button>
               </a>
             </div>
