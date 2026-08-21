@@ -236,7 +236,7 @@ const ValoromContabil = () => {
                 { icon: FileText, title: "Planejamento Tributário", description: "Estruturação fiscal para reduzir custos tributários dentro da legalidade.", link: "" },
                 { icon: Building2, title: "Abertura de Empresas", description: "Formalização rápida e segura para iniciar seu negócio sem burocracia.", link: "/abra-sua-empresa" },
                 { icon: RefreshCw, title: "Migração de Contabilidade", description: "Transfira sua empresa para uma contabilidade mais eficiente e organizada.", link: "/troque-de-contador" },
-                { icon: Users, title: "BPO Financeiro", description: "Terceirização da gestão financeira para maior controle e eficiência.", link: "" },
+                { icon: Users, title: "Terceirização Financeira", description: "Terceirização da gestão financeira para maior controle e eficiência.", link: "" },
                 { icon: TrendingUp, title: "Consultoria Financeira", description: "Análise e orientação para melhorar resultados e organização financeira.", link: "" },
                 { icon: KeyRound, title: "Certificado Digital", description: "Emissão de certificado para garantir segurança e agilidade em processos digitais.", link: "" },
                 { icon: Shield, title: "Recuperação Tributária", description: "Identificação e recuperação de créditos tributários pagos indevidamente.", link: "" },

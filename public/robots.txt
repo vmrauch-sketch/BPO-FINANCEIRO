@@ -13,7 +13,7 @@ Allow: /
 User-agent: *
 Allow: /
 
-# Páginas principais do ConFiza
+# Páginas principais do NORGE
 Allow: /
 Allow: /cfo
 Allow: /unsubscribe
