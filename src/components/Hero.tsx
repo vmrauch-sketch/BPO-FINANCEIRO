@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="relative w-96 h-96 md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] mx-auto">
               <img 
                 src="/lovable-uploads/aee87d30-fa30-44ea-bc48-89ef4d0f7e2c.png" 
-                alt="Valorum Logo" 
+                alt="Grupo Valorum Logo" 
                 className="w-full h-full object-contain drop-shadow-lg"
               />
             </div>
@@ -69,13 +69,13 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 text-left max-w-3xl mx-auto">
                 <Link to="/bpo" className="p-4 rounded-lg bg-blue-50 border-l-4 border-blue-500 hover:shadow-md transition-all duration-300 group">
                   <h3 className="font-bold text-blue-600 mb-0.5 text-base">Terceirização Financeira</h3>
-                  <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide block mb-2">Valorum BPO</span>
+                  <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide block mb-2">Grupo Valorum BPO</span>
                   <p className="text-sm text-gray-600 mb-3">Gestão financeira completa para sua empresa com controle, organização e previsibilidade.</p>
                   <span className="text-xs font-bold text-blue-600 group-hover:underline">Conhecer solução →</span>
                 </Link>
                 <Link to="/cfo" className="p-4 rounded-lg bg-lime-50 border-l-4 border-lime-500 hover:shadow-md transition-all duration-300 group">
                   <h3 className="font-bold text-lime-600 mb-0.5 text-base">Direção Financeira</h3>
-                  <span className="text-xs font-semibold text-lime-500 uppercase tracking-wide block mb-2">Valorum CFO</span>
+                  <span className="text-xs font-semibold text-lime-500 uppercase tracking-wide block mb-2">Grupo Valorum CFO</span>
                   <p className="text-sm text-gray-600 mb-3">Direcionamento financeiro competente e atualizado. Apoio para as decisões financeiras e estratégicas.</p>
                   <span className="text-xs font-bold text-lime-600 group-hover:underline">Conhecer solução →</span>
                 </Link>

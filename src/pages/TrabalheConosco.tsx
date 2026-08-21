@@ -20,7 +20,7 @@ const TrabalheConosco = () => {
   };
 
   const handleCandidaturaClick = () => {
-    const message = encodeURIComponent("Olá, tenho interesse em me tornar um Wealth Planner da Valorum");
+    const message = encodeURIComponent("Olá, tenho interesse em me tornar um Wealth Planner do Grupo Valorum");
     const url = `https://wa.me/5511949566290?text=${message}`;
     
     const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname.includes('lovable');
@@ -37,7 +37,7 @@ const TrabalheConosco = () => {
   };
 
   const handleBpoCandidaturaClick = () => {
-    const message = encodeURIComponent("Olá, tenho interesse em me tornar um Especialista BPO da Valorum");
+    const message = encodeURIComponent("Olá, tenho interesse em me tornar um Especialista BPO do Grupo Valorum");
     const url = `https://wa.me/5511949566290?text=${message}`;
     
     const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname.includes('lovable');
@@ -56,8 +56,8 @@ const TrabalheConosco = () => {
   return (
     <>
       <SEOHead 
-        title="Trabalhe Conosco | Valorum"
-        description="Faça parte da Valorum como Wealth Planner ou Especialista BPO. Revolucione o mercado financeiro com transparência, metodologia e independência."
+        title="Trabalhe Conosco | Grupo Valorum"
+        description="Faça parte do Grupo Valorum como Wealth Planner ou Especialista BPO. Revolucione o mercado financeiro com transparência, metodologia e independência."
       />
       <div className="min-h-screen bg-white">
         <Navigation />
@@ -69,7 +69,7 @@ const TrabalheConosco = () => {
               <div className="max-w-6xl mx-auto">
                 <div className={`text-center mb-16 transform transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
                   <h1 className="text-4xl md:text-6xl font-playfair font-bold text-primary mb-6">
-                    Faça parte da Valorum
+                    Faça parte do Grupo Valorum
                   </h1>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
                     Escolha o caminho que combina com você e venha construir resultados reais.
@@ -168,7 +168,7 @@ const TrabalheConosco = () => {
                 {/* Por que ser Wealth Planner */}
                 <div className="mt-16">
                   <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary text-center mb-12">
-                    Por que ser um Wealth Planner da Valorum?
+                    Por que ser um Wealth Planner do Grupo Valorum?
                   </h2>
                   
                   <div className="grid md:grid-cols-3 gap-8">
@@ -197,7 +197,7 @@ const TrabalheConosco = () => {
                   <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-6">
                     Seja um Especialista em BPO{" "}
                     <br className="hidden md:block" />
-                    <span className="text-blue-400">da Valorum</span>
+                    <span className="text-blue-400">do Grupo Valorum</span>
                   </h2>
                   <p className="text-lg text-gray-300 max-w-3xl mx-auto">
                     Atenda empresas com metodologia comprovada em terceirização financeira. Transforme a gestão financeira dos nossos clientes com processos, controle e resultados reais.
@@ -207,7 +207,7 @@ const TrabalheConosco = () => {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                   {[
                     { icon: ClipboardCheck, title: "Metodologia estruturada", desc: "Trabalhe com processos definidos, fluxos organizados e entregas claras para cada cliente." },
-                    { icon: Users, title: "Carteira de clientes", desc: "Atenda empresas de diferentes segmentos com suporte da equipe e da estrutura Valorum." },
+                    { icon: Users, title: "Carteira de clientes", desc: "Atenda empresas de diferentes segmentos com suporte da equipe e da estrutura Grupo Valorum." },
                     { icon: BarChart3, title: "Ferramentas e tecnologia", desc: "Acesso a dashboards, sistemas de gestão financeira e relatórios automatizados." },
                     { icon: Target, title: "Treinamento contínuo", desc: "Capacitação constante em controladoria, fluxo de caixa, conciliação e análise financeira." },
                     { icon: Shield, title: "Suporte e retaguarda", desc: "Você não está sozinho. Conte com uma equipe de apoio para questões técnicas e operacionais." },

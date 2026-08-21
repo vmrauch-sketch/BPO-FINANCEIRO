@@ -129,7 +129,7 @@ const ValoromBPO = () => {
                 <div className="flex flex-col items-center md:items-start mb-8">
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
                   <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-300/70 font-playfair italic hover:text-blue-200 transition-colors underline underline-offset-2 mb-2 inline-block">
-                    Valorum
+                    Grupo Valorum
                   </a>
                   <div className="bg-white rounded-2xl px-6 py-3 inline-flex items-baseline">
                     <span 
@@ -277,13 +277,13 @@ const ValoromBPO = () => {
                 <span className="italic text-blue-500">Gestão e Operação Financeira</span>
               </h2>
               <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-                A Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
+                O Grupo Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
               </p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia NORGE da Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia NORGE do Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
