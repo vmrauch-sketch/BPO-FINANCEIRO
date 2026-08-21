@@ -41,8 +41,8 @@ import BPOContactForm from "@/components/BPOContactForm";
 
 const faqItems = [
   {
-    question: "O que exatamente é Terceirização Financeira?",
-    answer: "Terceirização Financeira é a terceirização da operação financeira da empresa. Inclui organização das contas a pagar e receber, conciliação bancária, controle do fluxo de caixa, relatórios gerenciais e padronização das rotinas. A empresa mantém as decisões, com o financeiro estruturado e acompanhado."
+    question: "O que exatamente é a terceirização financeira?",
+    answer: "A terceirização financeira é a operação financeira da empresa conduzida por especialistas. Inclui organização das contas a pagar e receber, conciliação bancária, controle do fluxo de caixa, relatórios gerenciais e padronização das rotinas. A empresa mantém as decisões, com o financeiro estruturado e acompanhado."
   },
   {
     question: "Minha empresa já tem alguém no financeiro. O BPO ainda faz sentido?",
@@ -50,7 +50,7 @@ const faqItems = [
   },
   {
     question: "Vale a pena terceirizar se minha empresa é pequena?",
-    answer: "Sim. Empresas pequenas também se beneficiam da terceirização financeira. Com o BPO, as rotinas passam a ter organização, controle e previsibilidade, sem necessidade de montar uma estrutura interna. Isso reduz erros, evita atrasos e permite que a empresa foque no crescimento com o financeiro estruturado desde o início."
+    answer: "Sim. Empresas pequenas também se beneficiam da terceirização financeira. Com a terceirização, as rotinas passam a ter organização, controle e previsibilidade, sem necessidade de montar uma estrutura interna. Isso reduz erros, evita atrasos e permite que a empresa foque no crescimento com o financeiro estruturado desde o início."
   },
   {
     question: "Meus dados financeiros estarão seguros?",
@@ -105,9 +105,9 @@ const ValoromBPO = () => {
   return (
     <>
       <SEOHead
-        title="Valorum BPO | Terceirização Financeira"
+        title="NORGE | Terceirização Financeira"
         description="Terceirização financeira para sua empresa crescer com controle e clareza. Gestão financeira completa com processos definidos e acompanhamento contínuo."
-        keywords="terceirização financeira, terceirização financeira, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
+        keywords="terceirização financeira, departamento financeiro terceirizado, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
         canonical="https://valorum.vilsonrauch.com.br"
       />
       
@@ -752,7 +752,7 @@ const ValoromBPO = () => {
                 Perguntas frequentes
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Tire suas dúvidas sobre o Terceirização Financeira
+                Tire suas dúvidas sobre a Terceirização Financeira
               </p>
             </div>
             
