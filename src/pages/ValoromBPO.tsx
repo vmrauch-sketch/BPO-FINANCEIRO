@@ -577,11 +577,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button variant="outline" className="w-full border-blue-400 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} variant="outline" className="w-full border-blue-400 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
 
@@ -607,11 +605,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button className="w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} className="w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
 
@@ -643,11 +639,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button variant="outline" className="w-full border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} variant="outline" className="w-full border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
             </div>
