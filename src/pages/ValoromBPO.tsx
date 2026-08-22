@@ -70,7 +70,11 @@ const faqItems = [
   },
 ];
 
+// Seção "Nossos Planos" oculta temporariamente — mudar para true para reexibir
+const SHOW_PLANOS = false;
+
 const ValoromBPO = () => {
+
   const servicos = [
     { 
       icon: BarChart3, 
@@ -527,8 +531,10 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Planos Section */}
+        {/* Planos Section — oculta temporariamente (SHOW_PLANOS) */}
+        {SHOW_PLANOS && (
         <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary mb-4">
@@ -644,6 +650,8 @@ const ValoromBPO = () => {
             </div>
           </div>
         </section>
+        )}
+
 
         {/* CTA Intermediário */}
         <section className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
