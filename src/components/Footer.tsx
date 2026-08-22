@@ -14,10 +14,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Logo and Description */}
             <div>
-              <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-white/60 hover:text-white transition-colors underline underline-offset-2 mb-2 inline-block">
-                Acesse Grupo Valorum
-              </a>
-              <h3 className="text-2xl font-playfair font-bold mb-4">Grupo Valorum</h3>
+              <h3 className="text-2xl font-playfair font-bold mb-4">NORGE</h3>
               <a 
                 href="mailto:contato@cfvalorum.com.br" 
                 className="text-sm text-white/60 hover:text-white transition-colors"
@@ -70,7 +67,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
-            <p>&copy; 2024 Grupo Valorum. Todos os direitos reservados. | Consultoria</p>
+            <p>&copy; 2024 NORGE. Todos os direitos reservados. | Consultoria</p>
           </div>
         </div>
       </div>
