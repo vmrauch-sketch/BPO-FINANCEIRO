@@ -1,3 +1,4 @@
+import { useState, useRef, useEffect } from 'react';
 import { Navigation } from "@/components/Navigation";
 
 import { Footer } from "@/components/Footer";
@@ -74,6 +75,15 @@ const faqItems = [
 const SHOW_PLANOS = false;
 
 const ValoromBPO = () => {
+  const [showForm, setShowForm] = useState(false);
+  const formRef = useRef<HTMLDivElement>(null);
+
+  const handleShowForm = () => {
+    setShowForm(true);
+    setTimeout(() => {
+      formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  };
 
   const servicos = [
     { 
@@ -161,14 +171,13 @@ const ValoromBPO = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
-                  <a href="#contato-bpo">
-                    <Button 
-                      size="lg"
-                      className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                    >
-                      Quero Meu Diagnóstico
-                    </Button>
-                  </a>
+                  <Button 
+                    size="lg"
+                    onClick={handleShowForm}
+                    className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+                  >
+                    Quero Meu Diagnóstico
+                  </Button>
                 </div>
                 <p className="text-sm text-gray-500">
                   Diagnóstico de 30 minutos e gratuito
@@ -377,14 +386,13 @@ const ValoromBPO = () => {
             <BPOCarousel />
 
             <div className="text-center mt-12">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Esse Painel na Minha Empresa
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Esse Painel na Minha Empresa
+              </Button>
             </div>
 
           </div>
@@ -429,14 +437,13 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Esses Resultados
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Esses Resultados
+              </Button>
             </div>
           </div>
         </section>
@@ -479,14 +486,13 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Começar
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Começar
+              </Button>
             </div>
           </div>
         </section>
@@ -571,11 +577,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button variant="outline" className="w-full border-blue-400 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} variant="outline" className="w-full border-blue-400 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
 
@@ -601,11 +605,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button className="w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} className="w-full bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
 
@@ -637,11 +639,9 @@ const ValoromBPO = () => {
                   </div>
                 </div>
                 <div className="mt-8">
-                  <a href="#contato-bpo">
-                    <Button variant="outline" className="w-full border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
-                      Agendar Diagnóstico
-                    </Button>
-                  </a>
+                  <Button onClick={handleShowForm} variant="outline" className="w-full border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-white font-semibold py-5 rounded-xl transition-all duration-300">
+                    Agendar Diagnóstico
+                  </Button>
                 </div>
               </div>
             </div>
@@ -661,14 +661,13 @@ const ValoromBPO = () => {
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
               Agende seu diagnóstico gratuito. Sem compromisso, sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
             </p>
-            <a href="#contato-bpo">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-              >
-                Agendar Meu Diagnóstico
-              </Button>
-            </a>
+            <Button 
+              size="lg" 
+              onClick={handleShowForm}
+              className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+            >
+              Agendar Meu Diagnóstico
+            </Button>
             <p className="text-sm text-gray-500 mt-4">
               Resposta em até 2 horas em dias úteis · Sem compromisso
             </p>
@@ -747,15 +746,14 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  Solicitar Proposta Personalizada
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                variant="outline"
+                className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                Solicitar Proposta Personalizada
+              </Button>
             </div>
           </div>
         </section>
@@ -795,23 +793,25 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Formulário de Contato */}
-        <section id="contato-bpo" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
-          <div className="container mx-auto px-6">
-            <div className="max-w-2xl mx-auto">
-              <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-4">
-                  Solicite seu{" "}
-                  <span className="text-blue-400">diagnóstico gratuito</span>
-                </h2>
-                <p className="text-lg text-gray-300">
-                  Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
-                </p>
+        {/* Formulário de Contato — exibido apenas após clique em algum CTA */}
+        {showForm && (
+          <section ref={formRef} id="contato-bpo" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
+            <div className="container mx-auto px-6">
+              <div className="max-w-2xl mx-auto">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-4">
+                    Solicite seu{" "}
+                    <span className="text-blue-400">diagnóstico gratuito</span>
+                  </h2>
+                  <p className="text-lg text-gray-300">
+                    Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
+                  </p>
+                </div>
+                <BPOContactForm />
               </div>
-              <BPOContactForm />
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         <Footer />
         <WhatsAppButton message="Olá! Gostaria de saber como funciona sobre terceirizar o financeiro" />
