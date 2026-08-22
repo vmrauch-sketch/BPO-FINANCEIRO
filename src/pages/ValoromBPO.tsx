@@ -75,6 +75,15 @@ const faqItems = [
 const SHOW_PLANOS = false;
 
 const ValoromBPO = () => {
+  const [showForm, setShowForm] = useState(false);
+  const formRef = useRef<HTMLDivElement>(null);
+
+  const handleShowForm = () => {
+    setShowForm(true);
+    setTimeout(() => {
+      formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  };
 
   const servicos = [
     { 
