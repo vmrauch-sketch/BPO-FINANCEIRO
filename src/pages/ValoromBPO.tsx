@@ -171,14 +171,13 @@ const ValoromBPO = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
-                  <a href="#contato-bpo">
-                    <Button 
-                      size="lg"
-                      className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                    >
-                      Quero Meu Diagnóstico
-                    </Button>
-                  </a>
+                  <Button 
+                    size="lg"
+                    onClick={handleShowForm}
+                    className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+                  >
+                    Quero Meu Diagnóstico
+                  </Button>
                 </div>
                 <p className="text-sm text-gray-500">
                   Diagnóstico de 30 minutos e gratuito
