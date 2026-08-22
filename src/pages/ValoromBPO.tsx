@@ -793,23 +793,25 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Formulário de Contato */}
-        <section id="contato-bpo" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
-          <div className="container mx-auto px-6">
-            <div className="max-w-2xl mx-auto">
-              <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-4">
-                  Solicite seu{" "}
-                  <span className="text-blue-400">diagnóstico gratuito</span>
-                </h2>
-                <p className="text-lg text-gray-300">
-                  Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
-                </p>
+        {/* Formulário de Contato — exibido apenas após clique em algum CTA */}
+        {showForm && (
+          <section ref={formRef} id="contato-bpo" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary">
+            <div className="container mx-auto px-6">
+              <div className="max-w-2xl mx-auto">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl md:text-5xl font-playfair font-bold text-white leading-tight mb-4">
+                    Solicite seu{" "}
+                    <span className="text-blue-400">diagnóstico gratuito</span>
+                  </h2>
+                  <p className="text-lg text-gray-300">
+                    Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
+                  </p>
+                </div>
+                <BPOContactForm />
               </div>
-              <BPOContactForm />
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         <Footer />
         <WhatsAppButton message="Olá! Gostaria de saber como funciona sobre terceirizar o financeiro" />
