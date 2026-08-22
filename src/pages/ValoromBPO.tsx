@@ -70,7 +70,11 @@ const faqItems = [
   },
 ];
 
+// Seção "Nossos Planos" oculta temporariamente — mudar para true para reexibir
+const SHOW_PLANOS = false;
+
 const ValoromBPO = () => {
+
   const servicos = [
     { 
       icon: BarChart3, 
