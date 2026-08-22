@@ -667,14 +667,13 @@ const ValoromBPO = () => {
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
               Agende seu diagnóstico gratuito. Sem compromisso, sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
             </p>
-            <a href="#contato-bpo">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-              >
-                Agendar Meu Diagnóstico
-              </Button>
-            </a>
+            <Button 
+              size="lg" 
+              onClick={handleShowForm}
+              className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+            >
+              Agendar Meu Diagnóstico
+            </Button>
             <p className="text-sm text-gray-500 mt-4">
               Resposta em até 2 horas em dias úteis · Sem compromisso
             </p>
@@ -753,15 +752,14 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  Solicitar Proposta Personalizada
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                variant="outline"
+                className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                Solicitar Proposta Personalizada
+              </Button>
             </div>
           </div>
         </section>
