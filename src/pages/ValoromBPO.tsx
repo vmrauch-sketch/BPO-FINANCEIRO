@@ -386,14 +386,13 @@ const ValoromBPO = () => {
             <BPOCarousel />
 
             <div className="text-center mt-12">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Esse Painel na Minha Empresa
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Esse Painel na Minha Empresa
+              </Button>
             </div>
 
           </div>
@@ -438,14 +437,13 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Esses Resultados
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Esses Resultados
+              </Button>
             </div>
           </div>
         </section>
@@ -488,14 +486,13 @@ const ValoromBPO = () => {
             </div>
 
             <div className="text-center">
-              <a href="#contato-bpo">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
-                >
-                  Quero Começar
-                </Button>
-              </a>
+              <Button 
+                size="lg"
+                onClick={handleShowForm}
+                className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
+              >
+                Quero Começar
+              </Button>
             </div>
           </div>
         </section>
