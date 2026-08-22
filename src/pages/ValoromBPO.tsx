@@ -132,9 +132,6 @@ const ValoromBPO = () => {
                 {/* Logo alinhado à esquerda */}
                 <div className="flex flex-col items-center md:items-start mb-8">
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
-                  <a href="https://valorum.vilsonrauch.com.br" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-300/70 font-playfair italic hover:text-blue-200 transition-colors underline underline-offset-2 mb-2 inline-block">
-                    Grupo Valorum
-                  </a>
                   <div className="bg-white rounded-2xl px-6 py-3 inline-flex items-baseline">
                     <span 
                       className="font-playfair"
