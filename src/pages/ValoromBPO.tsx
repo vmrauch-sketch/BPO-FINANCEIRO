@@ -85,6 +85,15 @@ const ValoromBPO = () => {
     }, 100);
   };
 
+  useEffect(() => {
+    if (window.location.hash === '#contato-bpo') {
+      setShowForm(true);
+      setTimeout(() => {
+        formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 150);
+    }
+  }, []);
+
   const servicos = [
     { 
       icon: BarChart3, 
