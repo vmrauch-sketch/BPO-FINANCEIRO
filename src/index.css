@@ -178,12 +178,18 @@ nav .no-scrollbar {
   90%, 100% { stroke-dasharray: 0, 100; }
 }
 
-/* Dot blink animation - modern and precise indicator */
+/* Precise status blink inspired by the Terceirização Financeira reference */
 @keyframes dot-blink {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.35; transform: scale(1.2); }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
 }
 
 .animate-dot-blink {
-  animation: dot-blink 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: dot-blink 2s ease infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-dot-blink {
+    animation: none;
+  }
 }

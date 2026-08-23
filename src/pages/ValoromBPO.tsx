@@ -152,10 +152,7 @@ const ValoromBPO = () => {
                 <div className="flex flex-col items-center md:items-start mb-8">
                   {/* Tag com ponto animado — primeiro elemento visual do hero */}
                   <div className="inline-flex items-center gap-2 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
-                    <span className="relative flex h-2 w-2">
-                      <span className="animate-dot-blink absolute inline-flex h-full w-full rounded-full bg-financial opacity-75" />
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-financial" />
-                    </span>
+                    <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-financial" aria-hidden="true" />
                     Terceirização Financeira
                   </div>
 
