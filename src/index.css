@@ -177,3 +177,13 @@ nav .no-scrollbar {
   80% { stroke-dasharray: 72, 100; }
   90%, 100% { stroke-dasharray: 0, 100; }
 }
+
+/* Dot blink animation - modern and precise indicator */
+@keyframes dot-blink {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(1.2); }
+}
+
+.animate-dot-blink {
+  animation: dot-blink 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
