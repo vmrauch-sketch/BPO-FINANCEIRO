@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import vilsonRauchAsset from "@/assets/vilson-rauch.png.asset.json";
 import { Navigation } from "@/components/Navigation";
 
 import { Footer } from "@/components/Footer";
@@ -341,7 +342,7 @@ const ValoromBPO = () => {
                 <div className="flex flex-col items-center md:items-start">
                   <div className="w-56 h-56 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 bg-white/5">
                     <img
-                      src="/lovable-uploads/placeholder.svg"
+                      src={vilsonRauchAsset.url}
                       alt="Vilson Rauch — Fundador da NORGE Financeiro"
                       className="w-full h-full object-cover"
                       onError={(e) => {
