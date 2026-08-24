@@ -152,7 +152,7 @@ const ValoromBPO = () => {
                 <div className="flex flex-col items-center md:items-start mb-8">
                   {/* Tag com ponto animado — primeiro elemento visual do hero */}
                   <div className="inline-flex items-center gap-2 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
-                    <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-financial" aria-hidden="true" />
+                    <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-blue-300" aria-hidden="true" />
                     Terceirização Financeira
                   </div>
 
@@ -174,7 +174,7 @@ const ValoromBPO = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
                   Sua empresa tem muitos desafios.{" "}
                   <br className="hidden md:block" />
-                  <span className="text-blue-400">O financeiro a gente resolve.</span>
+                  <span className="text-blue-400 inline-block">O financeiro a gente resolve.</span>
                 </h1>
                 
                 <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
