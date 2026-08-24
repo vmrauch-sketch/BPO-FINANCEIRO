@@ -23,7 +23,7 @@ export const ScrollProgress = () => {
 
   return (
     <div
-      className="fixed top-0 left-0 h-[3px] bg-financial z-[60] pointer-events-none transition-[width] duration-100 ease-linear"
+      className="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-blue-500 to-blue-600 z-[60] pointer-events-none transition-[width] duration-100 ease-linear"
       style={{ width: `${width}%` }}
       aria-hidden="true"
     />
