@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import vilsonRauchAsset from "@/assets/vilson-rauch.png.asset.json";
 import { Navigation } from "@/components/Navigation";
 
 import { Footer } from "@/components/Footer";
@@ -139,7 +138,7 @@ const ValoromBPO = () => {
         <Navigation />
         
         
-        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/95 to-primary pt-32 sm:pt-20">
+        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/95 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
@@ -152,7 +151,7 @@ const ValoromBPO = () => {
                 {/* Logo alinhado à esquerda */}
                 <div className="flex flex-col items-center md:items-start mb-8">
                 {/* Tag com ponto animado — primeiro elemento visual do hero */}
-                  <div className="inline-flex items-center gap-2 mt-4 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
+                  <div className="inline-flex items-center gap-2 mt-10 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
                     <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-blue-300" aria-hidden="true" />
                     Terceirização Financeira
                   </div>
@@ -342,7 +341,7 @@ const ValoromBPO = () => {
                 <div className="flex flex-col items-center md:items-start">
                   <div className="w-56 h-56 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 bg-white/5">
                     <img
-                      src={vilsonRauchAsset.url}
+                      src="/lovable-uploads/vilson-rauch.png"
                       alt="Vilson Rauch — Fundador da NORGE Financeiro"
                       className="w-full h-full object-cover object-top"
                       onError={(e) => {
