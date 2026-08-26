@@ -126,7 +126,7 @@ const HowWeWork = () => {
                 onClick={() => {
                   const message = encodeURIComponent("Olá gostaria de mais informações");
                   window.open(
-                    `https://wa.me/5511949566290?text=${message}`,
+                    `https://wa.me/5511959586722?text=${message}`,
                     "_blank"
                   );
                 }}

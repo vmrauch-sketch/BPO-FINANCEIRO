@@ -39,7 +39,7 @@ export const StructuredData = {
     "url": SITE_URL,
     "logo": `${SITE_URL}/favicon.png`,
     "image": `${SITE_URL}/og-valorum-bpo-cfo.jpg`,
-    "telephone": "+55-11-94956-6290",
+    "telephone": "+55-11-95958-6722",
     "priceRange": "$$$",
     "areaServed": {
       "@type": "Country",
@@ -56,14 +56,14 @@ export const StructuredData = {
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "+55-11-94956-6290",
+        "telephone": "+55-11-95958-6722",
         "contactType": "customer service",
         "availableLanguage": "Portuguese",
         "areaServed": "BR"
       },
       {
         "@type": "ContactPoint",
-        "telephone": "+55-48-98436-3346",
+        "telephone": "+55-48-99164-8272",
         "contactType": "customer service",
         "availableLanguage": "Portuguese",
         "areaServed": "BR"

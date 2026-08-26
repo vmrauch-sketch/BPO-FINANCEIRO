@@ -3,7 +3,7 @@ const Contact = () => {
   const handleWhatsAppClick = () => {
     console.log("Contact: Botão clicado");
     const message = encodeURIComponent("Olá gostaria de mais informações");
-    const url = `https://wa.me/5511949566290?text=${message}`;
+    const url = `https://wa.me/5511959586722?text=${message}`;
     
     // Detecta se está em desenvolvimento
     const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname.includes('lovable');
@@ -11,9 +11,9 @@ const Contact = () => {
     if (isDevelopment) {
       // Em desenvolvimento, copia o link e mostra alerta
       navigator.clipboard.writeText(url).then(() => {
-        alert(`Link do WhatsApp copiado!\n\nNúmero: +55 11 94956-6290\nMensagem: "Olá gostaria de mais informações"\n\nLink copiado para área de transferência.`);
+        alert(`Link do WhatsApp copiado!\n\nNúmero: +55 11 95958-6722\nMensagem: "Olá gostaria de mais informações"\n\nLink copiado para área de transferência.`);
       }).catch(() => {
-        alert(`WhatsApp: +55 11 94956-6290\n\nMensagem: "Olá gostaria de mais informações"`);
+        alert(`WhatsApp: +55 11 95958-6722\n\nMensagem: "Olá gostaria de mais informações"`);
       });
     } else {
       // Em produção, abre normalmente

@@ -8,7 +8,7 @@ const Hero = () => {
 
   const handleFaleConsultorClick = () => {
     const message = encodeURIComponent("Olá gostaria de mais informações");
-    const whatsappUrl = `https://wa.me/5511949566290?text=${message}`;
+    const whatsappUrl = `https://wa.me/5511959586722?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
