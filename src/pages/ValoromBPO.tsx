@@ -727,10 +727,7 @@ const ValoromBPO = () => {
                       A <strong className="text-white">NORGE BPO</strong> nasceu de uma percepção na gestão de empresas: faturamento entra, o dinheiro some e ninguém sabe quanto realmente é o caixa do mês.
                     </p>
                     <p>
-                      Foi atuando na gestão de empresas que Vilson construiu uma metodologia para organizar e integrar o financeiro. Um método validado na prática, com experiência em gestão, economia de empresas e contabilidade. Nada de teoria:
-                    </p>
-                    <p className="text-xl md:text-2xl font-playfair italic text-white/90">
-                      solta.
+                      Foi atuando na gestão de empresas que Vilson construiu uma metodologia para organizar e integrar o financeiro. Um método validado na prática, com experiência em gestão, economia de empresas e contabilidade. Nada de teoria <span className="font-playfair italic text-white/90">solta.</span>
                     </p>
                     <p>
                       Processo definido, número conferido e relatório que o dono da empresa entende sem precisar de tradução.
