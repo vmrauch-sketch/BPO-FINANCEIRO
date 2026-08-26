@@ -21,7 +21,7 @@ const TrabalheConosco = () => {
 
   const handleCandidaturaClick = () => {
     const message = encodeURIComponent("Olá, tenho interesse em me tornar um Wealth Planner do Grupo Valorum");
-    const url = `https://wa.me/5511949566290?text=${message}`;
+    const url = `https://wa.me/5511959586722?text=${message}`;
     
     const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname.includes('lovable');
     
@@ -29,7 +29,7 @@ const TrabalheConosco = () => {
       navigator.clipboard.writeText(url).then(() => {
         alert(`Link do WhatsApp copiado!\n\nLink copiado para área de transferência.`);
       }).catch(() => {
-        alert(`WhatsApp: +55 11 94956-6290`);
+        alert(`WhatsApp: +55 11 95958-6722`);
       });
     } else {
       window.open(url, '_blank');
@@ -38,7 +38,7 @@ const TrabalheConosco = () => {
 
   const handleBpoCandidaturaClick = () => {
     const message = encodeURIComponent("Olá, tenho interesse em me tornar um Especialista BPO do Grupo Valorum");
-    const url = `https://wa.me/5511949566290?text=${message}`;
+    const url = `https://wa.me/5511959586722?text=${message}`;
     
     const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname.includes('lovable');
     
@@ -46,7 +46,7 @@ const TrabalheConosco = () => {
       navigator.clipboard.writeText(url).then(() => {
         alert(`Link do WhatsApp copiado!\n\nLink copiado para área de transferência.`);
       }).catch(() => {
-        alert(`WhatsApp: +55 11 94956-6290`);
+        alert(`WhatsApp: +55 11 95958-6722`);
       });
     } else {
       window.open(url, '_blank');
