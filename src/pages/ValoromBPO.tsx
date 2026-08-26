@@ -178,7 +178,8 @@ const ValoromBPO = () => {
                 </h1>
                 
                 <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
-                  A Clareza e o Controle que as Finanças da Sua Empresa Precisam
+                  A clareza e o controle<br />
+                  que as Finanças da sua empresa precisam
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
