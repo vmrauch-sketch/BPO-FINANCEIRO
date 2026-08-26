@@ -332,67 +332,6 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Quem está por trás — Fundador */}
-        <section id="bpo-fundador" className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary scroll-mt-28">
-          <div className="container mx-auto px-6">
-            <div className="max-w-5xl mx-auto">
-              <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
-                {/* Foto do fundador */}
-                <div className="flex flex-col items-center md:items-start">
-                  <div className="w-56 h-56 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 bg-white/5">
-                    <img
-                      src="/lovable-uploads/vilson-rauch.png"
-                      alt="Vilson Rauch — Fundador da NORGE Financeiro"
-                      className="w-full h-full object-cover object-top"
-                      onError={(e) => {
-                        const target = e.currentTarget;
-                        target.style.display = 'none';
-                        target.parentElement?.classList.add('flex', 'items-center', 'justify-center');
-                        const icon = document.createElement('div');
-                        icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-300/50"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
-                        target.parentElement?.appendChild(icon);
-                      }}
-                    />
-                  </div>
-                </div>
-
-                {/* Texto */}
-                <div className="text-center md:text-left">
-                  <p className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-3">
-                    Quem está por trás
-                  </p>
-                  <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white mb-2">
-                    Vilson Rauch
-                  </h2>
-                  <p className="text-lg text-blue-300/90 font-medium mb-8">
-                    Fundador da NORGE Financeiro
-                  </p>
-
-                  <div className="space-y-5 text-gray-300 leading-relaxed text-base md:text-lg">
-                    <p>
-                      A <strong className="text-white">NORGE BPO</strong> nasceu de uma percepção na gestão de empresas: faturamento entra, o dinheiro some e ninguém sabe quanto realmente é o caixa do mês.
-                    </p>
-                    <p>
-                      Foi atuando na gestão de empresas que Vilson construiu uma metodologia para organizar e integrar o financeiro. Um método validado na prática, com experiência em gestão, economia de empresas e contabilidade. Nada de teoria:
-                    </p>
-                    <p className="text-xl md:text-2xl font-playfair italic text-white/90">
-                      solta.
-                    </p>
-                    <p>
-                      Processo definido, número conferido e relatório que o dono da empresa entende sem precisar de tradução.
-                    </p>
-                    <p>
-                      Hoje, com o apoio da tecnologia, essa metodologia entrega resultados cada vez mais rápidos e precisos aos clientes.
-                    </p>
-                    <p className="text-xl md:text-2xl font-playfair italic text-blue-400 pt-2">
-                      Precisão nos dados vira vantagem na tomada de decisão.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Departamento Financeiro Section */}
         <section id="bpo-servicos" className="py-24 bg-primary scroll-mt-28">
