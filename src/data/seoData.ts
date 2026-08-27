@@ -7,7 +7,7 @@ export const SEOData = {
   valorum: {
     title: "NORGE | Terceirização Financeira e Software Financeiro",
     description: "NORGE: terceirização financeira completa para sua empresa: departamento financeiro operado por especialistas, software financeiro próprio, controle de caixa e CFO as a Service. Financeiro não se improvisa.",
-    keywords: "terceirização financeira, departamento financeiro terceirizado, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, NORGE, finance as a service, gestão financeira empresarial",
+    keywords: "terceirização financeira, departamento financeiro terceirizado, software financeiro, CFO as a service, departamento financeiro terceirizado, sistema financeiro empresarial, contas a pagar e receber, conciliação bancária, fluxo de caixa, controladoria, NORGE, gestão financeira empresarial",
   },
 
   valorumContabil: {

@@ -339,8 +339,7 @@ const ValoromBPO = () => {
           <div className="container mx-auto px-6">
             <div className="text-center mb-6">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold text-white leading-tight">
-                Seu departamento financeiro.{" "}
-                <span className="italic text-blue-400">Finance as a Service.</span>
+                Seu departamento financeiro.
               </h2>
               <p className="text-xl text-blue-300 mt-4 font-medium">
                 Na Controladoria ou na Tesouraria
