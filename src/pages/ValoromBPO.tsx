@@ -346,9 +346,9 @@ const ValoromBPO = () => {
               </p>
             </div>
             
-            <p className="text-center text-gray-400 max-w-3xl mx-auto mb-16">
-              Cuidamos de toda a rotina financeira da sua empresa, do operacional ao estratégico, com tecnologia de ponta e um custo até <strong className="text-white">5x menor</strong> que um time interno.
-            </p>
+            <h3 className="text-center text-4xl md:text-5xl font-playfair font-bold text-white mb-16">
+              Sem Folha de Pagamento.
+            </h3>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {[
