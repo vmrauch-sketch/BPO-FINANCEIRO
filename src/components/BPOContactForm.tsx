@@ -225,7 +225,7 @@ const BPOContactForm = () => {
       </Button>
 
       <p className="text-center text-sm text-gray-500">
-        Sem compromisso · Seus dados estão seguros
+        Seus dados estão seguros
       </p>
     </form>
   );

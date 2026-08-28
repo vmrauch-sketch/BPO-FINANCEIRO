@@ -671,7 +671,7 @@ const ValoromBPO = () => {
               <span className="text-blue-400">que trabalha para você.</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
-              Agende seu diagnóstico gratuito. Sem compromisso, sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
+              Agende seu diagnóstico gratuito. Sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
             </p>
             <Button 
               size="lg" 
@@ -681,7 +681,7 @@ const ValoromBPO = () => {
               Agendar Meu Diagnóstico
             </Button>
             <p className="text-sm text-gray-500 mt-4">
-              Resposta em até 2 horas em dias úteis · Sem compromisso
+              Seus dados estão seguros
             </p>
           </div>
         </section>

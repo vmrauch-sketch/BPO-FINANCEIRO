@@ -197,7 +197,7 @@ const ValoromCFO = () => {
                 </a>
               </div>
               <p className="text-sm text-gray-500">
-                Resposta em até 2 horas em dias úteis · Sem compromisso
+                Seus dados estão seguros
               </p>
             </div>
           </div>
@@ -459,7 +459,7 @@ const ValoromCFO = () => {
               Sua empresa merece uma direção financeira estratégica.
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              Agende uma sessão gratuita. Sem compromisso, sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
+              Agende uma sessão gratuita. Sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
             </p>
             <a href="#contato-cfo">
               <Button 
@@ -470,7 +470,7 @@ const ValoromCFO = () => {
               </Button>
             </a>
             <p className="text-sm text-gray-500 mt-4">
-              Resposta em até 2 horas em dias úteis · Sem compromisso
+              Seus dados estão seguros
             </p>
           </div>
         </section>
