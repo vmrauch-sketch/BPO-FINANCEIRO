@@ -14,11 +14,47 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white pt-28 sm:pt-16">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-32 h-32 border border-navy-600/20 rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-40 h-40 border border-navy-600/20 rounded-full"></div>
-        <div className="absolute top-1/2 left-1/4 w-24 h-24 border border-navy-600/20 rounded-full"></div>
+      {/* Background Compass Rose */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
+        <svg
+          viewBox="0 0 600 600"
+          className="w-[120vw] h-[120vw] md:w-[80vh] md:h-[80vh] max-w-[900px] max-h-[900px] opacity-[0.07] text-navy-600 animate-spin-slow"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {/* Outer ring */}
+          <circle cx="300" cy="300" r="280" stroke="currentColor" strokeWidth="1" />
+          <circle cx="300" cy="300" r="250" stroke="currentColor" strokeWidth="0.5" strokeDasharray="4 6" />
+          <circle cx="300" cy="300" r="160" stroke="currentColor" strokeWidth="1" />
+          <circle cx="300" cy="300" r="60" stroke="currentColor" strokeWidth="1.5" />
+          
+          {/* Cardinal cross */}
+          <line x1="300" y1="20" x2="300" y2="580" stroke="currentColor" strokeWidth="0.5" />
+          <line x1="20" y1="300" x2="580" y2="300" stroke="currentColor" strokeWidth="0.5" />
+          
+          {/* Diagonal cross */}
+          <line x1="90" y1="90" x2="510" y2="510" stroke="currentColor" strokeWidth="0.5" />
+          <line x1="510" y1="90" x2="90" y2="510" stroke="currentColor" strokeWidth="0.5" />
+          
+          {/* North petal */}
+          <path d="M300 20 L285 220 L300 260 L315 220 Z" fill="currentColor" />
+          {/* East petal */}
+          <path d="M580 300 L380 285 L340 300 L380 315 Z" fill="currentColor" />
+          {/* South petal */}
+          <path d="M300 580 L315 380 L300 340 L285 380 Z" fill="currentColor" />
+          {/* West petal */}
+          <path d="M20 300 L220 315 L260 300 L220 285 Z" fill="currentColor" />
+          
+          {/* Intercardinal small petals */}
+          <path d="M90 90 L180 200 L200 180 Z" fill="currentColor" opacity="0.6" />
+          <path d="M510 90 L420 200 L400 180 Z" fill="currentColor" opacity="0.6" />
+          <path d="M510 510 L420 400 L400 420 Z" fill="currentColor" opacity="0.6" />
+          <path d="M90 510 L180 400 L200 420 Z" fill="currentColor" opacity="0.6" />
+          
+          {/* Center jewel */}
+          <circle cx="300" cy="300" r="20" fill="currentColor" />
+          <circle cx="300" cy="300" r="8" className="text-gold-500" fill="currentColor" />
+        </svg>
       </div>
 
       <div ref={elementRef} className="container mx-auto px-6 text-center relative z-10">
