@@ -34,6 +34,13 @@ const Hero = () => {
             </div>
           </div>
 
+          {/* Brand Name */}
+          <div className={`mb-4 transform transition-all duration-1000 ease-out delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-navy-600">
+              Norgie Financeiro
+            </h1>
+          </div>
+
           {/* Slogan */}
           <div className={`mb-6 transform transition-all duration-1000 ease-out delay-400 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
             <p className="text-2xl md:text-3xl font-playfair font-semibold italic text-gold-600">
