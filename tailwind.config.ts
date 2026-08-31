@@ -197,7 +197,7 @@ export default {
 				'scale-in': 'scale-in 0.3s ease-out',
 				'growth': 'growth 1s ease-out',
 				'spin-slow': 'spin-slow 120s linear infinite',
-				'compass-sweep': 'compass-sweep 6s ease-in-out infinite'
+				'compass-sweep': 'compass-sweep 14s ease-in-out infinite'
 			}
 		}
 	},
