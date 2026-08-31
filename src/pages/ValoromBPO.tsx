@@ -151,7 +151,7 @@ const ValoromBPO = () => {
                 src={rosaDosVentos.url}
                 alt=""
                 aria-hidden="true"
-                className="w-[600px] lg:w-[800px] h-auto opacity-[0.06]"
+                className="w-[600px] lg:w-[800px] h-auto opacity-[0.08]"
                 style={{ filter: 'grayscale(100%) brightness(0.8) sepia(1) hue-rotate(175deg) saturate(2)' }}
               />
             </div>
