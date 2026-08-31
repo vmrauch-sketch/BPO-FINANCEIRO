@@ -187,7 +187,8 @@ export default {
 				},
 				'compass-sweep': {
 					'0%': { transform: 'rotate(0deg)' },
-					'100%': { transform: 'rotate(20deg)' }
+					'50%': { transform: 'rotate(20deg)' },
+					'100%': { transform: 'rotate(0deg)' }
 				}
 			},
 			animation: {

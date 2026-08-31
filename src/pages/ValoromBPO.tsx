@@ -154,10 +154,15 @@ const ValoromBPO = () => {
                 src={rosaDosVentos.url}
                 alt=""
                 aria-hidden="true"
-                className="w-[600px] lg:w-[800px] h-auto opacity-[0.08]"
+                className="w-[600px] lg:w-[800px] h-auto opacity-[0.06]"
                 style={{ filter: 'grayscale(100%) brightness(0.8) sepia(1) hue-rotate(175deg) saturate(2)' }}
               />
             </div>
+            {/* Vignette escurecida sobre a área da bussola */}
+            <div 
+              className="absolute inset-0 pointer-events-none"
+              style={{ background: 'radial-gradient(circle at center, rgba(15,23,42,0.45) 0%, transparent 65%)' }}
+            />
             <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
           </div>
