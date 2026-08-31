@@ -159,15 +159,15 @@ const ValoromBPO = () => {
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
                   <div className="bg-white rounded-2xl px-6 py-3 inline-flex items-baseline">
                     <span 
-                      className="font-playfair"
+                      className="font-playfair whitespace-nowrap"
                       style={{
                         color: '#1F3558',
                         fontWeight: 600,
                         letterSpacing: '0.02em',
-                        fontSize: 'clamp(3rem, 5vw, 4.5rem)',
+                        fontSize: 'clamp(2.2rem, 4vw, 3.8rem)',
                         lineHeight: 1,
                       }}
-                    >Norgie</span>
+                    >NORGIE FINANCEIRO</span>
                   </div>
                 </div>
 
