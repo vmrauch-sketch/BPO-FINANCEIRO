@@ -78,6 +78,7 @@ const SHOW_PLANOS = false;
 
 const ValoromBPO = () => {
   const [showForm, setShowForm] = useState(false);
+  const [compassRotation, setCompassRotation] = useState(0);
   const formRef = useRef<HTMLDivElement>(null);
 
   const handleShowForm = () => {
@@ -94,6 +95,20 @@ const ValoromBPO = () => {
         formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 150);
     }
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const maxScroll = 1000;
+      const maxRotation = 90;
+      const rotation = Math.min((scrollY / maxScroll) * maxRotation, maxRotation);
+      setCompassRotation(rotation);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const servicos = [
