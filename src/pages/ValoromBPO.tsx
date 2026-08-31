@@ -272,45 +272,6 @@ const ValoromBPO = () => {
           </div>
         </section>
 
-        {/* Prova Social - Notícias */}
-        <section className="py-20 bg-muted/30">
-          <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary leading-tight">
-                Pare de comprometer o futuro do seu negócio
-              </h2>
-            </div>
-            
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-6xl mx-auto">
-              {[
-                { img: newsExame, alt: "Exame: 60% das empresas não sobrevivem após cinco anos no Brasil", url: "https://exame.com/negocios/60-das-empresas-nao-sobrevivem-apos-cinco-anos-no-brasil-aponta-ibge/" },
-                { img: newsCartaCapital, alt: "Carta Capital: PMEs enfrentam crise - 9 em cada 10 sofrem com finanças desorganizadas", url: "https://www.cartacapital.com.br/do-micro-ao-macro/pmes-enfrentam-crise-9-em-cada-10-sofrem-com-financas-desorganizadas/" },
-                { img: newsBemParana, alt: "Bem Paraná: Má gestão é o principal fator para o fechamento de empresas no Brasil", url: "https://www.bemparana.com.br/noticias/economia/ma-gestao-e-responsavel-e-o-principal-fator-para-o-fechamento-de-empresas-no-brasil/" },
-                { img: newsBrasilEmFolhas, alt: "Brasil em Folhas: 25% das empresas brasileiras fecham no primeiro ano", url: "https://www1.brasilemfolhas.com.br/2025/08/relatorio-do-ibge-revela-que-25-das-empresas-brasileiras-fecham-no-primeiro-ano-2/" },
-                { img: newsValorEconomico, alt: "Valor Econômico: Recorde de 5.680 empresas em recuperação judicial no Brasil", url: "https://valor.globo.com/legislacao/noticia/2026/02/05/ano-de-2025-fecha-com-recorde-de-empresas-em-recuperacao-judicial.ghtml" },
-                { img: newsSebrae, alt: "Sebrae: 48% dos negócios fecham por falta de controle financeiro", url: "https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-gestao-financeira" },
-                { img: newsSerasa, alt: "Serasa Experian: Empresas encerraram 2025 com R$ 213 bilhões em dívidas e inadimplência no maior patamar já registrado", url: "https://www.serasaexperian.com.br/sala-de-imprensa/" },
-              ].map((item, index) => (
-                <a
-                  key={index}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block bg-white"
-                >
-                  <div className="overflow-hidden h-48 md:h-56 lg:h-64 bg-white flex items-start">
-                    <img
-                      src={item.img}
-                      alt={item.alt}
-                      loading="lazy"
-                      className="w-full h-full object-contain object-top"
-                    />
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Parceiro Confiável Section */}
         <section className="py-24 bg-white">
