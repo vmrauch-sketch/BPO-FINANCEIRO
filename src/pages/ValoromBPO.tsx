@@ -140,7 +140,7 @@ const ValoromBPO = () => {
         <Navigation />
         
         
-        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/95 to-primary pt-40 sm:pt-28">
+        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/90 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
             {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
             <div 
@@ -166,6 +166,8 @@ const ValoromBPO = () => {
             <div className="absolute top-20 left-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl" />
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
           </div>
+          {/* Overlay geral para escurecer o azul do hero */}
+          <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
           
           <div className="container mx-auto px-6 relative z-10">
             <div className="relative grid md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
