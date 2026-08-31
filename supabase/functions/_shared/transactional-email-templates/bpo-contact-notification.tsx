@@ -4,7 +4,7 @@ import {
 } from 'npm:@react-email/components@0.0.22'
 import type { TemplateEntry } from './registry.ts'
 
-const SITE_NAME = "Valorum"
+const SITE_NAME = "Norgie Financeiro"
 
 interface BPOContactNotificationProps {
   name?: string
