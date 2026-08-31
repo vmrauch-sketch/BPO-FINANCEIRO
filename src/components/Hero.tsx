@@ -14,68 +14,18 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white pt-28 sm:pt-16">
-      {/* Background Compass Rose */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-        <svg
-          viewBox="0 0 600 600"
-          className="w-[120vw] h-[120vw] md:w-[80vh] md:h-[80vh] max-w-[900px] max-h-[900px] opacity-[0.07] text-navy-600 animate-spin-slow"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          {/* Outer ring */}
-          <circle cx="300" cy="300" r="280" stroke="currentColor" strokeWidth="1" />
-          <circle cx="300" cy="300" r="250" stroke="currentColor" strokeWidth="0.5" strokeDasharray="4 6" />
-          <circle cx="300" cy="300" r="160" stroke="currentColor" strokeWidth="1" />
-          <circle cx="300" cy="300" r="60" stroke="currentColor" strokeWidth="1.5" />
-          
-          {/* Cardinal cross */}
-          <line x1="300" y1="20" x2="300" y2="580" stroke="currentColor" strokeWidth="0.5" />
-          <line x1="20" y1="300" x2="580" y2="300" stroke="currentColor" strokeWidth="0.5" />
-          
-          {/* Diagonal cross */}
-          <line x1="90" y1="90" x2="510" y2="510" stroke="currentColor" strokeWidth="0.5" />
-          <line x1="510" y1="90" x2="90" y2="510" stroke="currentColor" strokeWidth="0.5" />
-          
-          {/* North petal */}
-          <path d="M300 20 L285 220 L300 260 L315 220 Z" fill="currentColor" />
-          {/* East petal */}
-          <path d="M580 300 L380 285 L340 300 L380 315 Z" fill="currentColor" />
-          {/* South petal */}
-          <path d="M300 580 L315 380 L300 340 L285 380 Z" fill="currentColor" />
-          {/* West petal */}
-          <path d="M20 300 L220 315 L260 300 L220 285 Z" fill="currentColor" />
-          
-          {/* Intercardinal small petals */}
-          <path d="M90 90 L180 200 L200 180 Z" fill="currentColor" opacity="0.6" />
-          <path d="M510 90 L420 200 L400 180 Z" fill="currentColor" opacity="0.6" />
-          <path d="M510 510 L420 400 L400 420 Z" fill="currentColor" opacity="0.6" />
-          <path d="M90 510 L180 400 L200 420 Z" fill="currentColor" opacity="0.6" />
-          
-          {/* Center jewel */}
-          <circle cx="300" cy="300" r="20" fill="currentColor" />
-          <circle cx="300" cy="300" r="8" className="text-gold-500" fill="currentColor" />
-        </svg>
-      </div>
-
       <div ref={elementRef} className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Logo/Brand Image */}
-          <div className={`mb-8 transform transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
-            <div className="relative w-96 h-96 md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] mx-auto">
-              <img 
-                src="/lovable-uploads/aee87d30-fa30-44ea-bc48-89ef4d0f7e2c.png" 
-                alt="Grupo Valorum Logo" 
-                className="w-full h-full object-contain drop-shadow-lg"
-              />
-            </div>
+          {/* Brand wordmark */}
+          <div className={`mb-6 transform transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
+            <h1 className="sr-only">Norgie Financeiro — Terceirização Financeira</h1>
+            <img
+              src={norgieWordmark.url}
+              alt="Norgie Financeiro — Terceirização Financeira"
+              className="w-full max-w-md md:max-w-xl lg:max-w-2xl mx-auto h-auto"
+            />
           </div>
 
-          {/* Brand Name */}
-          <div className={`mb-4 transform transition-all duration-1000 ease-out delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-navy-600 tracking-wide">
-              NORGIE FINANCEIRO
-            </h1>
-          </div>
 
           {/* Slogan */}
           <div className={`mb-6 transform transition-all duration-1000 ease-out delay-400 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
