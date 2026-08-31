@@ -146,7 +146,7 @@ const ValoromBPO = () => {
           </div>
           
           <div className="container mx-auto px-6 relative z-10">
-            <div className="grid md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
+            <div className="relative grid md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
               {/* Left - Logo + Text */}
               <div className="text-center md:text-left">
                 {/* Logo alinhado à esquerda */}
