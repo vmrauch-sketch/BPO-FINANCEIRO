@@ -72,8 +72,8 @@ const Hero = () => {
 
           {/* Brand Name */}
           <div className={`mb-4 transform transition-all duration-1000 ease-out delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-navy-600">
-              Norgie Financeiro
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-navy-600 tracking-wide">
+              NORGIE FINANCEIRO
             </h1>
           </div>
 
