@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Logo and Description */}
             <div>
-              <h3 className="text-2xl font-playfair font-bold mb-4">Norgie Financeiro</h3>
+              <h3 className="text-2xl font-playfair font-bold mb-4">Norgie</h3>
               <a 
                 href="mailto:contato@cfvalorum.com.br" 
                 className="text-sm text-white/60 hover:text-white transition-colors"
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
-            <p>&copy; 2024 Norgie Financeiro. Todos os direitos reservados. | Consultoria</p>
+            <p>&copy; 2024 Norgie. Todos os direitos reservados. | Consultoria</p>
           </div>
         </div>
       </div>

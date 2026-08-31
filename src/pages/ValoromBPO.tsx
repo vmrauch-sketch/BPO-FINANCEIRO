@@ -167,7 +167,7 @@ const ValoromBPO = () => {
                         fontSize: 'clamp(3rem, 5vw, 4.5rem)',
                         lineHeight: 1,
                       }}
-                    >Norgie Financeiro</span>
+                    >Norgie</span>
                   </div>
                 </div>
 
@@ -188,7 +188,7 @@ const ValoromBPO = () => {
                     onClick={handleShowForm}
                     className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white font-semibold px-10 py-7 text-lg rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 border border-blue-300/20"
                   >
-                    Fazer diagnóstico com a Norgie Financeiro
+                    Fazer diagnóstico com a Norgie
                   </Button>
                 </div>
                 <p className="text-sm text-gray-500">
@@ -306,7 +306,7 @@ const ValoromBPO = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Norgie Financeiro do Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Norgie do Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
@@ -696,7 +696,7 @@ const ValoromBPO = () => {
                   <div className="w-56 h-56 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 bg-white/5">
                     <img
                       src="/lovable-uploads/vilson-rauch.png"
-                      alt="Vilson Rauch — Fundador da Norgie Financeiro"
+                      alt="Vilson Rauch — Fundador da Norgie"
                       className="w-full h-full object-cover object-top"
                       onError={(e) => {
                         const target = e.currentTarget;
@@ -719,12 +719,12 @@ const ValoromBPO = () => {
                     Vilson Rauch
                   </h2>
                   <p className="text-lg text-blue-300/90 font-medium mb-8">
-                    Fundador da Norgie Financeiro
+                    Fundador da Norgie
                   </p>
 
                   <div className="space-y-5 text-gray-300 leading-relaxed text-base md:text-lg">
                     <p>
-                      A <strong className="text-white">Norgie Financeiro</strong> nasceu de uma percepção na gestão de empresas: faturamento entra, o dinheiro some e ninguém sabe quanto realmente é o caixa do mês.
+                      A <strong className="text-white">Norgie</strong> nasceu de uma percepção na gestão de empresas: faturamento entra, o dinheiro some e ninguém sabe quanto realmente é o caixa do mês.
                     </p>
                     <p>
                       Foi atuando na gestão de empresas que Vilson construiu uma metodologia para organizar e integrar o financeiro. Um método validado na prática, com experiência em gestão, economia de empresas e contabilidade. Nada de teoria <span className="font-playfair italic text-white/90">solta.</span>
