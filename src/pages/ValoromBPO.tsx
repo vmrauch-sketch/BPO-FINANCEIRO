@@ -142,6 +142,19 @@ const ValoromBPO = () => {
         
         <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/95 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
+            {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
+            <div 
+              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none animate-[spin_240s_linear_infinite]"
+              style={{ maskImage: 'radial-gradient(circle, black 25%, transparent 70%)', WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)' }}
+            >
+              <img
+                src={rosaDosVentos.url}
+                alt=""
+                aria-hidden="true"
+                className="w-[600px] lg:w-[800px] h-auto opacity-[0.06]"
+                style={{ filter: 'grayscale(100%) brightness(0.8) sepia(1) hue-rotate(175deg) saturate(2)' }}
+              />
+            </div>
             <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
           </div>
