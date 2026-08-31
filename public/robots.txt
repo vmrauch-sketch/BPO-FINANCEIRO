@@ -13,7 +13,7 @@ Allow: /
 User-agent: *
 Allow: /
 
-# Páginas principais do NORGE
+# Páginas principais do Norgie Financeiro
 Allow: /
 Allow: /cfo
 Allow: /unsubscribe
