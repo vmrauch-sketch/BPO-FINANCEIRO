@@ -2,7 +2,6 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
-import norgieWordmark from "@/assets/norgie-wordmark.png.asset.json";
 
 
 const Hero = () => {
