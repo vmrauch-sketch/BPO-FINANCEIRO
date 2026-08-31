@@ -243,8 +243,16 @@ const ValoromBPO = () => {
                 </div>
               </div>
 
+              {/* Rosa dos ventos decorativa entre o texto e os cards */}
+              <img
+                src="/favicon.png"
+                alt=""
+                aria-hidden="true"
+                className="hidden md:block pointer-events-none select-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[320px] lg:w-[420px] opacity-20 animate-[spin_120s_linear_infinite]"
+              />
 
             </div>
+
           </div>
         </section>
 
