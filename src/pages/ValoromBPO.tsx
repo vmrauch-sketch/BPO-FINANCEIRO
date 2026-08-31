@@ -144,11 +144,10 @@ const ValoromBPO = () => {
           <div className="absolute inset-0 overflow-hidden">
             {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
             <div 
-              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none transition-transform duration-150 ease-out will-change-transform"
+              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none animate-compass-sweep"
               style={{ 
                 maskImage: 'radial-gradient(circle, black 25%, transparent 70%)', 
-                WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)',
-                transform: `rotate(${compassRotation}deg)`
+                WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)'
               }}
             >
               <img
