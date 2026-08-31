@@ -6,6 +6,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
+import norgieLogo from "@/assets/norgie-logo.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
 import newsCartaCapital from "@/assets/news-cartacapital.jpg";
 import newsBemParana from "@/assets/news-bemparana.jpg";
@@ -157,26 +158,14 @@ const ValoromBPO = () => {
                   </div>
 
                   <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
-                  <div className="bg-white rounded-2xl px-6 py-3 inline-flex flex-col items-start">
-                    <span 
-                      className="font-playfair leading-none"
-                      style={{
-                        color: '#1F3558',
-                        fontWeight: 600,
-                        letterSpacing: '0.02em',
-                        fontSize: 'clamp(2.5rem, 4.5vw, 4rem)',
-                      }}
-                    >NORGIE</span>
-                    <span 
-                      className="font-playfair leading-none"
-                      style={{
-                        color: '#1F3558',
-                        fontWeight: 600,
-                        letterSpacing: '0.02em',
-                        fontSize: 'clamp(1.4rem, 2.5vw, 2rem)',
-                      }}
-                    >Financeiro</span>
+                  <div className="bg-white rounded-2xl px-6 py-4 inline-flex">
+                    <img
+                      src={norgieLogo.url}
+                      alt="Norgie Financeiro — Terceirização Financeira e BPO Financeiro"
+                      className="h-auto w-[260px] md:w-[340px]"
+                    />
                   </div>
+
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
