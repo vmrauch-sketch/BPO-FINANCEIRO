@@ -19,10 +19,12 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Brand wordmark */}
           <div className={`mb-6 transform transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
-            <h1 className="sr-only">Norgie Financeiro — Terceirização Financeira</h1>
+            <h1 className="sr-only">Norgie Financeiro</h1>
             <img
-              src={norgieWordmark.url}
-              alt="Norgie Financeiro — Terceirização Financeira"
+              src="/lovable-uploads/norgie-wordmark-clean.png"
+              alt="Norgie Financeiro"
+              width={1152}
+              height={576}
               className="w-full max-w-md md:max-w-xl lg:max-w-2xl mx-auto h-auto"
             />
           </div>
