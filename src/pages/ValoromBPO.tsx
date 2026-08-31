@@ -7,6 +7,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
 import norgieLogo from "@/assets/norgie-logo.png.asset.json";
+import rosaDosVentos from "@/assets/rosa-dos-ventos-hero.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
 import newsCartaCapital from "@/assets/news-cartacapital.jpg";
 import newsBemParana from "@/assets/news-bemparana.jpg";
@@ -245,7 +246,7 @@ const ValoromBPO = () => {
 
               {/* Rosa dos ventos decorativa entre o texto e os cards */}
               <img
-                src="/favicon.png"
+                src={rosaDosVentos.url}
                 alt=""
                 aria-hidden="true"
                 className="hidden md:block pointer-events-none select-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[320px] lg:w-[420px] opacity-20 animate-[spin_120s_linear_infinite]"
