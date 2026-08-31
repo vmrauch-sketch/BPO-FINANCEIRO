@@ -196,7 +196,8 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out',
 				'scale-in': 'scale-in 0.3s ease-out',
 				'growth': 'growth 1s ease-out',
-				'spin-slow': 'spin-slow 120s linear infinite'
+				'spin-slow': 'spin-slow 120s linear infinite',
+				'compass-sweep': 'compass-sweep 6s ease-in-out infinite'
 			}
 		}
 	},
