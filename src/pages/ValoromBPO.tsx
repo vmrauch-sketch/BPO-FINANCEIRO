@@ -78,7 +78,6 @@ const SHOW_PLANOS = false;
 
 const ValoromBPO = () => {
   const [showForm, setShowForm] = useState(false);
-  const [compassRotation, setCompassRotation] = useState(0);
   const formRef = useRef<HTMLDivElement>(null);
 
   const handleShowForm = () => {
@@ -95,20 +94,6 @@ const ValoromBPO = () => {
         formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 150);
     }
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const maxScroll = 1000;
-      const maxRotation = 90;
-      const rotation = Math.min((scrollY / maxScroll) * maxRotation, maxRotation);
-      setCompassRotation(rotation);
-    };
-
-    handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const servicos = [
@@ -159,11 +144,10 @@ const ValoromBPO = () => {
           <div className="absolute inset-0 overflow-hidden">
             {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
             <div 
-              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none transition-transform duration-150 ease-out will-change-transform"
+              className="absolute inset-0 flex items-center justify-center pointer-events-none select-none animate-compass-sweep"
               style={{ 
                 maskImage: 'radial-gradient(circle, black 25%, transparent 70%)', 
-                WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)',
-                transform: `rotate(${compassRotation}deg)`
+                WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)'
               }}
             >
               <img
