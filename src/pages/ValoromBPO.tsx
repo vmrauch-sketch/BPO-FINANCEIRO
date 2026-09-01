@@ -7,7 +7,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
 import norgieLogo from "@/assets/norgie-financeiro-wordmark.jpg.asset.json";
-import rosaDosVentos from "@/assets/rosa-dos-ventos-hero.png.asset.json";
+import rosaDosVentos from "@/assets/rosa-dos-ventos-hero-v2.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
 import newsCartaCapital from "@/assets/news-cartacapital.jpg";
 import newsBemParana from "@/assets/news-bemparana.jpg";
