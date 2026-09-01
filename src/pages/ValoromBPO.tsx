@@ -219,9 +219,9 @@ const ValoromBPO = () => {
               </div>
 
               {/* Right - Floating Dashboard Cards */}
-              <div className="hidden md:block relative h-[460px] mt-4">
+              <div className="relative mt-4 flex flex-col gap-4 md:block md:h-[460px]">
                 {/* Card 1 - Faturamento Mensal */}
-                <div className="absolute top-[40px] left-0 w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
+                <div className="relative md:absolute md:top-[40px] md:left-0 w-full md:w-64 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_4s_ease-in-out_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Faturamento Mensal</p>
                   <div className="flex items-baseline gap-1 mb-4">
                     <span className="text-2xl font-bold text-white">R$</span>
@@ -239,7 +239,7 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 2 - Fluxo de Caixa */}
-                <div className="absolute top-[170px] right-4 w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
+                <div className="relative md:absolute md:top-[170px] md:right-4 w-full md:w-56 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-down_3.5s_ease-in-out_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">Fluxo de Caixa</p>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-xl font-bold text-white">Positivo</span>
@@ -258,7 +258,7 @@ const ValoromBPO = () => {
                 </div>
 
                 {/* Card 3 - EBITDA */}
-                <div className="absolute top-[330px] right-10 w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
+                <div className="relative md:absolute md:top-[330px] md:right-10 w-full md:w-48 bg-[#1a1a2e]/90 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-5 shadow-2xl shadow-blue-500/10 animate-[float-up_5s_ease-in-out_0.5s_infinite]">
                   <p className="text-[11px] uppercase tracking-widest text-blue-300/60 font-semibold mb-2">EBITDA</p>
                   <div className="flex items-center gap-2">
                     <span className="text-2xl font-bold text-white">31,2%</span>
