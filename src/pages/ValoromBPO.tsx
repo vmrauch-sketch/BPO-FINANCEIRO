@@ -356,7 +356,7 @@ const ValoromBPO = () => {
         </section>
 
         {/* O que você recebe - Carousel Section */}
-        <section className="py-24 bg-gradient-to-b from-muted/30 to-white overflow-hidden">
+        <section id="bpo-painel" className="py-24 bg-gradient-to-b from-muted/30 to-white overflow-hidden scroll-mt-28">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-2xl md:text-3xl font-bold text-primary/80 mb-3">Além da operação</p>
