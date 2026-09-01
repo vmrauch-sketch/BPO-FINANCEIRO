@@ -6,7 +6,6 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
 
-import norgieLogo from "@/assets/norgie-financeiro-wordmark.jpg.asset.json";
 import rosaDosVentos from "@/assets/rosa-dos-ventos-hero-v2.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
 import newsCartaCapital from "@/assets/news-cartacapital.jpg";
@@ -175,24 +174,13 @@ const ValoromBPO = () => {
             <div className="relative grid md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
               {/* Left - Logo + Text */}
               <div className="text-center md:text-left">
-                {/* Logo alinhado à esquerda */}
-                <div className="flex flex-col items-center md:items-start mb-8">
                 {/* Tag com ponto animado — primeiro elemento visual do hero */}
-                  <div className="inline-flex items-center gap-2 mt-10 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
-                    <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-blue-300" aria-hidden="true" />
-                    Terceirização Financeira
-                  </div>
-
-                  <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
-                  <div className="bg-white rounded-2xl px-6 py-4 inline-flex">
-                    <img
-                      src={norgieLogo.url}
-                      alt="Norgie Financeiro — Terceirização Financeira e BPO Financeiro"
-                      className="h-auto w-[260px] md:w-[340px]"
-                    />
-                  </div>
-
+                <div className="inline-flex items-center gap-2 mt-10 mb-5 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
+                  <span className="animate-dot-blink inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-blue-300" aria-hidden="true" />
+                  Terceirização Financeira
                 </div>
+
+                <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mb-6" />
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4">
                   Sua empresa tem muitos desafios.{" "}
