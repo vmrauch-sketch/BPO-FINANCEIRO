@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { Navigation } from "@/components/Navigation";
-
+import { SectionNav } from "@/components/SectionNav";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
+
 
 import rosaDosVentos from "@/assets/rosa-dos-ventos-hero-v2.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
@@ -137,7 +138,7 @@ const ValoromBPO = () => {
       
       <div className="min-h-screen bg-background font-inter">
         <Navigation />
-        
+        <SectionNav onContactClick={handleShowForm} />
         
         <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/90 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
@@ -355,7 +356,7 @@ const ValoromBPO = () => {
         </section>
 
         {/* O que você recebe - Carousel Section */}
-        <section className="py-24 bg-gradient-to-b from-muted/30 to-white overflow-hidden">
+        <section id="bpo-painel" className="py-24 bg-gradient-to-b from-muted/30 to-white overflow-hidden scroll-mt-28">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-2xl md:text-3xl font-bold text-primary/80 mb-3">Além da operação</p>
