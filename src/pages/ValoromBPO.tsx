@@ -140,34 +140,34 @@ const ValoromBPO = () => {
         <Navigation />
         
         
-        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/90 to-primary pt-40 sm:pt-28">
+        <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-[#355a8f] to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
             {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
             <div 
               className="absolute inset-0 flex items-center justify-center pointer-events-none select-none animate-compass-sweep"
               style={{ 
-                maskImage: 'radial-gradient(circle, black 25%, transparent 70%)', 
-                WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)'
+                maskImage: 'radial-gradient(circle, black 30%, transparent 75%)', 
+                WebkitMaskImage: 'radial-gradient(circle, black 30%, transparent 75%)'
               }}
             >
               <img
                 src={rosaDosVentos.url}
                 alt=""
                 aria-hidden="true"
-                className="w-[600px] lg:w-[800px] h-auto opacity-[0.03]"
-                style={{ filter: 'grayscale(100%) brightness(0.7) sepia(1) hue-rotate(175deg) saturate(2)' }}
+                className="w-[600px] lg:w-[800px] h-auto opacity-[0.08]"
+                style={{ filter: 'grayscale(100%) brightness(0.9) sepia(1) hue-rotate(175deg) saturate(2)' }}
               />
             </div>
-            {/* Vignette escurecida sobre a área da bussola */}
+            {/* Vignette suave sobre a área da bussola */}
             <div 
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'radial-gradient(circle at center, rgba(15,23,42,0.72) 0%, transparent 65%)' }}
+              style={{ background: 'radial-gradient(circle at center, rgba(15,23,42,0.45) 0%, transparent 65%)' }}
             />
-            <div className="absolute top-20 left-10 w-64 h-64 bg-primary/20 rounded-full blur-3xl" />
-            <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+            <div className="absolute top-20 left-10 w-64 h-64 bg-blue-300/25 rounded-full blur-3xl" />
+            <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-300/20 rounded-full blur-3xl" />
           </div>
-          {/* Overlay geral para escurecer o azul do hero */}
-          <div className="absolute inset-0 bg-slate-950/20 pointer-events-none" />
+          {/* Overlay leve para manter o azul mais suave */}
+          <div className="absolute inset-0 bg-slate-950/5 pointer-events-none" />
           
           <div className="container mx-auto px-6 relative z-10">
             <div className="relative grid md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
