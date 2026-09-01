@@ -168,16 +168,14 @@ const BPOCarousel = () => {
   return (
     <div className="max-w-6xl mx-auto">
       {/* Slide content */}
-      <div className="relative min-h-[500px] md:min-h-[420px]">
+      <div className="relative min-h-0 md:min-h-[420px]">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-all duration-700 ease-in-out ${
+            className={`transition-all duration-700 ease-in-out ${
               index === current
-                ? "opacity-100 translate-x-0 z-10"
-                : index < current
-                ? "opacity-0 -translate-x-8 z-0"
-                : "opacity-0 translate-x-8 z-0"
+                ? "block md:absolute md:inset-0 md:opacity-100 md:translate-x-0 md:z-10"
+                : "hidden md:block md:absolute md:inset-0 md:opacity-0 md:-translate-x-8 md:z-0"
             }`}
           >
             <div className="grid md:grid-cols-2 gap-10 items-center h-full">
