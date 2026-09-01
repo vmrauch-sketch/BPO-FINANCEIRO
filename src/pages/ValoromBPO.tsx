@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
 import { Navigation } from "@/components/Navigation";
-import { SectionNav } from "@/components/SectionNav";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
