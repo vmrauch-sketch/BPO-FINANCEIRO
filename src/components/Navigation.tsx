@@ -21,6 +21,8 @@ const sections: Section[] = [
   { id: 'contato-bpo', label: 'Contato' },
 ];
 
+const navSections = sections.filter((s) => !s.top);
+
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
