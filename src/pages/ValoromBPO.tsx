@@ -202,6 +202,9 @@ const ValoromBPO = () => {
                     Fazer diagnóstico com a Norgie
                   </Button>
                 </div>
+                <p className="text-sm text-gray-500">
+                  Diagnóstico de 30 minutos e gratuito
+                </p>
 
               </div>
 

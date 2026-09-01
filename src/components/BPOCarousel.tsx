@@ -2,10 +2,10 @@ import { useEffect, useState, useCallback } from "react";
 
 const slides = [
   {
-    title: "Dashboard Financeiro",
+    title: "Chega de confusão com planilhas",
     description: (
       <>
-        Dashboard com visão completa do <strong className="text-primary">REALIZADO</strong> e do que está <strong className="text-primary">PREVISTO</strong>. Chega de sustos.
+        é assim que você vai <span className="text-primary font-semibold">Enxergar</span> o seu negócio
       </>
     ),
     content: (
@@ -65,10 +65,10 @@ const slides = [
     ),
   },
   {
-    title: "Visão Financeira e Econômica",
+    title: "Chega de confusão com planilhas",
     description: (
       <>
-        Análise do <strong className="text-primary">LUCRO</strong> do seu negócio através da Demonstração de Resultados do Exercício (DRE) e a <strong className="text-primary">GERAÇÃO DE CAIXA</strong> através do Fluxo de Caixa.
+        é assim que você vai <span className="text-primary font-semibold">Enxergar</span> o seu negócio
       </>
     ),
     content: (
