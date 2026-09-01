@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { Navigation } from "@/components/Navigation";
-
+import { SectionNav } from "@/components/SectionNav";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
 import { BPOCarousel } from "@/components/BPOCarousel";
+
 
 import rosaDosVentos from "@/assets/rosa-dos-ventos-hero-v2.png.asset.json";
 import newsExame from "@/assets/news-exame.jpg";
