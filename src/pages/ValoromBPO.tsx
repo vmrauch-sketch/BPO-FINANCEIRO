@@ -138,7 +138,7 @@ const ValoromBPO = () => {
       
       <div className="min-h-screen bg-background font-inter">
         <Navigation />
-        
+        <SectionNav onContactClick={handleShowForm} />
         
         <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/90 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
