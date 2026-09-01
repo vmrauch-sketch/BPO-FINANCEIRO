@@ -95,7 +95,7 @@ export const Navigation = () => {
               </button>
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-border/20 py-1 z-50">
-                  {sections.map((section) => (
+                  {navSections.map((section) => (
                     <button
                       key={section.id}
                       onClick={() => handleSectionClick(section)}
@@ -142,7 +142,7 @@ export const Navigation = () => {
               <div className="px-3 py-2">
                 <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Navegar</span>
                 <div className="mt-1 space-y-1 pl-2 border-l-2 border-primary/20">
-                  {sections.map((section) => (
+                  {navSections.map((section) => (
                     <button
                       key={section.id}
                       onClick={() => handleSectionClick(section)}
