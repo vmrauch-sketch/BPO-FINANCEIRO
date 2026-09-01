@@ -142,7 +142,7 @@ const ValoromBPO = () => {
         
         <section className="relative min-h-[70vh] flex items-center bg-gradient-to-br from-primary via-primary/90 to-primary pt-40 sm:pt-28">
           <div className="absolute inset-0 overflow-hidden">
-            {/* Rosa dos ventos como marca d'água sutil no fundo azul */}
+            {/* Rosa dos ventos como marca d'água sutil no fundo azul — formato circular */}
             <div 
               className="absolute inset-0 flex items-center justify-center pointer-events-none select-none animate-compass-sweep"
               style={{ 
@@ -150,13 +150,15 @@ const ValoromBPO = () => {
                 WebkitMaskImage: 'radial-gradient(circle, black 25%, transparent 70%)'
               }}
             >
-              <img
-                src={rosaDosVentos.url}
-                alt=""
-                aria-hidden="true"
-                className="w-[600px] lg:w-[800px] h-auto opacity-[0.04]"
-                style={{ filter: 'grayscale(100%) brightness(0.8) sepia(1) hue-rotate(175deg) saturate(2)' }}
-              />
+              <div className="w-[600px] lg:w-[800px] aspect-square rounded-full overflow-hidden">
+                <img
+                  src={rosaDosVentos.url}
+                  alt=""
+                  aria-hidden="true"
+                  className="w-full h-full object-cover opacity-[0.04]"
+                  style={{ filter: 'grayscale(100%) brightness(0.8) sepia(1) hue-rotate(175deg) saturate(2)' }}
+                />
+              </div>
             </div>
             {/* Vignette escurecida sobre a área da bussola */}
             <div 
