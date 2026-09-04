@@ -187,9 +187,12 @@ const ValoromBPO = () => {
                   <span className="text-blue-400 inline-block">O financeiro a gente resolve.</span>
                 </h1>
                 
-                <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-6">
+                <p className="text-lg md:text-xl text-blue-200/80 font-inter mb-2">
                   A clareza e o controle<br />
                   que o Financeiro da sua empresa precisa
+                </p>
+                <p className="text-base md:text-lg text-blue-300/90 font-inter mb-6">
+                  Com um especialista dedicado, não um sistema de autoatendimento.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
