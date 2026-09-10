@@ -70,11 +70,11 @@ const BPOContactForm = () => {
 
       if (error) throw error;
 
-      // Send email notification to atendimento@cfvalorum.com.br
+      // Send email notification to atendimento@norgiefinanceiro.com.br
       await supabase.functions.invoke("send-transactional-email", {
         body: {
           templateName: "bpo-contact-notification",
-          recipientEmail: "atendimento@cfvalorum.com.br",
+          recipientEmail: "atendimento@norgiefinanceiro.com.br",
           idempotencyKey: `bpo-contact-${id}`,
           templateData: {
             name: formData.name.trim(),

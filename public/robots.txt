@@ -19,7 +19,7 @@ Allow: /cfo
 Allow: /unsubscribe
 
 # Sitemap location (domínio oficial)
-Sitemap: https://cfvalorum.com.br/sitemap.xml
+Sitemap: https://norgiefinanceiro.com.br/sitemap.xml
 
 # Crawl-delay (helps with server load)
 Crawl-delay: 1
