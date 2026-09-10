@@ -1,7 +1,7 @@
 // Dados de SEO centralizados para consistência
 // Domínio oficial (canonical) — usado para evitar conteúdo duplicado
-// entre cfvalorum.com.br e cfvalorum.lovable.app no Google.
-export const SITE_URL = "https://cfvalorum.com.br";
+// entre norgiefinanceiro.com.br e norgiefinanceiro.lovable.app no Google.
+export const SITE_URL = "https://norgiefinanceiro.com.br";
 
 export const SEOData = {
   valorum: {
@@ -76,8 +76,8 @@ export const StructuredData = {
       "addressLocality": "Santa Catarina"
     },
     "sameAs": [
-      "https://cfvalorum.com.br",
-      "https://cfvalorum.lovable.app"
+      "https://norgiefinanceiro.com.br",
+      "https://norgiefinanceiro.lovable.app"
     ]
   },
 

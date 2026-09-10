@@ -14,7 +14,7 @@ const Index = () => {
         title={SEOData.valorum.title}
         description={SEOData.valorum.description}
         keywords={SEOData.valorum.keywords}
-        canonical="https://cfvalorum.com.br/"
+        canonical="https://norgiefinanceiro.com.br/"
         structuredData={StructuredData.organization}
       />
       
