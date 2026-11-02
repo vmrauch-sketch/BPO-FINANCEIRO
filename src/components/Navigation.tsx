@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import norgieWordmark from "@/assets/norgie-financeiro-wordmark.jpg.asset.json";
+import norgieWordmark from "@/assets/norgie-wordmark.png";
 
 interface Section {
   id: string;
@@ -62,8 +62,8 @@ export const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0 mr-6">
             <img
-              src={norgieWordmark.url}
-              alt="Norgie Financeiro"
+              src={norgieWordmark}
+              alt="Norgie"
               className="h-9 lg:h-11 w-auto object-contain"
             />
           </Link>
