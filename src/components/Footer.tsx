@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 const Footer = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Olá gostaria de mais informações");
@@ -11,7 +10,7 @@ const Footer = () => {
       <footer className="bg-navy-800 text-white py-12">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Logo and Description */}
             <div>
               <h3 className="text-2xl font-playfair font-bold mb-4">Norgie</h3>
@@ -21,13 +20,6 @@ const Footer = () => {
               >
                 contato@norgiefinanceiro.com.br
               </a>
-            </div>
-
-            {/* Links */}
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Links</h4>
-              <div className="space-y-3 text-white/80">
-              </div>
             </div>
 
             {/* Telefones */}
