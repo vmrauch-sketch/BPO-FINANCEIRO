@@ -4,6 +4,12 @@
 
 @layer base {
   :root {
+    --contact-background: 222.2 47.4% 11.2%;
+    --contact-foreground: 210 40% 98%;
+    --contact-muted: 216 20% 76%;
+    --contact-accent: 213 94% 68%;
+    --contact-accent-hover: 217 91% 60%;
+    --contact-error: 0 94% 82%;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -101,6 +107,40 @@
 }
 
 /* Partners carousel animation */
+.bpo-contact-section {
+  background: hsl(var(--contact-background));
+  color: hsl(var(--contact-foreground));
+}
+.bpo-contact-muted { color: hsl(var(--contact-muted)); }
+.bpo-contact-accent { color: hsl(var(--contact-accent)); }
+.bpo-contact-error { color: hsl(var(--contact-error)); }
+.bpo-contact-input {
+  background: hsl(var(--contact-foreground) / 0.06);
+  border-color: hsl(var(--contact-foreground) / 0.2);
+  color: hsl(var(--contact-foreground));
+}
+.bpo-contact-input::placeholder { color: hsl(var(--contact-muted) / 0.8); }
+.bpo-contact-input:focus-visible {
+  --tw-ring-color: hsl(var(--contact-accent));
+  border-color: hsl(var(--contact-accent));
+}
+.bpo-contact-submit {
+  background: linear-gradient(110deg, hsl(var(--contact-accent)), hsl(var(--contact-accent-hover)));
+  color: hsl(var(--contact-background));
+  border: 1px solid hsl(var(--contact-accent));
+  box-shadow: 0 10px 30px hsl(var(--contact-accent-hover) / 0.25);
+}
+.bpo-contact-submit:hover { background: hsl(var(--contact-accent)); }
+.bpo-contact-checkbox {
+  border-color: hsl(var(--contact-muted));
+  --tw-ring-color: hsl(var(--contact-accent));
+}
+.bpo-contact-checkbox[data-state="checked"] {
+  background: hsl(var(--contact-accent));
+  color: hsl(var(--contact-background));
+  border-color: hsl(var(--contact-accent));
+}
+
 @keyframes partners-scroll {
   0% {
     transform: translateX(0);
