@@ -26,6 +26,36 @@ export function contactPayload(data: BPOContactData) {
   return { acao: "lead_site", form: "bpo", ...fields };
 }
 
+/** Junta campos extras na mensagem, um por linha, no formato "Campo: valor". */
+export function mergeExtrasIntoMensagem(mensagem: string, extras: Record<string, string>) {
+  const lines = Object.entries(extras)
+    .filter(([, value]) => value.trim())
+    .map(([campo, value]) => `${campo}: ${value.trim()}`);
+  return [mensagem.trim(), ...lines].filter(Boolean).join("\n");
+}
+
+interface PainelLead {
+  form: string;
+  nome: string;
+  telefone: string;
+  email?: string;
+  mensagem?: string;
+  website: string;
+}
+
+/** Corpo do POST para o painel de atendimento, compartilhado pelos formulários do site. */
+export function painelLeadPayload(lead: PainelLead) {
+  return {
+    acao: "lead_site",
+    form: lead.form,
+    nome: lead.nome.trim(),
+    telefone: lead.telefone,
+    email: lead.email?.trim() ?? "",
+    mensagem: lead.mensagem ?? "",
+    website: lead.website,
+  };
+}
+
 const responseSchema = z.object({ ok: z.boolean(), erro: z.string().max(2000).optional() });
 
 export function parseContactResponse(json: unknown) {

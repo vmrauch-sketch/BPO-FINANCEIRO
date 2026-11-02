@@ -1,6 +1,6 @@
 /// <reference types="bun" />
 import { describe, expect, test } from "bun:test";
-import { bpoContactSchema, contactPayload, maskWhatsApp, parseContactResponse } from "./bpo-contact";
+import { bpoContactSchema, contactPayload, maskWhatsApp, mergeExtrasIntoMensagem, painelLeadPayload, parseContactResponse } from "./bpo-contact";
 
 const valid = { nome: "Teste", telefone: "(11) 95958-6722", email: "", mensagem: "", website: "", consentimento: true };
 
