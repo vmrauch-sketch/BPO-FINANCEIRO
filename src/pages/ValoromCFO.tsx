@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { SEOHead } from "@/components/SEOHead";
-import BPOContactForm from "@/components/BPOContactForm";
+import CFOContactForm from "@/components/CFOContactForm";
 import { SEOData, StructuredData } from "@/data/seoData";
 
 import { 
@@ -488,7 +488,7 @@ const ValoromCFO = () => {
                   Nos conte um pouco mais sobre a sua empresa! Em breve entraremos em contato.
                 </p>
               </div>
-              <BPOContactForm />
+              <CFOContactForm />
             </div>
           </div>
         </section>
