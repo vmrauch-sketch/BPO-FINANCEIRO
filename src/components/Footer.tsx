@@ -27,12 +27,6 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Links</h4>
               <div className="space-y-3 text-white/80">
-                <Link 
-                  to="/trabalhe-conosco"
-                  className="block hover:text-white transition-colors"
-                >
-                  Trabalhe Conosco
-                </Link>
               </div>
             </div>
 
