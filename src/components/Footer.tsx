@@ -14,12 +14,6 @@ const Footer = () => {
             {/* Logo and Description */}
             <div>
               <h3 className="text-2xl font-playfair font-bold mb-4">Norgie</h3>
-              <a 
-                href="mailto:contato@norgiefinanceiro.com.br" 
-                className="text-sm text-white/60 hover:text-white transition-colors"
-              >
-                contato@norgiefinanceiro.com.br
-              </a>
             </div>
 
             {/* Telefones */}
