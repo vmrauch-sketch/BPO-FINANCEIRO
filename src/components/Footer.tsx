@@ -1,7 +1,7 @@
 const Footer = () => {
+  const handleMessage = (city: string) => encodeURIComponent(`Olá! Vim pelo site da Norgie em ${city} e quero saber mais sobre os serviços.`);
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Olá gostaria de mais informações");
-    const url = `https://wa.me/5511959586722?text=${message}`;
+    const url = `https://wa.me/5511959586722?text=${handleMessage("São Paulo")}`;
     window.open(url, '_blank');
   };
 
@@ -23,7 +23,7 @@ const Footer = () => {
                 <div>
                   <p className="text-white/90 font-medium mb-1">São Paulo</p>
                   <a 
-                    href="https://wa.me/5511959586722" 
+                    href={`https://wa.me/5511959586722?text=${handleMessage("São Paulo")}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:text-white transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <div>
                   <p className="text-white/90 font-medium mb-1">Florianópolis</p>
                   <a 
-                    href="https://wa.me/5548991648272" 
+                    href={`https://wa.me/5548991648272?text=${handleMessage("Florianópolis")}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:text-white transition-colors"
