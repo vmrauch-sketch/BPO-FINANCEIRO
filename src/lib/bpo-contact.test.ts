@@ -16,4 +16,12 @@ describe("Contato BPO", () => {
   test("resposta em lista usa primeiro item", () => expect(parseContactResponse([{ ok: true }, { ok: false }]).ok).toBe(true));
   test("erro do painel preservado", () => expect(parseContactResponse({ ok: false, erro: "Contato recusado" })).toEqual({ ok: false, erro: "Contato recusado" }));
   test("sucesso exige booleano true", () => expect(() => parseContactResponse({ ok: "true" })).toThrow());
+  test("extras entram na mensagem como 'Campo: valor', um por linha", () =>
+    expect(mergeExtrasIntoMensagem("Quero diagnóstico", { Empresa: "ACME", Faturamento: "R$ 8 mil/mês", Cidade: " " }))
+      .toBe("Quero diagnóstico\nEmpresa: ACME\nFaturamento: R$ 8 mil/mês"));
+  test("mensagem vazia não gera linha em branco", () =>
+    expect(mergeExtrasIntoMensagem("", { Empresa: "ACME" })).toBe("Empresa: ACME"));
+  test("corpo do painel para outro formulário", () =>
+    expect(painelLeadPayload({ form: "cfo", nome: " Teste ", telefone: "(11) 95958-6722", website: "" }))
+      .toEqual({ acao: "lead_site", form: "cfo", nome: "Teste", telefone: "(11) 95958-6722", email: "", mensagem: "", website: "" }));
 });
