@@ -75,7 +75,7 @@ const slides = [
       <div className="bg-primary/5 rounded-2xl p-6 border border-border/50">
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-white rounded-xl p-4 shadow-sm border border-border/30 text-center animate-[float-up_3s_ease-in-out_infinite]">
-            <p className="text-xs text-muted-foreground mb-3">DRE — Resultado</p>
+            <p className="text-xs text-muted-foreground mb-3">DRE: Resultado</p>
             <div className="relative w-20 h-20 mx-auto">
               <svg viewBox="0 0 36 36" className="w-full h-full">
                 <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="hsl(var(--border))" strokeWidth="3" />

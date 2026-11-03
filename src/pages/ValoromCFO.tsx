@@ -177,7 +177,7 @@ const ValoromCFO = () => {
               </div>
 
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
-                Tenha acesso às <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span> — otimizando a operação e capacitando o seu time e gestores para alta performance.
+                Tenha acesso às <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span>, otimizando a operação e capacitando o seu time e gestores para alta performance.
               </p>
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
                 Tenha a visão que falta ao seu negócio para <span className="text-lime-400 font-semibold">escalar com segurança</span> e a estrutura de um CFO dedicado à sua estratégia.
@@ -310,13 +310,13 @@ const ValoromCFO = () => {
                 Propostas <span className="italic text-lime-400">sob medida</span>
               </h2>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> — por isso não trabalhamos com pacotes prontos.
+                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> e por isso não trabalhamos com pacotes prontos.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-3">
                 Criamos uma <span className="text-lime-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
-                Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução — e dedicamos um profissional sênior focado no seu negócio.
+                Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução e dedicamos um profissional sênior focado no seu negócio.
               </p>
             </div>
             
@@ -324,7 +324,7 @@ const ValoromCFO = () => {
               {[
                 { icon: Search, title: "Diagnóstico personalizado", description: "Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução." },
                 { icon: Users, title: "CFO dedicado", description: "Um profissional sênior focado no seu negócio." },
-                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa — e escala conforme a empresa cresce." },
+                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa e escala conforme a empresa cresce." },
                 { icon: Shield, title: "Sem surpresas", description: "Preço justo, transparente e alinhado ao tamanho e complexidade da sua operação." },
               ].map((item, index) => (
                 <div 
@@ -459,7 +459,7 @@ const ValoromCFO = () => {
               Sua empresa merece uma direção financeira estratégica.
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              Agende uma sessão gratuita. Sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
+              Agende uma sessão gratuita. Sem enrolação, só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
             </p>
             <a href="#contato-cfo">
               <Button 
