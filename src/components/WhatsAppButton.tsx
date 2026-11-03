@@ -2,7 +2,7 @@ interface WhatsAppButtonProps {
   message?: string;
 }
 
-const WhatsAppButton = ({ message = "Olá gostaria de mais informações" }: WhatsAppButtonProps) => {
+const WhatsAppButton = ({ message = "Olá! Vim pelo site da Norgie e quero saber mais sobre BPO Financeiro." }: WhatsAppButtonProps) => {
   const handleClick = () => {
     const url = `https://wa.me/5511959586722?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');

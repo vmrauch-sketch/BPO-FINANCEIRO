@@ -132,7 +132,7 @@ const ValoromBPO = () => {
         title="Norgie Financeiro | Terceirização Financeira"
         description="Terceirização financeira para sua empresa crescer com controle e clareza. Gestão financeira completa com processos definidos e acompanhamento contínuo."
         keywords="terceirização financeira, departamento financeiro terceirizado, gestão financeira, contas a pagar, fluxo de caixa, conciliação bancária"
-        canonical="https://valorum.vilsonrauch.com.br"
+        canonical="https://norgiefinanceiro.com.br"
       />
       
       <div className="min-h-screen bg-background font-inter">
@@ -274,13 +274,13 @@ const ValoromBPO = () => {
                 <span className="italic text-blue-500">Gestão e Operação Financeira</span>
               </h2>
               <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-                O Grupo Valorum une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
+                A Norgie une especialização e metodologia para transformar a rotina financeira da sua empresa em resultados previsíveis.
               </p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-16">
               {[
-                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Norgie do Grupo Valorum se adapta ao seu negócio e cresce junto com você.", highlight: false },
+                { num: "01.", title: "Serviço Para Todo Porte de Empresa", description: "Desde micro até grandes empresas e operações. A metodologia Norgie se adapta ao seu negócio e cresce junto com você.", highlight: false },
                 { num: "02.", title: "Melhores Práticas do Mercado", description: "Metodologias comprovadas de gestão financeira aplicadas com atendimento dedicado e personalizado para cada cliente.", highlight: true },
                 { num: "03.", title: "Protegido e Seguro", description: "Dados tratados com confidencialidade, processos auditáveis e controle total para sua tranquilidade. Você e seu contador sempre atualizados.", highlight: false },
               ].map((item, index) => (
@@ -443,7 +443,7 @@ const ValoromBPO = () => {
                 { title: "Crescimento previsível", description: "Quando você cresce, só o feeling pode não ser suficiente. Com dados reais e projeções concretas, você sabe exatamente para onde seu negócio vai.", color: "from-purple-400/60 to-purple-500/20" },
                 { title: "Zero dor de cabeça com RH", description: "Sem processo seletivo, sem treinamento, sem encargo. O time já está pronto e começa a trabalhar pela sua empresa agora.", color: "from-yellow-400/60 to-yellow-500/20" },
                 { title: "Conformidade garantida", description: "Esqueça multas por atraso e obrigações perdidas. A gente acompanha tudo e você nunca mais paga por descuido.", color: "from-green-400/60 to-green-500/20" },
-                { title: "Visão estratégica do negócio", description: "Todo mês você recebe um relatório que mostra onde está indo seu dinheiro — e como lucrar mais com o que já tem.", color: "from-cyan-400/60 to-cyan-500/20" },
+                { title: "Visão estratégica do negócio", description: "Todo mês você recebe um relatório que mostra onde está indo seu dinheiro e como lucrar mais com o que já tem.", color: "from-cyan-400/60 to-cyan-500/20" },
               ].map((item, index) => (
                 <div 
                   key={index}
@@ -486,7 +486,7 @@ const ValoromBPO = () => {
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
               {[
                 { icon: Search, num: "01", title: "Diagnóstico gratuito", description: "Em uma reunião rápida, mapeamos a situação financeira da sua empresa e identificamos os maiores gargalos." },
-                { icon: FileText, num: "02", title: "Migração assistida", description: "Nossa equipe guia você em todo o processo de transição — sem burocracia, sem estresse e sem parar sua operação." },
+                { icon: FileText, num: "02", title: "Migração assistida", description: "Nossa equipe guia você em todo o processo de transição, sem burocracia, sem estresse e sem parar sua operação." },
                 { icon: Clock, num: "03", title: "Foque na gestão", description: "A partir daí, você só acompanha os dashboards e relatórios. Nós cuidamos de todo o resto, com total transparência." },
               ].map((item, index) => (
                 <div 
@@ -685,7 +685,7 @@ const ValoromBPO = () => {
               <span className="text-blue-400">que trabalha para você.</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
-              Agende seu diagnóstico gratuito. Sem enrolação — só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
+              Agende seu diagnóstico gratuito. Sem enrolação, só clareza sobre onde seu dinheiro está indo e como fazer ele trabalhar por você.
             </p>
             <Button 
               size="lg" 
@@ -710,7 +710,7 @@ const ValoromBPO = () => {
                   <div className="w-56 h-56 rounded-2xl overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20 bg-white/5">
                     <img
                       src="/lovable-uploads/vilson-rauch.png"
-                      alt="Vilson Rauch — Fundador da Norgie"
+                      alt="Vilson Rauch, Fundador da Norgie"
                       className="w-full h-full object-cover object-top"
                       onError={(e) => {
                         const target = e.currentTarget;
@@ -796,13 +796,13 @@ const ValoromBPO = () => {
                 Propostas <span className="italic text-blue-400">sob medida</span>
               </h2>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> — por isso não trabalhamos com pacotes prontos.
+                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> e por isso não trabalhamos com pacotes prontos.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-3">
                 Criamos uma <span className="text-blue-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
-                Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução — e montamos uma equipe sob medida, com profissionais especializados.
+                Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução e montamos uma equipe sob medida, com profissionais especializados.
               </p>
             </div>
             
@@ -810,7 +810,7 @@ const ValoromBPO = () => {
               {[
                 { icon: Search, title: "Diagnóstico personalizado", description: "Analisamos a fundo a operação financeira da sua empresa antes de propor qualquer solução." },
                 { icon: Users, title: "Time dedicado", description: "Montamos uma equipe sob medida, com profissionais especializados." },
-                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa — e escala conforme a empresa cresce." },
+                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa e escala conforme a empresa cresce." },
                 { icon: Shield, title: "Sem surpresas", description: "Preço justo, transparente e alinhado ao tamanho e complexidade da sua operação." },
               ].map((item, index) => (
                 <div 
@@ -898,7 +898,7 @@ const ValoromBPO = () => {
         )}
 
         <Footer />
-        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre a Terceirização Financeira." />
+        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre BPO Financeiro." />
       </div>
     </>
   );

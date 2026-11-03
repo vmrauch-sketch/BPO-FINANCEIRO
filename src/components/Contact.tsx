@@ -2,7 +2,7 @@
 const Contact = () => {
   const handleWhatsAppClick = () => {
     console.log("Contact: Botão clicado");
-    const message = encodeURIComponent("Olá! Vim pelo site da Norgie e quero saber mais sobre os serviços.");
+    const message = encodeURIComponent("Olá! Vim pelo site da Norgie e quero saber mais sobre BPO Financeiro.");
     const url = `https://wa.me/5511959586722?text=${message}`;
     
     // Detecta se está em desenvolvimento

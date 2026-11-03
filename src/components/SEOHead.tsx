@@ -18,7 +18,7 @@ const SEOHead = ({
   canonical,
   ogImage = "https://lovable.dev/opengraph-image-p98pqg.png",
   ogType = "website",
-  author = "Grupo Valorum",
+  author = "Norgie",
   structuredData
 }: SEOHeadProps) => {
   useEffect(() => {

@@ -30,15 +30,15 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "O que faz um CFO terceirizado?",
-    answer: "O CFO terceirizado assume a direção financeira da empresa, cuidando de planejamento, análise de resultados, fluxo de caixa, controladoria e estratégia. A diferença é que você conta com essa expertise sem precisar contratar um executivo em tempo integral."
+    question: "O que faz um CFO On Demand?",
+    answer: "O CFO On Demand assume a direção financeira da empresa, cuidando de planejamento, análise de resultados, fluxo de caixa, controladoria e estratégia. A diferença é que você conta com essa expertise sem precisar contratar um executivo em tempo integral."
   },
   {
     question: "Minha empresa já tem um financeiro. Ainda preciso de um CFO?",
     answer: "Sim. O financeiro operacional cuida das rotinas do dia a dia, que serão otimizadas pela experiência do CFO. Além de melhorar a operação do financeiro, o CFO traz visão estratégica: analisa indicadores, identifica oportunidades, estrutura o crescimento e orienta decisões diretamente com os gestores. São papéis complementares."
   },
   {
-    question: "Qual o tamanho mínimo de empresa para ter um CFO terceirizado?",
+    question: "Qual o tamanho mínimo de empresa para ter um CFO On Demand?",
     answer: "Não existe um tamanho mínimo. Empresas a partir de R$ 1 milhão de faturamento anual já se beneficiam de uma direção financeira estruturada. O escopo é adaptado à realidade e ao momento de cada negócio."
   },
   {
@@ -50,7 +50,7 @@ const faqItems = [
     answer: "Nos primeiros 30 dias já entregamos o diagnóstico e as primeiras análises. Em 60 a 90 dias, os processos financeiros estão estruturados e os indicadores começam a mostrar evolução. O impacto estratégico cresce conforme o trabalho avança."
   },
   {
-    question: "O CFO terceirizado substitui meu contador?",
+    question: "O CFO On Demand substitui meu contador?",
     answer: "Não. O contador cuida das obrigações fiscais e contábeis. O CFO cuida da estratégia financeira, análise de resultados, planejamento e tomada de decisão. Os dois trabalham juntos, cada um no seu papel."
   },
   {
@@ -150,7 +150,7 @@ const ValoromCFO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-lime-400 to-lime-500 mx-auto mb-8" />
               
               <p className="text-sm uppercase tracking-widest text-lime-400 font-semibold mb-6">
-                Grupo Valorum CFO
+                Norgie CFO On Demand
               </p>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
@@ -177,7 +177,7 @@ const ValoromCFO = () => {
               </div>
 
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
-                Tenha acesso às <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span> — otimizando a operação e capacitando o seu time e gestores para alta performance.
+                Tenha acesso às <span className="text-lime-400 font-semibold">entregas de excelência de um gestor financeiro empresarial</span>, otimizando a operação e capacitando o seu time e gestores para alta performance.
               </p>
               <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-3 leading-relaxed">
                 Tenha a visão que falta ao seu negócio para <span className="text-lime-400 font-semibold">escalar com segurança</span> e a estrutura de um CFO dedicado à sua estratégia.
@@ -310,13 +310,13 @@ const ValoromCFO = () => {
                 Propostas <span className="italic text-lime-400">sob medida</span>
               </h2>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> — por isso não trabalhamos com pacotes prontos.
+                As necessidades, o momento e os objetivos do seu negócio são <span className="text-white font-semibold">únicos</span> e por isso não trabalhamos com pacotes prontos.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-3">
                 Criamos uma <span className="text-lime-400 font-semibold">proposta personalizada</span> que se adapta à sua realidade.
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mt-2">
-                Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução — e dedicamos um profissional sênior focado no seu negócio.
+                Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução e dedicamos um profissional sênior focado no seu negócio.
               </p>
             </div>
             
@@ -324,7 +324,7 @@ const ValoromCFO = () => {
               {[
                 { icon: Search, title: "Diagnóstico personalizado", description: "Analisamos a fundo a gestão financeira da sua empresa antes de propor qualquer solução." },
                 { icon: Users, title: "CFO dedicado", description: "Um profissional sênior focado no seu negócio." },
-                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa — e escala conforme a empresa cresce." },
+                { icon: Settings, title: "Escopo flexível", description: "Você contrata apenas o que precisa e escala conforme a empresa cresce." },
                 { icon: Shield, title: "Sem surpresas", description: "Preço justo, transparente e alinhado ao tamanho e complexidade da sua operação." },
               ].map((item, index) => (
                 <div 
@@ -427,7 +427,7 @@ const ValoromCFO = () => {
                 Perguntas frequentes
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Tire suas dúvidas sobre o CFO Terceirizado
+                Tire suas dúvidas sobre o CFO On Demand
               </p>
             </div>
             
@@ -459,7 +459,7 @@ const ValoromCFO = () => {
               Sua empresa merece uma direção financeira estratégica.
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              Agende uma sessão gratuita. Sem enrolação — só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
+              Agende uma sessão gratuita. Sem enrolação, só clareza sobre como estruturar o financeiro para o seu negócio crescer com segurança.
             </p>
             <a href="#contato-cfo">
               <Button 
@@ -494,7 +494,7 @@ const ValoromCFO = () => {
         </section>
 
         <Footer />
-        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre o CFO Terceirizado." />
+        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre o CFO On Demand." />
       </div>
     </>
   );
