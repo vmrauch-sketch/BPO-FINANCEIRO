@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import norgieWordmark from "@/assets/norgie-wordmark.png";
 
 interface Section {
   id: string;
@@ -60,12 +59,11 @@ export const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16 lg:h-auto lg:py-2">
           {/* Logo */}
-          <Link to="/" className="flex items-center shrink-0 mr-6">
-            <img
-              src={norgieWordmark}
-              alt="Norgie"
-              className="h-9 lg:h-11 w-auto object-contain"
-            />
+          <Link to="/" className="flex items-center shrink-0 mr-6" aria-label="Norgie BPO — Início">
+            <span className="text-2xl lg:text-3xl font-bold tracking-tight text-primary">
+              Nor<span className="text-gold-600">Gie</span>{' '}
+              <span className="font-light text-muted-foreground">BPO</span>
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
