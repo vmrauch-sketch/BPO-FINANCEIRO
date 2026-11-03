@@ -30,15 +30,15 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "O que faz um CFO terceirizado?",
-    answer: "O CFO terceirizado assume a direção financeira da empresa, cuidando de planejamento, análise de resultados, fluxo de caixa, controladoria e estratégia. A diferença é que você conta com essa expertise sem precisar contratar um executivo em tempo integral."
+    question: "O que faz um CFO On Demand?",
+    answer: "O CFO On Demand assume a direção financeira da empresa, cuidando de planejamento, análise de resultados, fluxo de caixa, controladoria e estratégia. A diferença é que você conta com essa expertise sem precisar contratar um executivo em tempo integral."
   },
   {
     question: "Minha empresa já tem um financeiro. Ainda preciso de um CFO?",
     answer: "Sim. O financeiro operacional cuida das rotinas do dia a dia, que serão otimizadas pela experiência do CFO. Além de melhorar a operação do financeiro, o CFO traz visão estratégica: analisa indicadores, identifica oportunidades, estrutura o crescimento e orienta decisões diretamente com os gestores. São papéis complementares."
   },
   {
-    question: "Qual o tamanho mínimo de empresa para ter um CFO terceirizado?",
+    question: "Qual o tamanho mínimo de empresa para ter um CFO On Demand?",
     answer: "Não existe um tamanho mínimo. Empresas a partir de R$ 1 milhão de faturamento anual já se beneficiam de uma direção financeira estruturada. O escopo é adaptado à realidade e ao momento de cada negócio."
   },
   {
@@ -50,7 +50,7 @@ const faqItems = [
     answer: "Nos primeiros 30 dias já entregamos o diagnóstico e as primeiras análises. Em 60 a 90 dias, os processos financeiros estão estruturados e os indicadores começam a mostrar evolução. O impacto estratégico cresce conforme o trabalho avança."
   },
   {
-    question: "O CFO terceirizado substitui meu contador?",
+    question: "O CFO On Demand substitui meu contador?",
     answer: "Não. O contador cuida das obrigações fiscais e contábeis. O CFO cuida da estratégia financeira, análise de resultados, planejamento e tomada de decisão. Os dois trabalham juntos, cada um no seu papel."
   },
   {
@@ -150,7 +150,7 @@ const ValoromCFO = () => {
               <div className="w-16 h-1 bg-gradient-to-r from-lime-400 to-lime-500 mx-auto mb-8" />
               
               <p className="text-sm uppercase tracking-widest text-lime-400 font-semibold mb-6">
-                Grupo Valorum CFO
+                Norgie CFO On Demand
               </p>
               
               <h1 className="text-4xl md:text-6xl font-playfair font-bold text-white leading-tight mb-6">
@@ -427,7 +427,7 @@ const ValoromCFO = () => {
                 Perguntas frequentes
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Tire suas dúvidas sobre o CFO Terceirizado
+                Tire suas dúvidas sobre o CFO On Demand
               </p>
             </div>
             
@@ -494,7 +494,7 @@ const ValoromCFO = () => {
         </section>
 
         <Footer />
-        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre o CFO Terceirizado." />
+        <WhatsAppButton message="Olá! Vim pelo site da Norgie e quero saber mais sobre o CFO On Demand." />
       </div>
     </>
   );

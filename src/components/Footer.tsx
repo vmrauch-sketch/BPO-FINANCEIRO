@@ -1,5 +1,5 @@
 const Footer = () => {
-  const handleMessage = (city: string) => encodeURIComponent(`Olá! Vim pelo site da Norgie em ${city} e quero saber mais sobre os serviços.`);
+  const handleMessage = (city: string) => encodeURIComponent(`Olá! Vim pelo site da Norgie e quero saber mais sobre BPO Financeiro.`);
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/5511959586722?text=${handleMessage("São Paulo")}`;
     window.open(url, '_blank');
