@@ -61,7 +61,7 @@ export const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0 mr-6" aria-label="Norgie BPO — Início">
             <span className="text-2xl lg:text-3xl font-bold tracking-tight text-primary">
-              Nor<span className="text-gold-600">Gie</span>{' '}
+              NorGie{' '}
               <span className="font-light text-muted-foreground">BPO</span>
             </span>
           </Link>
